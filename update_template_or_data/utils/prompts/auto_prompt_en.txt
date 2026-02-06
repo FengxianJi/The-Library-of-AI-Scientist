@@ -1,0 +1,35 @@
+You are helping to extract metadata from academic papers for a curated research paper list on AI Scientists and Scientific Discovery.
+
+For each paper title or PDF I provide, please extract and format the following information:
+
+## Format:
+- [Paper Title](arXiv or DOI link)
+    - Author1, Author2, Author3
+    - 🏛️ Institutions: University1, Company1, University2
+    - 📅 Date: Month Day, Year (e.g., January 15, 2025)
+    - 📑 Publisher: Venue (e.g., arXiv, NeurIPS 2024, Nature, etc.)
+    - 💻 Topic: [Choose ONE from: AI Scientist, Scientific Discovery, Automated Research, Experiment Design, Hypothesis Generation, Literature Review, Data Analysis, Machine Learning, Multi-Agent, Misc]
+    - 🔑 Key: [keyword1], [keyword2], [keyword3] (Choose 3-5 relevant keywords like: LLM, agent, automation, framework, benchmark, dataset, evaluation, reasoning, etc.)
+    - 📖 TLDR: A concise 1-2 sentence summary of the paper's main contribution.
+
+## Guidelines:
+1. For arXiv papers, use format: https://arxiv.org/abs/XXXX.XXXXX
+2. For conference papers, include the conference name and year in Publisher
+3. List all authors (if more than 8, use "First Author et al.")
+4. Extract primary institutions from author affiliations
+5. Use the publication or submission date
+6. Choose the most appropriate topic category
+7. Select keywords that describe the paper's methods, domain, and contributions
+8. TLDR should focus on what problem is solved and how
+
+## Example:
+- [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
+    - Chris Lu, Cong Lu, Robert Tjarko Lange, Jakob Foerster, Jeff Clune, David Ha
+    - 🏛️ Institutions: Sakana AI, University of British Columbia
+    - 📅 Date: August 12, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [LLM], [automation], [scientific discovery], [experiment design], [machine learning]
+    - 📖 TLDR: Presents a fully automated system that can independently conduct research by generating ideas, running experiments, visualizing results, and writing papers in LaTeX format.
+
+Now please process the papers I provide in this format.

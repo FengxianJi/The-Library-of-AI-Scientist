@@ -2,6 +2,7 @@
   <img src="logo.png" alt="The Library of AI Scientist" width="400"/>
 </div>
 
+
 # The Library of AI Scientist
 
 A curated collection of research papers on AI scientists, automated scientific discovery, machine learning for science, and related topics. This repository organizes papers by topic, keywords, and authors for easy navigation and discovery.
@@ -1102,4 +1103,5 @@ For questions, suggestions, or discussions:
 
 **Last Updated:** Auto-generated on every commit
 **Maintained by:** Community contributors
+
 

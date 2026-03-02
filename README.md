@@ -1079,6 +1079,25 @@ This repository uses automation to maintain organization:
 4. **Word Cloud**: Keyword frequency visualization is auto-generated
 5. **README**: This file is regenerated with updated counts and links
 
+### Data Flow
+
+```text
+update_template_or_data/update_paper_list.md
+  -> update_template_or_data/utils/scripts/sort_by_date.py
+    -> paper_by_topic/*.md
+    -> paper_by_key/*.md
+    -> paper_by_author/*.md
+    -> update_template_or_data/topic_grouping.md
+    -> update_template_or_data/keyword_grouping.md
+    -> update_template_or_data/author_grouping.md
+    -> update_template_or_data/statistics/keyword_wordcloud.png
+```
+
+### Known Issues
+
+- The workflow references `update_template_or_data/utils/scripts/generate_readme.py`, but this file is currently missing in the repository.
+- Until it is restored, automatic README regeneration in CI may fail or require manual handling.
+
 ## 📖 Related Resources
 
 - [Awesome AI for Science](https://github.com/yuanqing-wang/awesome-ai-for-science)
@@ -1103,6 +1122,7 @@ For questions, suggestions, or discussions:
 
 **Last Updated:** Auto-generated on every commit
 **Maintained by:** Community contributors
+
 
 
 

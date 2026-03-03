@@ -1,3 +1,6 @@
+# Backend scripts - local only, do not push to GitHub
+backend/
+
 # PDF directory - papers should be stored locally, not in repo
 pdfs/
 *.pdf

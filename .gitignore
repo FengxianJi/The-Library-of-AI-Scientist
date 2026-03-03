@@ -1,0 +1,55 @@
+# PDF directory - papers should be stored locally, not in repo
+pdfs/
+*.pdf
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs and temporary files
+update_template_or_data/logs/*.log
+*.log
+*.tmp
+
+# OS generated files
+Thumbs.db
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary and staging files
+ADDITIONAL_PAPERS.md
+FOUND_PAPERS.md
+update_paper_list_ARXIV.md
+update_paper_list_STARTER.md
+
+# Generated files (auto-created by automation scripts)
+update_template_or_data/.arxiv_search_state.json
+update_template_or_data/arxiv_auto_accepted.md
+update_template_or_data/arxiv_pending_review.md
+update_template_or_data/arxiv_excluded.md
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/

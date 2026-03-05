@@ -1,6 +1,9 @@
 # Awesome AI Scientist Papers
 
-A curated collection of research papers on AI scientists, automated scientific discovery, machine learning for science, and related topics. This repository organizes papers by topic, keywords, and authors for easy navigation and discovery.
+A curated collection of research papers on AI scientists, automated scientific discovery, machine learning for science, and related topics. This repository organizes papers by topic, keywords, and authors for easy navigation and discovery. 
+> This repository is currently under construction.  
+> If you would like to join or have different ideas, please contact me via ✉️ [jifengxian1224@gmail.com](mailto:jifengxian1224@gmail.com).  
+> We welcome your participation and guidance.
 
 ## 📊 Statistics
 

@@ -48,6 +48,7 @@ update_template_or_data/.arxiv_search_state.json
 update_template_or_data/arxiv_auto_accepted.md
 update_template_or_data/arxiv_pending_review.md
 update_template_or_data/arxiv_excluded.md
+update_template_or_data/institution_enrichment_report.jsonl
 
 # Test and coverage files
 .pytest_cache/

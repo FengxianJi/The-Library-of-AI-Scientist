@@ -10,7 +10,7 @@ For each paper title or PDF I provide, please extract and format the following i
     - 📑 Publisher: Venue (e.g., arXiv, NeurIPS 2024, Nature, etc.)
     - 💻 Topic: [Choose ONE from: AI Scientist, Scientific Discovery, Automated Research, Experiment Design, Hypothesis Generation, Literature Review, Data Analysis, Machine Learning, Multi-Agent, Misc]
     - 🔑 Key: [keyword1], [keyword2], [keyword3] (Choose 3-5 relevant keywords like: LLM, agent, automation, framework, benchmark, dataset, evaluation, reasoning, etc.)
-    - 📖 TLDR: A concise 1-2 sentence summary of the paper's main contribution.
+    - 📖 TLDR: The complete abstract of the paper, copied verbatim from the source.
 
 ## Guidelines:
 1. For arXiv papers, use format: https://arxiv.org/abs/XXXX.XXXXX
@@ -20,7 +20,7 @@ For each paper title or PDF I provide, please extract and format the following i
 5. Use the publication or submission date
 6. Choose the most appropriate topic category
 7. Select keywords that describe the paper's methods, domain, and contributions
-8. TLDR should focus on what problem is solved and how
+8. TLDR should be the paper's full abstract copied exactly, without truncation or paraphrasing
 
 ## Example:
 - [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)

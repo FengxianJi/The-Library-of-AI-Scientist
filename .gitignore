@@ -1,6 +1,3 @@
-# Backend scripts - local only, do not push to GitHub
-backend/
-
 # PDF directory - papers should be stored locally, not in repo
 pdfs/
 *.pdf
@@ -45,7 +42,13 @@ ADDITIONAL_PAPERS.md
 FOUND_PAPERS.md
 update_paper_list_ARXIV.md
 update_paper_list_STARTER.md
-all_papers.md
+
+# Generated files (auto-created by automation scripts)
+update_template_or_data/.arxiv_search_state.json
+update_template_or_data/arxiv_auto_accepted.md
+update_template_or_data/arxiv_pending_review.md
+update_template_or_data/arxiv_excluded.md
+update_template_or_data/institution_enrichment_report.jsonl
 
 # Test and coverage files
 .pytest_cache/

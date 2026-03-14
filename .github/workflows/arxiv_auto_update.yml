@@ -1,0 +1,57 @@
+name: Auto Update arXiv Papers
+
+on:
+  schedule:
+    - cron: '0 8 * * *'   # Daily at UTC 08:00 (Beijing 16:00)
+  workflow_dispatch:        # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-papers:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: backend/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      # ── Step 1: Search new arXiv papers ──────────────────────────────────
+      - name: Search new arXiv papers
+        run: python backend/scripts/arxiv_auto_search.py
+
+      # ── Step 2: Enrich institution data (non-fatal if it fails) ──────────
+      - name: Enrich institution data
+        run: python backend/scripts/enrich_institutions.py
+        continue-on-error: true
+
+      # ── Step 3: Sort and categorize papers ───────────────────────────────
+      - name: Sort and categorize papers
+        run: python backend/scripts/sort_by_date.py
+
+      # ── Step 4: Generate README ───────────────────────────────────────────
+      - name: Generate README
+        run: python backend/scripts/generate_readme.py
+
+      # ── Step 5: Commit and push if anything changed ───────────────────────
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md data/ paper_by_topic/ paper_by_key/ paper_by_author/
+          git diff --staged --quiet && echo "No changes to commit." || (
+            git commit -m "auto: update papers $(date -u +%Y-%m-%d)" &&
+            git push
+          )

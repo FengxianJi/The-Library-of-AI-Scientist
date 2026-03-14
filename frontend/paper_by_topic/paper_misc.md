@@ -49,7 +49,7 @@ Total: 7 papers
 
 - [Exploiting Edited Large Language Models as General Scientific Optimizers](https://arxiv.org/abs/2503.09620)
     - Qitan Lv, Tianyu Liu, Hong Wang
-    - 🏛️ Institutions: Sequences. Cambridge University, Training multi-billion parameter language models using model parallelism. Cornell University
+    - 🏛️ Institutions: University of Science and Technology of China
     - 📅 Date: March 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Misc]

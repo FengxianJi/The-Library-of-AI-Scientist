@@ -40,7 +40,7 @@ Total: 11 papers
 
 - [The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/abs/2504.08066)
     - Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha
-    - 🏛️ Institutions: IRB approval from the University of British Columbia, Unveiling the Impact of Lab, Google's AI Research Copilot
+    - 🏛️ Institutions: Sakana AI, University of British Columbia, Vector Institute, University of Oxford
     - 📅 Date: April 10, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [AI Scientist]

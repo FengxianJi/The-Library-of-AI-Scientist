@@ -31,7 +31,7 @@ Total: 14 papers
 
 - [SciGPT: A Large Language Model for Scientific Literature Understanding and Knowledge Discovery](https://arxiv.org/abs/2509.08032)
     - Fengyu She, Nan Wang, Hongfei Wu, Ziyi Wan, Jingmian Wang, Chang Wang
-    - 🏛️ Institutions: Metadata validation subsequently filtered
+    - 🏛️ Institutions: INSTITUTIONS_REVIEW_NEEDED
     - 📅 Date: September 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Scientific Discovery]
@@ -94,7 +94,7 @@ Total: 14 papers
 
 - [Exploiting Edited Large Language Models as General Scientific Optimizers](https://arxiv.org/abs/2503.09620)
     - Qitan Lv, Tianyu Liu, Hong Wang
-    - 🏛️ Institutions: Sequences. Cambridge University, Training multi-billion parameter language models using model parallelism. Cornell University
+    - 🏛️ Institutions: University of Science and Technology of China
     - 📅 Date: March 08, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Misc]

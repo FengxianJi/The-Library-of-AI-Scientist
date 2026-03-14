@@ -76,7 +76,7 @@ Total: 30 papers
 
 - [SciGPT: A Large Language Model for Scientific Literature Understanding and Knowledge Discovery](https://arxiv.org/abs/2509.08032)
     - Fengyu She, Nan Wang, Hongfei Wu, Ziyi Wan, Jingmian Wang, Chang Wang
-    - 🏛️ Institutions: Metadata validation subsequently filtered
+    - 🏛️ Institutions: INSTITUTIONS_REVIEW_NEEDED
     - 📅 Date: September 09, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Scientific Discovery]

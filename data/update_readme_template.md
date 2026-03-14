@@ -4,7 +4,7 @@ A curated collection of research papers on AI scientists, automated scientific d
 
 ## 馃搳 Statistics
 
-![Keyword Word Cloud](update_template_or_data/statistics/keyword_wordcloud.png)
+![Keyword Word Cloud](data/statistics/keyword_wordcloud.png)
 
 **Total Papers:** See counts below organized by different categories.
 

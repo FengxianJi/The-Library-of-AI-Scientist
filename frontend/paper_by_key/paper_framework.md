@@ -274,7 +274,7 @@ Total: 47 papers
 
 - [The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/abs/2504.08066)
     - Yutaro Yamada, Robert Tjarko Lange, Cong Lu, Shengran Hu, Chris Lu, Jakob Foerster, Jeff Clune, David Ha
-    - 🏛️ Institutions: IRB approval from the University of British Columbia, Unveiling the Impact of Lab, Google's AI Research Copilot
+    - 🏛️ Institutions: Sakana AI, University of British Columbia, Vector Institute, University of Oxford
     - 📅 Date: April 10, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [AI Scientist]
@@ -319,7 +319,7 @@ Total: 47 papers
 
 - [Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions](https://arxiv.org/abs/2503.08979)
     - Mourad Gridach, Jay Nanavati, Khaldoun Zine El Abidine, Lenon Mendes, Christina Mack
-    - 🏛️ Institutions: This limitation is further highlighted in Agent Laboratory
+    - 🏛️ Institutions: IQVIA
     - 📅 Date: March 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Scientific Discovery]

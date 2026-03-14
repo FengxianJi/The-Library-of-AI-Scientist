@@ -85,7 +85,7 @@ Total: 14 papers
 
 - [Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions](https://arxiv.org/abs/2503.08979)
     - Mourad Gridach, Jay Nanavati, Khaldoun Zine El Abidine, Lenon Mendes, Christina Mack
-    - 🏛️ Institutions: This limitation is further highlighted in Agent Laboratory
+    - 🏛️ Institutions: IQVIA
     - 📅 Date: March 12, 2025
     - 📑 Publisher: arXiv
     - 💻 Topic: [Scientific Discovery]

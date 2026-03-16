@@ -1,27 +1,27 @@
-﻿# Awesome AI Scientist Papers
+# Awesome AI Scientist Papers
 
 A curated collection of research papers on AI scientists, automated scientific discovery, machine learning for science, and related topics. This repository organizes papers by topic, keywords, and authors for easy navigation and discovery.
 
-## 馃搳 Statistics
+##  Statistics
 
 ![Keyword Word Cloud](data/statistics/keyword_wordcloud.png)
 
 **Total Papers:** See counts below organized by different categories.
 
-## 馃幆 What is an AI Scientist?
+##  What is an AI Scientist?
 
 An **AI Scientist** is an artificial intelligence system capable of conducting scientific research autonomously or semi-autonomously. This includes:
-- 馃敩 Generating research hypotheses
-- 馃И Designing and conducting experiments
-- 馃搳 Analyzing data and drawing conclusions
-- 馃摑 Writing research papers
-- 馃攧 Iterating on research directions
+-  Generating research hypotheses
+-  Designing and conducting experiments
+-  Analyzing data and drawing conclusions
+-  Writing research papers
+-  Iterating on research directions
 
 This repository tracks the latest research in this rapidly evolving field.
 
-## 馃梻锔?Browse Papers by Category
+## Browse Papers by Category
 
-### 馃摎 By Research Topic
+### By Research Topic
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (13 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (2 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (11 papers)
@@ -31,7 +31,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (3 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (23 papers)
 
-### 馃攽 By Keywords
+### By Keywords
 - [Agent](paper_by_key/paper_agent.md) (32 papers)
 - [Automation](paper_by_key/paper_automation.md) (42 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (43 papers)
@@ -45,10 +45,10 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Reasoning](paper_by_key/paper_reasoning.md) (14 papers)
 - [Survey](paper_by_key/paper_survey.md) (11 papers)
 
-### 馃懃 By Top Authors
+### By Top Authors
 - [AUTHORS NEEDED](paper_by_author/paper_AUTHORS_NEEDED.md) (0 papers)
 
-## 馃摎 All Papers (Sorted by Date - Most Recent First)
+## All Papers (Sorted by Date - Most Recent First)
 
 - [SCP: Accelerating Discovery with a Global Web of Autonomous Scientific Agents](https://arxiv.org/abs/2512.24189)
     - Yankai Jiang, Wenjie Lou, Lilong Wang, Zhenyu Tang, Shiyang Feng, Jiaxuan Lu, Haoran Sun, Yaning Pan, et al.

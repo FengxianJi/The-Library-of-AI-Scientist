@@ -7,6 +7,6 @@
 - [Framework](paper_by_key/paper_framework.md) (47 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (5 papers)
 - [Llm](paper_by_key/paper_llm.md) (52 papers)
-- [Multi-Agent](paper_by_key/paper_multi-agent.md) (1 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (1 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (14 papers)
 - [Survey](paper_by_key/paper_survey.md) (11 papers)

@@ -1,7 +1,14 @@
 # Misc Papers
 
-Total: 7 papers
+Total: 9 papers
 
+- [On the Computational Limits of AI4S-RL : A Unified $\varepsilon$-$N$ Analysis](https://papers.cool/venue/BZnnIeeQox@OpenReview)
+    - Qili Shen, Kairui Feng, Ang He, Xuanhong Chen, Dake Zhang
+    - 📅 Date: March 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: Recent work increasingly adopts AI for Science (AI4S) models to replace expensive PDE solvers as simulation environments for reinforcement learning (RL), enabling faster training in complex physical control tasks. However, using approximate simulators introduces modeling errors that affect the learned policy. In this paper, we introduce a unified $\varepsilon$-$N$ framework that quantifies the minimal computational cost $N^*(\varepsilon)$ required for an AI4S model to ensure that tabular RL can estimate the value function with unbiasedness, with probability at least $1 - \delta$. This characterization allows us to connect surrogate accuracy, grid resolution, and RL policy quality under a shared probabilistic language. We analyze how the discretization level $K$ of AI4S and RL space governs both PDE surrogate error and RL lattice approximation error, and we employ spectral theory and Sobolev estimates to derive optimal grid strategies that minimize total cost while preserving learning fidelity. Our theory reveals that different systems, such as ODE- and PDE-governed environments, require different allocations of effort between physical simulation and RL optimization. Overall, our framework offers a principled foundation for designing efficient, scalable, and cost-aware AI4S-RL systems with provable learning guarantees.
 - [Scientific Algorithm Discovery by Augmenting AlphaEvolve with Deep Research](https://arxiv.org/abs/2510.06056)
     - Gang Liu, Yihan Zhu, Jie Chen, Meng Jiang
     - 🏛️ Institutions: IBM Watson AI Lab, IBM Research
@@ -11,6 +18,13 @@ Total: 7 papers
     - 🔑 Key: [llm], [agent], [framework], [benchmark], [discovery]
     - 📖 TLDR: Large language models hold promise as scientific assistants, yet existing agents either rely solely on algorithm evolution or on deep research in isolation, both of which face critical limitations. Pure algorithm evolution, as in AlphaEvolve, depends only on the internal knowledge of LLMs and quickly plateaus in complex domains, while pure deep research proposes ideas without validation, resulting in unrealistic or unimplementable solutions. We present DeepEvolve, an agent that integrates deep research with algorithm evolution, uniting external knowledge retrieval, cross-file code editing, and systematic debugging under a feedback-driven iterative loop. Each iteration not only proposes new hypotheses but also refines, implements, and tests them, avoiding both shallow improvements and unproductive over-refinements. Across nine benchmarks in chemistry, mathematics, biology, materials, and patents, DeepEvolve consistently improves the initial algorithm, producing executable new algorithms with sustained gains. By bridging the gap between unguided evolution and research without grounding, DeepEvolve provides a reliable framework for advancing scientific algorithm discovery. Our code is available at https://github.com/liugangcode/deepevolve.
     - 📄 File: 2510.06056v1.pdf
+- [WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent](http://arxiv.org/abs/2508.05748v3)
+    - Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qiuchen Wang, Ruixue Ding, et al.
+    - 📅 Date: August 07, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: Web agents such as Deep Research have demonstrated superhuman cognitive abilities, capable of solving highly challenging information-seeking problems. However, most research remains primarily text-centric, overlooking visual information in the real world. This makes multimodal Deep Research highly challenging, as such agents require much stronger reasoning abilities in perception, logic, knowledge, and the use of more sophisticated tools compared to text-based agents. To address this limitation, we introduce WebWatcher, a multi-modal Agent for Deep Research equipped with enhanced visual-language reasoning capabilities. It leverages high-quality synthetic multimodal trajectories for efficient cold start training, utilizes various tools for deep reasoning, and further enhances generalization through reinforcement learning. To better evaluate the capabilities of multimodal agents, we propose BrowseComp-VL, a benchmark with BrowseComp-style that requires complex information retrieval involving both visual and textual information. Experimental results show that WebWatcher significantly outperforms proprietary baseline, RAG workflow and open-source agents in four challenging VQA benchmarks, which paves the way for solving complex multimodal information-seeking tasks.
 - [Context-Aware Scientific Knowledge Extraction on Linked Open Data using Large Language Models](https://arxiv.org/abs/2506.17580)
     - Sajratul Y. Rubaiat, Hasan M. Jamil
     - 🏛️ Institutions: Hasso Plattner Institute

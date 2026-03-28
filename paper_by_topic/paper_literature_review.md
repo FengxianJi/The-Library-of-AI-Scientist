@@ -1,6 +1,6 @@
 # Literature Review Papers
 
-Total: 2 papers
+Total: 3 papers
 
 - [What's In Your Field? Mapping Scientific Research with Knowledge Graphs and Large Language Models](https://arxiv.org/abs/2503.09894)
     - Abhipsha Das, Nicholas Lourie, Siavash Golkar, Mariel Pettee
@@ -20,3 +20,10 @@ Total: 2 papers
     - 🔑 Key: [llm], [framework], [benchmark], [survey], [discovery]
     - 📖 TLDR: In recent years, the rapid advancement of Large Language Models (LLMs) has transformed the landscape of scientific research, offering unprecedented support across various stages of the research cycle. This paper presents the first systematic survey dedicated to exploring how LLMs are revolutionizing the scientific research process. We analyze the unique roles LLMs play across four critical stages of research: hypothesis discovery, experiment planning and implementation, scientific writing, and peer reviewing. Our review comprehensively showcases the task-specific methodologies and evaluation benchmarks. By identifying current challenges and proposing future research directions, this survey not only highlights the transformative potential of LLMs, but also aims to inspire and guide researchers and practitioners in leveraging LLMs to advance scientific inquiry. Resources are available at the following repository: https://github.com/du-nlp-lab/LLM4SR
     - 📄 File: 2501.04306v1.pdf
+- [Large Language Models for Automated Literature Review: An Evaluation of Reference Generation, Abstract Writing, and Review Composition](http://arxiv.org/abs/2412.13612v5)
+    - Xuemei Tang, Xufeng Duan, Zhenguang G. Cai
+    - 📅 Date: December 18, 2024
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Literature Review]
+    - 🔑 Key: [llm], [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Large language models (LLMs) have emerged as a potential solution to automate the complex processes involved in writing literature reviews, such as literature collection, organization, and summarization. However, it is yet unclear how good LLMs are at automating comprehensive and reliable literature reviews. This study introduces a framework to automatically evaluate the performance of LLMs in three key tasks of literature writing: reference generation, literature summary, and literature review composition. We introduce multidimensional evaluation metrics that assess the hallucination rates in generated references and measure the semantic coverage and factual consistency of the literature summaries and compositions against human-written counterparts. The experimental results reveal that even the most advanced models still generate hallucinated references, despite recent progress. Moreover, we observe that the performance of different models varies across disciplines when it comes to writing literature reviews. These findings highlight the need for further research and development to improve the reliability of LLMs in automating academic literature reviews.

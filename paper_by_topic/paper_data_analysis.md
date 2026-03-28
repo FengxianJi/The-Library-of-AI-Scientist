@@ -1,7 +1,14 @@
 # Data Analysis Papers
 
-Total: 2 papers
+Total: 3 papers
 
+- [Scaling Generalist Data-Analytic Agents](http://arxiv.org/abs/2509.25084v3)
+    - Shuofei Qiao, Yanqiu Zhao, Zhisong Qiu, Xiaobin Wang, Jintian Zhang, Zhao Bin, et al.
+    - 📅 Date: September 29, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Data Analysis]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [reasoning]
+    - 📖 TLDR: Data-analytic agents are emerging as a key catalyst for automated scientific discovery and for the vision of Innovating AI. Current approaches, however, rely heavily on prompt engineering over proprietary models, while open-source models struggle to face diverse-format, large-scale data files and long-horizon, multi-step reasoning that real-world analytics demands. This paper introduces DataMind, a scalable data synthesis and agent training recipe designed to build generalist data-analytic agents. DataMind tackles three key challenges in building open-source data-analytic agents, including insufficient data resources, improper training strategy, and unstable code-based multi-turn rollout. Concretely, DataMind applies 1) a fine-grained task taxonomy and a recursive easy-to-hard task composition mechanism to increase the diversity and difficulty of synthesized queries; 2) a knowledge-augmented trajectory sampling strategy followed by model-based and rule-based filtering; 3) a dynamically adjustable training objective combining both SFT and RL losses; 4) a memory-frugal and stable code-based multi-turn rollout framework. Built on DataMind, we curate DataMind-12K, a high-quality trajectory set spanning diverse domains, task categories, and data file formats for data-analytic tasks. Trained on DataMind-12K, our DataMind-14B achieves state-of-the-art with an average score of 71.16% on multiple data analysis benchmarks, outperforming the strongest proprietary baselines DeepSeek-V3.1 and GPT-5. Our DataMind-7B also performs best among all open-source models with a score of 68.10%. We also incorporate some empirical insights gained from our exploratory trials into the analysis experiments, aiming to provide actionable insights about agentic training for the community. We will release DataMind-12K and DataMind-7B,14B for the community's future research.
 - [Advancing the Scientific Method with Large Language Models: From Hypothesis to Discovery](https://arxiv.org/abs/2505.16477)
     - Yanbo Zhang, Sumeer A. Khan, Adnan Mahmud, Huck Yang, Alexander Lavin, Michael Levin, Jeremy Frey, Jared Dunnmon, et al.
     - 🏛️ Institutions: Allen Discovery Center at Tufts University, King Abdullah University of Science, The University of Edinburgh, Karolinska University Hospital, Oxford University Innovation, Francis Crick Institute

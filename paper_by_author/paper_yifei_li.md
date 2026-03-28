@@ -1,0 +1,20 @@
+# Papers by Yifei Li
+
+Total: 2 papers
+
+- [HypoBootstrap: A Bootstrapping Framework for Inductive Reasoning](https://papers.cool/venue/9odue1eopm@OpenReview)
+    - Si Chen, Yifei Li, Richong Zhang
+    - 📅 Date: March 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [framework], [hypothesis], [reasoning]
+    - 📖 TLDR: Inductive reasoning infers general rules from observed evidence, which is one of the most critical intelligence abilities. Previous works have succeeded in formal languages but suffer from onerous and error-prone conversions between a particular formal language and the working language. As large language models (LLMs) have emerged, direct reasoning with various kinds of languages, especially natural languages, without formal language involvement has become feasible. However, existing LLM-based inductive reasoning usually relies on LLM's intrinsic generation ability, which is prone to LLM's hallucination and lacks systematic guidance according to the nature of inductive reasoning. To this end, we propose HypoBootstrap, an integrated framework for inductive reasoning that generates and confirms hypotheses both in a bootstrapping manner. Regarding hypothesis generation, we propose a novel bootstrapping generation strategy, bootstrapping object hypotheses, relational hypotheses, and functional hypotheses successively, which assists LLM in observing the evidence from trivial patterns to non-trivial patterns. Regarding hypothesis confirmation, we utilize Glymour's theory of bootstrap confirmation, a hypothesis confirmation theory from the philosophy of science that can confirm a set of hypotheses. We use its principles to confirm the object hypotheses, relational hypotheses, and functional hypotheses. Empirical studies on four inductive reasoning scenarios of different natures, involving causal induction, concept learning, grammar learning, and abstract reasoning, demonstrate that HypoBootstrap significantly outperforms existing methods.
+- [AutoSDT: Scaling Data-Driven Discovery Tasks Toward Open Co-Scientists](https://arxiv.org/abs/2506.08140)
+    - Yifei Li, Hanane Nour Moussa, Ziru Chen, Shijie Chen, Botao Yu, Mingyi Xue, Benjamin Burns, Tzu-Yao Chiu, et al.
+    - 🏛️ Institutions: The Ohio State University
+    - 📅 Date: June 09, 2025
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [agent], [automation], [benchmark], [dataset]
+    - 📖 TLDR: Despite long-standing efforts in accelerating scientific discovery with AI, building AI co-scientists remains challenging due to limited high-quality data for training and evaluation. To tackle this data scarcity issue, we present AutoSDT, an automatic pipeline that collects high-quality coding tasks in real-world data-driven discovery workflows. AutoSDT leverages the coding capabilities and parametric knowledge of LLMs to search for diverse sources, select ecologically valid tasks, and synthesize accurate task instructions and code solutions. Using our pipeline, we construct AutoSDT-5K, a dataset of 5,404 coding tasks for data-driven discovery that covers four scientific disciplines and 756 unique Python packages. To the best of our knowledge, AutoSDT-5K is the only automatically collected and the largest open dataset for data-driven scientific discovery. Expert feedback on a subset of 256 tasks shows the effectiveness of AutoSDT: 93% of the collected tasks are ecologically valid, and 92.2% of the synthesized programs are functionally correct. Trained on AutoSDT-5K, the Qwen2.5-Coder-Instruct LLM series, dubbed AutoSDT-Coder, show substantial improvement on two challenging data-driven discovery benchmarks, ScienceAgentBench and DiscoveryBench. Most notably, AutoSDT-Coder-32B reaches the same level of performance as GPT-4o on ScienceAgentBench with a success rate of 7.8%, doubling the performance of its base model. On DiscoveryBench, it lifts the hypothesis matching score to 8.1, bringing a 17.4% relative improvement and closing the gap between open-weight models and GPT-4o.
+    - 📄 File: 2506.08140v1.pdf

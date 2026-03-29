@@ -1,7 +1,14 @@
 # Machine Learning Papers
 
-Total: 8 papers
+Total: 9 papers
 
+- [Adaptive Experimental Design to Accelerate Scientific Discovery and Engineering Design](https://papers.cool/venue/35104@AAAI)
+    - Aryan Deshwal
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [discovery], [experiment], [hypothesis]
+    - 📖 TLDR: Artificial Intelligence (AI) and Machine Learning hold immense potential to accelerate scientific discovery and engineering design. A fundamental challenge in these domains involves efficiently exploring a large space of hypotheses using expensive experiments in a resource-efficient manner. My research focuses on developing novel adaptive experimental design methods to address this broad challenge. Specifically, I develop new probabilistic modeling and decision making tools that operate in small data settings. These approaches have yielded substantial improvements in sample-efficiency, particularly for black-box optimization over high-dimensional combinatorial spaces (e.g., sequences and graphs). This cover letter outlines key methods I have developed and their real-world sustainability applications in areas such as nano-porous materials discovery, hardware design, and additive manufacturing. Additionally, I highlight my initiatives to foster collaboration between Science/Engineering and AI communities.
 - [Can You Hear Me Now? A Benchmark for Long-Range Graph Propagation](http://arxiv.org/abs/2512.17762v2)
     - Luca Miglior, Matteo Tolloso, Alessio Gravina, Davide Bacciu
     - 📅 Date: December 19, 2025

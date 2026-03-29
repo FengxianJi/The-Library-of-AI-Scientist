@@ -1,7 +1,14 @@
 # Reasoning Papers
 
-Total: 34 papers
+Total: 35 papers
 
+- [WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent](https://papers.cool/venue/8jsaazdAb3@OpenReview)
+    - Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qiuchen Wang, Ruixue Ding, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: Web agents such as deep research have demonstrated superhuman cognitive abilities, capable of solving highly challenging information-seeking problems. However, most research remains largely text-centric, overlooking visual information in the real world. This makes multimodal deep research highly challenging, as such agents require much stronger perceptual, logical, and knowledge-based reasoning abilities, as well as proficiency in more sophisticated tools. To address this limitation, we introduce WebWatcher, a multimodal agent for deep research with joint reasoning ability across both visual and textual modalities. It uses high-quality synthetic trajectories for efficient cold start training, utilizes various tools for deep reasoning, and further enhances generalization through reinforcement learning. To better evaluate the capabilities of multimodal agents, we propose BrowseComp-VL, a benchmark with the style of BrowseComp that requires complex information retrieval involving both visual and textual information. Experimental results show that WebWatcher outperforms the prompt-based workflow and open-source agents on HLE and BrowseComp-VL, and demonstrates its perception, multimodal reasoning, and searching capabilities across the other three benchmarks, respectively.
 - [HypoBootstrap: A Bootstrapping Framework for Inductive Reasoning](https://papers.cool/venue/9odue1eopm@OpenReview)
     - Si Chen, Yifei Li, Richong Zhang
     - 📅 Date: March 28, 2026

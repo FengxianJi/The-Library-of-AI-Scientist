@@ -1,7 +1,28 @@
 # Discovery Papers
 
-Total: 61 papers
+Total: 64 papers
 
+- [Adaptive Experimental Design to Accelerate Scientific Discovery and Engineering Design](https://papers.cool/venue/35104@AAAI)
+    - Aryan Deshwal
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [discovery], [experiment], [hypothesis]
+    - 📖 TLDR: Artificial Intelligence (AI) and Machine Learning hold immense potential to accelerate scientific discovery and engineering design. A fundamental challenge in these domains involves efficiently exploring a large space of hypotheses using expensive experiments in a resource-efficient manner. My research focuses on developing novel adaptive experimental design methods to address this broad challenge. Specifically, I develop new probabilistic modeling and decision making tools that operate in small data settings. These approaches have yielded substantial improvements in sample-efficiency, particularly for black-box optimization over high-dimensional combinatorial spaces (e.g., sequences and graphs). This cover letter outlines key methods I have developed and their real-world sustainability applications in areas such as nano-porous materials discovery, hardware design, and additive manufacturing. Additionally, I highlight my initiatives to foster collaboration between Science/Engineering and AI communities.
+- [Knowledge-driven Scientific Large Language Models](https://papers.cool/venue/35128@AAAI)
+    - Qiang Zhang
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [discovery]
+    - 📖 TLDR: My research in AI for Science revolves around the development and application of knowledge graphs (KG) and large language models (LLM) for scientific discovery. Leveraging my expertise in AI, I extensively explore disciplinary knowledge, construct knowledge graphs, and develop pre-trained large models for chemical and biological research. The overarching goal is to better capture correlations and patterns between substances by incorporating explicit and implicit knowledge bases into pre-trained large models. I have published in top AI journals and conferences, including Nature Machine Intelligence, NeurIPS, AAAI, ICML, and ICLR, and received several prestigious awards such as the Excellent Prize of the Tencent Rhino-Bird Project (2024) and the Great Britain-China Educational Trust (2020). My research has garnered wide recognition, with over 6000 Google Scholar citations and GitHub repositories of my work on knowledge graph-enhanced molecular and protein learning receiving hundreds of stars. By pushing the boundaries of AI for scientific discovery, I aspire to contribute to significant advancements that address pressing global challenges. I am eager to present and share my work at AAAI’s New Faculty Highlight program and engage with fellow researchers at the forefront of AI.
+- [SafeScientist: Enhancing AI Scientist Safety for Risk-Aware Scientific Discovery](https://papers.cool/venue/2025.emnlp-main.116@ACL)
+    - Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [survey]
+    - 📖 TLDR: Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce **SafeScientist**, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrate multiple defensive mechanisms, including prompt monitoring, agent-collaboration monitoring, tool-use monitoring, and an ethical reviewer component. Complementing SafeScientist, we propose **SciSafetyBench** , a novel benchmark specifically designed to evaluate AI safety in scientific contexts, comprising 240 high-risk scientific tasks across 6 domains, alongside 30 specially designed scientific tools and 120 tool-related risk tasks. Extensive experiments demonstrate that SafeScientist significantly improves safety performance by 35% compared to traditional AI scientist frameworks, without compromising scientific output quality. Additionally, we rigorously validate the robustness of our safety pipeline against diverse adversarial attack methods, further confirming the effectiveness of our integrated approach. The code and data will be available at https://github.com/ulab-uiuc/SafeScientist.**Warning**: this paper contains example data that may be offensive or harmful.
 - [Deciphering the Extremes: A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery](https://papers.cool/venue/E16vULI6AF@OpenReview)
     - Zhe Zhao, HaiBin Wen, Xianfu Liu, Rui Mao, Pengkun Wang, Liheng Yu, et al.
     - 📅 Date: March 28, 2026

@@ -1,7 +1,21 @@
 # Agent Papers
 
-Total: 53 papers
+Total: 55 papers
 
+- [WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent](https://papers.cool/venue/8jsaazdAb3@OpenReview)
+    - Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qiuchen Wang, Ruixue Ding, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: Web agents such as deep research have demonstrated superhuman cognitive abilities, capable of solving highly challenging information-seeking problems. However, most research remains largely text-centric, overlooking visual information in the real world. This makes multimodal deep research highly challenging, as such agents require much stronger perceptual, logical, and knowledge-based reasoning abilities, as well as proficiency in more sophisticated tools. To address this limitation, we introduce WebWatcher, a multimodal agent for deep research with joint reasoning ability across both visual and textual modalities. It uses high-quality synthetic trajectories for efficient cold start training, utilizes various tools for deep reasoning, and further enhances generalization through reinforcement learning. To better evaluate the capabilities of multimodal agents, we propose BrowseComp-VL, a benchmark with the style of BrowseComp that requires complex information retrieval involving both visual and textual information. Experimental results show that WebWatcher outperforms the prompt-based workflow and open-source agents on HLE and BrowseComp-VL, and demonstrates its perception, multimodal reasoning, and searching capabilities across the other three benchmarks, respectively.
+- [SafeScientist: Enhancing AI Scientist Safety for Risk-Aware Scientific Discovery](https://papers.cool/venue/2025.emnlp-main.116@ACL)
+    - Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [survey]
+    - 📖 TLDR: Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce **SafeScientist**, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrate multiple defensive mechanisms, including prompt monitoring, agent-collaboration monitoring, tool-use monitoring, and an ethical reviewer component. Complementing SafeScientist, we propose **SciSafetyBench** , a novel benchmark specifically designed to evaluate AI safety in scientific contexts, comprising 240 high-risk scientific tasks across 6 domains, alongside 30 specially designed scientific tools and 120 tool-related risk tasks. Extensive experiments demonstrate that SafeScientist significantly improves safety performance by 35% compared to traditional AI scientist frameworks, without compromising scientific output quality. Additionally, we rigorously validate the robustness of our safety pipeline against diverse adversarial attack methods, further confirming the effectiveness of our integrated approach. The code and data will be available at https://github.com/ulab-uiuc/SafeScientist.**Warning**: this paper contains example data that may be offensive or harmful.
 - [CP-Agent: Context‑Aware Multimodal Reasoning for Cellular Morphological Profiling under Chemical Perturbations](https://papers.cool/venue/7BLnSeWuei@OpenReview)
     - Yuxin Zhang, Yiyao Li, Ping Ho, Simon See, Zhenqin Wu, Kevin Tsia
     - 📅 Date: March 28, 2026

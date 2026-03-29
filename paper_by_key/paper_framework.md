@@ -1,7 +1,14 @@
 # Framework Papers
 
-Total: 91 papers
+Total: 92 papers
 
+- [SafeScientist: Enhancing AI Scientist Safety for Risk-Aware Scientific Discovery](https://papers.cool/venue/2025.emnlp-main.116@ACL)
+    - Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [survey]
+    - 📖 TLDR: Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce **SafeScientist**, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrate multiple defensive mechanisms, including prompt monitoring, agent-collaboration monitoring, tool-use monitoring, and an ethical reviewer component. Complementing SafeScientist, we propose **SciSafetyBench** , a novel benchmark specifically designed to evaluate AI safety in scientific contexts, comprising 240 high-risk scientific tasks across 6 domains, alongside 30 specially designed scientific tools and 120 tool-related risk tasks. Extensive experiments demonstrate that SafeScientist significantly improves safety performance by 35% compared to traditional AI scientist frameworks, without compromising scientific output quality. Additionally, we rigorously validate the robustness of our safety pipeline against diverse adversarial attack methods, further confirming the effectiveness of our integrated approach. The code and data will be available at https://github.com/ulab-uiuc/SafeScientist.**Warning**: this paper contains example data that may be offensive or harmful.
 - [Deciphering the Extremes: A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery](https://papers.cool/venue/E16vULI6AF@OpenReview)
     - Zhe Zhao, HaiBin Wen, Xianfu Liu, Rui Mao, Pengkun Wang, Liheng Yu, et al.
     - 📅 Date: March 28, 2026

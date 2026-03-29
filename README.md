@@ -22,53 +22,81 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (16 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (17 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (3 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (8 papers)
-- [Misc](paper_by_topic/paper_misc.md) (9 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (9 papers)
+- [Misc](paper_by_topic/paper_misc.md) (10 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (6 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (38 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (53 papers)
-- [Automation](paper_by_key/paper_automation.md) (66 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (81 papers)
+- [Agent](paper_by_key/paper_agent.md) (55 papers)
+- [Automation](paper_by_key/paper_automation.md) (67 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (83 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (35 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (61 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (34 papers)
-- [Framework](paper_by_key/paper_framework.md) (91 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (34 papers)
-- [Llm](paper_by_key/paper_llm.md) (89 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (64 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (37 papers)
+- [Framework](paper_by_key/paper_framework.md) (92 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (35 papers)
+- [Llm](paper_by_key/paper_llm.md) (91 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (7 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (34 papers)
-- [Survey](paper_by_key/paper_survey.md) (19 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (35 papers)
+- [Survey](paper_by_key/paper_survey.md) (20 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
+- [Xinyu Geng](paper_by_author/paper_xinyu_geng.md) (2 papers)
+- [Peng Xia](paper_by_author/paper_peng_xia.md) (2 papers)
+- [Zhen Zhang](paper_by_author/paper_zhen_zhang.md) (2 papers)
+- [Xinyu Wang](paper_by_author/paper_xinyu_wang.md) (2 papers)
+- [Qiuchen Wang](paper_by_author/paper_qiuchen_wang.md) (2 papers)
+- [Ruixue Ding](paper_by_author/paper_ruixue_ding.md) (2 papers)
+- [Kunlun Zhu](paper_by_author/paper_kunlun_zhu.md) (2 papers)
+- [Jiaxun Zhang](paper_by_author/paper_jiaxun_zhang.md) (2 papers)
+- [Ziheng Qi](paper_by_author/paper_ziheng_qi.md) (2 papers)
+- [Nuoxing Shang](paper_by_author/paper_nuoxing_shang.md) (2 papers)
+- [Zijia Liu](paper_by_author/paper_zijia_liu.md) (2 papers)
+- [Peixuan Han](paper_by_author/paper_peixuan_han.md) (2 papers)
 - [Yifei Li](paper_by_author/paper_yifei_li.md) (2 papers)
 - [Yuqiang Li](paper_by_author/paper_yuqiang_li.md) (2 papers)
 - [Shiyang Feng](paper_by_author/paper_shiyang_feng.md) (2 papers)
 - [Botao Yu](paper_by_author/paper_botao_yu.md) (2 papers)
 - [Ludovico Mitchener](paper_by_author/paper_ludovico_mitchener.md) (2 papers)
-- [Angela Yiu](paper_by_author/paper_angela_yiu.md) (2 papers)
-- [Benjamin Chang](paper_by_author/paper_benjamin_chang.md) (2 papers)
-- [Hong Ting Tsang](paper_by_author/paper_hong_ting_tsang.md) (2 papers)
-- [Weiqi Wang](paper_by_author/paper_weiqi_wang.md) (2 papers)
-- [Ziming Luo](paper_by_author/paper_ziming_luo.md) (2 papers)
-- [Peter Jansen](paper_by_author/paper_peter_jansen.md) (2 papers)
-- [Aniketh Garikaparthi](paper_by_author/paper_aniketh_garikaparthi.md) (2 papers)
-- [Manasi Patwardhan](paper_by_author/paper_manasi_patwardhan.md) (2 papers)
-- [Lovekesh Vig](paper_by_author/paper_lovekesh_vig.md) (2 papers)
-- [Arman Cohan](paper_by_author/paper_arman_cohan.md) (2 papers)
-- [Jiaxin Bai](paper_by_author/paper_jiaxin_bai.md) (2 papers)
-- [Ben Gao](paper_by_author/paper_ben_gao.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent](https://papers.cool/venue/8jsaazdAb3@OpenReview)
+    - Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qiuchen Wang, Ruixue Ding, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: Web agents such as deep research have demonstrated superhuman cognitive abilities, capable of solving highly challenging information-seeking problems. However, most research remains largely text-centric, overlooking visual information in the real world. This makes multimodal deep research highly challenging, as such agents require much stronger perceptual, logical, and knowledge-based reasoning abilities, as well as proficiency in more sophisticated tools. To address this limitation, we introduce WebWatcher, a multimodal agent for deep research with joint reasoning ability across both visual and textual modalities. It uses high-quality synthetic trajectories for efficient cold start training, utilizes various tools for deep reasoning, and further enhances generalization through reinforcement learning. To better evaluate the capabilities of multimodal agents, we propose BrowseComp-VL, a benchmark with the style of BrowseComp that requires complex information retrieval involving both visual and textual information. Experimental results show that WebWatcher outperforms the prompt-based workflow and open-source agents on HLE and BrowseComp-VL, and demonstrates its perception, multimodal reasoning, and searching capabilities across the other three benchmarks, respectively.
+- [Adaptive Experimental Design to Accelerate Scientific Discovery and Engineering Design](https://papers.cool/venue/35104@AAAI)
+    - Aryan Deshwal
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [discovery], [experiment], [hypothesis]
+    - 📖 TLDR: Artificial Intelligence (AI) and Machine Learning hold immense potential to accelerate scientific discovery and engineering design. A fundamental challenge in these domains involves efficiently exploring a large space of hypotheses using expensive experiments in a resource-efficient manner. My research focuses on developing novel adaptive experimental design methods to address this broad challenge. Specifically, I develop new probabilistic modeling and decision making tools that operate in small data settings. These approaches have yielded substantial improvements in sample-efficiency, particularly for black-box optimization over high-dimensional combinatorial spaces (e.g., sequences and graphs). This cover letter outlines key methods I have developed and their real-world sustainability applications in areas such as nano-porous materials discovery, hardware design, and additive manufacturing. Additionally, I highlight my initiatives to foster collaboration between Science/Engineering and AI communities.
+- [Knowledge-driven Scientific Large Language Models](https://papers.cool/venue/35128@AAAI)
+    - Qiang Zhang
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [discovery]
+    - 📖 TLDR: My research in AI for Science revolves around the development and application of knowledge graphs (KG) and large language models (LLM) for scientific discovery. Leveraging my expertise in AI, I extensively explore disciplinary knowledge, construct knowledge graphs, and develop pre-trained large models for chemical and biological research. The overarching goal is to better capture correlations and patterns between substances by incorporating explicit and implicit knowledge bases into pre-trained large models. I have published in top AI journals and conferences, including Nature Machine Intelligence, NeurIPS, AAAI, ICML, and ICLR, and received several prestigious awards such as the Excellent Prize of the Tencent Rhino-Bird Project (2024) and the Great Britain-China Educational Trust (2020). My research has garnered wide recognition, with over 6000 Google Scholar citations and GitHub repositories of my work on knowledge graph-enhanced molecular and protein learning receiving hundreds of stars. By pushing the boundaries of AI for scientific discovery, I aspire to contribute to significant advancements that address pressing global challenges. I am eager to present and share my work at AAAI’s New Faculty Highlight program and engage with fellow researchers at the forefront of AI.
+- [SafeScientist: Enhancing AI Scientist Safety for Risk-Aware Scientific Discovery](https://papers.cool/venue/2025.emnlp-main.116@ACL)
+    - Kunlun Zhu, Jiaxun Zhang, Ziheng Qi, Nuoxing Shang, Zijia Liu, Peixuan Han, et al.
+    - 📅 Date: March 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [survey]
+    - 📖 TLDR: Recent advancements in large language model (LLM) agents have significantly accelerated scientific discovery automation, yet concurrently raised critical ethical and safety concerns. To systematically address these challenges, we introduce **SafeScientist**, an innovative AI scientist framework explicitly designed to enhance safety and ethical responsibility in AI-driven scientific exploration. SafeScientist proactively refuses ethically inappropriate or high-risk tasks and rigorously emphasizes safety throughout the research process. To achieve comprehensive safety oversight, we integrate multiple defensive mechanisms, including prompt monitoring, agent-collaboration monitoring, tool-use monitoring, and an ethical reviewer component. Complementing SafeScientist, we propose **SciSafetyBench** , a novel benchmark specifically designed to evaluate AI safety in scientific contexts, comprising 240 high-risk scientific tasks across 6 domains, alongside 30 specially designed scientific tools and 120 tool-related risk tasks. Extensive experiments demonstrate that SafeScientist significantly improves safety performance by 35% compared to traditional AI scientist frameworks, without compromising scientific output quality. Additionally, we rigorously validate the robustness of our safety pipeline against diverse adversarial attack methods, further confirming the effectiveness of our integrated approach. The code and data will be available at https://github.com/ulab-uiuc/SafeScientist.**Warning**: this paper contains example data that may be offensive or harmful.
 - [Deciphering the Extremes: A Novel Approach for Pathological Long-tailed Recognition in Scientific Discovery](https://papers.cool/venue/E16vULI6AF@OpenReview)
     - Zhe Zhao, HaiBin Wen, Xianfu Liu, Rui Mao, Pengkun Wang, Liheng Yu, et al.
     - 📅 Date: March 28, 2026

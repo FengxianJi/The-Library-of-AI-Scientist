@@ -1,7 +1,14 @@
 # Misc Papers
 
-Total: 10 papers
+Total: 11 papers
 
+- [Deep Research of Deep Research: From Transformer to Agent, From AI to AI for Science](http://arxiv.org/abs/2603.28361v1)
+    - Yipeng Yu
+    - 📅 Date: March 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [framework], [discovery], [reasoning]
+    - 📖 TLDR: With the advancement of large language models (LLMs) in their knowledge base and reasoning capabilities, their interactive modalities have evolved from pure text to multimodality and further to agentic tool use. Consequently, their applications have broadened from question answering to AI assistants and now to general-purpose agents. Deep research (DR) represents a prototypical vertical application for general-purpose agents, which represents an ideal approach for intelligent information processing and assisting humans in discovering and solving problems, with the goal of reaching or even surpassing the level of top human scientists. This paper provides a deep research of deep research. We articulate a clear and precise definition of deep research and unify perspectives from industry's deep research and academia's AI for Science (AI4S) within a developmental framework. We position LLMs and Stable Diffusion as the twin pillars of generative AI, and lay out a roadmap evolving from the Transformer to agents. We examine the progress of AI4S across various disciplines. We identify the predominant paradigms of human-AI interaction and prevailing system architectures, and discuss the major challenges and fundamental research issues that remain. AI supports scientific innovation, and science also can contribute to AI growth (Science for AI, S4AI). We hope this paper can help bridge the gap between the AI and AI4S communities.
 - [WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent](https://papers.cool/venue/8jsaazdAb3@OpenReview)
     - Xinyu Geng, Peng Xia, Zhen Zhang, Xinyu Wang, Qiuchen Wang, Ruixue Ding, et al.
     - 📅 Date: March 29, 2026

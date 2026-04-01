@@ -28,20 +28,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (9 papers)
 - [Misc](paper_by_topic/paper_misc.md) (11 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (6 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (7 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (57 papers)
-- [Automation](paper_by_key/paper_automation.md) (68 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (84 papers)
+- [Agent](paper_by_key/paper_agent.md) (58 papers)
+- [Automation](paper_by_key/paper_automation.md) (69 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (85 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (35 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (66 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (38 papers)
-- [Framework](paper_by_key/paper_framework.md) (94 papers)
+- [Framework](paper_by_key/paper_framework.md) (95 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (36 papers)
-- [Llm](paper_by_key/paper_llm.md) (93 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (7 papers)
+- [Llm](paper_by_key/paper_llm.md) (94 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (8 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (37 papers)
 - [Survey](paper_by_key/paper_survey.md) (21 papers)
 
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [An Empirical Study of Multi-Agent Collaboration for Automated Research](http://arxiv.org/abs/2603.29632v1)
+    - Yang Shen, Zhenyi Yi, Ziyi Zhao, Lijun Sun, Dongyang Li, Chin-Teng Lin, et al.
+    - 📅 Date: March 31, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [multi-agent]
+    - 📖 TLDR: As AI agents evolve, the community is rapidly shifting from single Large Language Models (LLMs) to Multi-Agent Systems (MAS) to overcome cognitive bottlenecks in automated research. However, the optimal multi-agent coordination framework for these autonomous agents remains largely unexplored. In this paper, we present a systematic empirical study investigating the comparative efficacy of distinct multi-agent structures for automated machine learning optimization. Utilizing a rigorously controlled, execution-based testbed equipped with Git worktree isolation and explicit global memory, we benchmark a single-agent baseline against two multi-agent paradigms: a subagent architecture (parallel exploration with post-hoc consolidation) and an agent team architecture (experts with pre-execution handoffs). By evaluating these systems under strictly fixed computational time budgets, our findings reveal a fundamental trade-off between operational stability and theoretical deliberation. The subagent mode functions as a highly resilient, high-throughput search engine optimal for broad, shallow optimizations under strict time constraints. Conversely, the agent team topology exhibits higher operational fragility due to multi-author code generation but achieves the deep theoretical alignment necessary for complex architectural refactoring given extended compute budgets. These empirical insights provide actionable guidelines for designing future autoresearch systems, advocating for dynamically routed architectures that adapt their collaborative structures to real-time task complexity.
 - [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1)
     - Hongtao Wu, Boyun Zheng, Dingjie Song, Yu Jiang, Jianfeng Gao, Lei Xing, et al.
     - 📅 Date: March 30, 2026

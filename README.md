@@ -26,29 +26,30 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (3 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (9 papers)
-- [Misc](paper_by_topic/paper_misc.md) (11 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (7 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (10 papers)
+- [Misc](paper_by_topic/paper_misc.md) (12 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (58 papers)
-- [Automation](paper_by_key/paper_automation.md) (69 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (85 papers)
+- [Agent](paper_by_key/paper_agent.md) (61 papers)
+- [Automation](paper_by_key/paper_automation.md) (73 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (87 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (35 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (66 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (38 papers)
-- [Framework](paper_by_key/paper_framework.md) (95 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (36 papers)
-- [Llm](paper_by_key/paper_llm.md) (94 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (8 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (37 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (68 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (42 papers)
+- [Framework](paper_by_key/paper_framework.md) (99 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (37 papers)
+- [Llm](paper_by_key/paper_llm.md) (97 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (10 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (38 papers)
 - [Survey](paper_by_key/paper_survey.md) (21 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
+- [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
 - [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)
 - [Xinyu Geng](paper_by_author/paper_xinyu_geng.md) (2 papers)
 - [Peng Xia](paper_by_author/paper_peng_xia.md) (2 papers)
@@ -65,10 +66,37 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Yifei Li](paper_by_author/paper_yifei_li.md) (2 papers)
 - [Yuqiang Li](paper_by_author/paper_yuqiang_li.md) (2 papers)
 - [Shiyang Feng](paper_by_author/paper_shiyang_feng.md) (2 papers)
-- [Botao Yu](paper_by_author/paper_botao_yu.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery](http://arxiv.org/abs/2604.05550v1)
+    - Yu Li, Chenyang Shao, Xinyang Liu, Ruotong Zhao, Peijie Liu, Hongyuan Su, et al.
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [multi-agent]
+    - 📖 TLDR: Artificial intelligence research increasingly depends on prolonged cycles of reproduction, debugging, and iterative refinement to achieve State-Of-The-Art (SOTA) performance, creating a growing need for systems that can accelerate the full pipeline of empirical model optimization. In this work, we introduce AutoSOTA, an end-to-end automated research system that advances the latest SOTA models published in top-tier AI papers to reproducible and empirically improved new SOTA models. We formulate this problem through three tightly coupled stages: resource preparation and goal setting; experiment evaluation; and reflection and ideation. To tackle this problem, AutoSOTA adopts a multi-agent architecture with eight specialized agents that collaboratively ground papers to code and dependencies, initialize and repair execution environments, track long-horizon experiments, generate and schedule optimization ideas, and supervise validity to avoid spurious gains. We evaluate AutoSOTA on recent research papers collected from eight top-tier AI conferences under filters for code availability and execution cost. Across these papers, AutoSOTA achieves strong end-to-end performance in both automated replication and subsequent optimization. Specifically, it successfully discovers 105 new SOTA models that surpass the original reported methods, averaging approximately five hours per paper. Case studies spanning LLM, NLP, computer vision, time series, and optimization further show that the system can move beyond routine hyperparameter tuning to identify architectural innovation, algorithmic redesigns, and workflow-level improvements. These results suggest that end-to-end research automation can serve not only as a performance optimizer, but also as a new form of research infrastructure that reduces repetitive experimental burden and helps redirect human attention toward higher-level scientific creativity.
+- [Towards Trustworthy Report Generation: A Deep Research Agent with Progressive Confidence Estimation and Calibration](http://arxiv.org/abs/2604.05952v1)
+    - Yi Yuan, Xuhong Wang, Shanzhe Lei
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: As agent-based systems continue to evolve, deep research agents are capable of automatically generating research-style reports across diverse domains. While these agents promise to streamline information synthesis and knowledge exploration, existing evaluation frameworks-typically based on subjective dimensions-fail to capture a critical aspect of report quality: trustworthiness. In open-ended research scenarios where ground-truth answers are unavailable, current evaluation methods cannot effectively measure the epistemic confidence of generated content, making calibration difficult and leaving users susceptible to misleading or hallucinated information. To address this limitation, we propose a novel deep research agent that incorporates progressive confidence estimation and calibration within the report generation pipeline. Our system leverages a deliberative search model, featuring deep retrieval and multi-hop reasoning to ground outputs in verifiable evidence while assigning confidence scores to individual claims. Combined with a carefully designed workflow, this approach produces trustworthy reports with enhanced transparency. Experimental results and case studies demonstrate that our method substantially improves interpretability and significantly increases user trust.
+- [Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring](http://arxiv.org/abs/2604.05854v1)
+    - Xiangyue Zhang
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [experiment], [hypothesis], [multi-agent]
+    - 📖 TLDR: We present \textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. Unlike existing AI research assistants that focus on paper writing or code generation, our system addresses the full experiment lifecycle: hypothesis formation, code implementation, training execution, result analysis, and iterative refinement. The framework introduces three key innovations: (1) \textbf{Zero-Cost Monitoring} -- a monitoring paradigm that incurs zero LLM API costs during model training by relying solely on process-level checks and log file reads; (2) \textbf{Two-Tier Constant-Size Memory} -- a memory architecture capped at $\sim$5K characters regardless of runtime duration, preventing the unbounded context growth that plagues long-running agents; and (3) \textbf{Minimal-Toolset Leader-Worker Architecture} -- a multi-agent design where each worker agent is equipped with only 3--5 tools, reducing per-call token overhead by up to 73\%. In sustained deployments spanning 30+ days, the framework autonomously completed 500+ experiment cycles across four concurrent research projects, achieving a 52\% improvement over baseline metrics in one project through 200+ automated experiments -- all at an average LLM cost of \$0.08 per 24-hour cycle. Code is available at https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7.
+- [ResearchEVO: An End-to-End Framework for Automated Scientific Discovery and Documentation](http://arxiv.org/abs/2604.05587v1)
+    - Zhe Zhao, Haibin Wen, Jiaming Ma, Jiachang Zhan, Tianyi Xu, Ye Wei, et al.
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [llm], [automation], [framework], [discovery], [experiment]
+    - 📖 TLDR: An important recurring pattern in scientific breakthroughs is a two-stage process: an initial phase of undirected experimentation that yields an unexpected finding, followed by a retrospective phase that explains why the finding works and situates it within existing theory. We present ResearchEVO, an end-to-end framework that computationally instantiates this discover-then-explain paradigm. The Evolution Phase employs LLM-guided bi-dimensional co-evolution -- simultaneously optimizing both algorithmic logic and overall architecture -- to search the space of code implementations purely by fitness, without requiring any understanding of the solutions it produces. The Writing Phase then takes the best-performing algorithm and autonomously generates a complete, publication-ready research paper through sentence-level retrieval-augmented generation with explicit anti-hallucination verification and automated experiment design. To our knowledge, ResearchEVO is the first system to cover this full pipeline end to end: no prior work jointly performs principled algorithm evolution and literature-grounded scientific documentation. We validate the framework on two cross-disciplinary scientific problems -- Quantum Error Correction using real Google quantum hardware data, and Physics-Informed Neural Networks -- where the Evolution Phase discovered human-interpretable algorithmic mechanisms that had not been previously proposed in the respective domain literatures. In both cases, the Writing Phase autonomously produced compilable LaTeX manuscripts that correctly grounded these blind discoveries in existing theory via RAG, with zero fabricated citations.
 - [An Empirical Study of Multi-Agent Collaboration for Automated Research](http://arxiv.org/abs/2603.29632v1)
     - Yang Shen, Zhenyi Yi, Ziyi Zhao, Lijun Sun, Dongyang Li, Chin-Teng Lin, et al.
     - 📅 Date: March 31, 2026

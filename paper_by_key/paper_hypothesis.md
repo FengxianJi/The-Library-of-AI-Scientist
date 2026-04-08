@@ -1,7 +1,14 @@
 # Hypothesis Papers
 
-Total: 36 papers
+Total: 37 papers
 
+- [Deep Researcher Agent: An Autonomous Framework for 24/7 Deep Learning Experimentation with Zero-Cost Monitoring](http://arxiv.org/abs/2604.05854v1)
+    - Xiangyue Zhang
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [experiment], [hypothesis], [multi-agent]
+    - 📖 TLDR: We present \textbf{Deep Researcher Agent}, an open-source framework that enables large language model (LLM) agents to autonomously conduct deep learning experiments around the clock. Unlike existing AI research assistants that focus on paper writing or code generation, our system addresses the full experiment lifecycle: hypothesis formation, code implementation, training execution, result analysis, and iterative refinement. The framework introduces three key innovations: (1) \textbf{Zero-Cost Monitoring} -- a monitoring paradigm that incurs zero LLM API costs during model training by relying solely on process-level checks and log file reads; (2) \textbf{Two-Tier Constant-Size Memory} -- a memory architecture capped at $\sim$5K characters regardless of runtime duration, preventing the unbounded context growth that plagues long-running agents; and (3) \textbf{Minimal-Toolset Leader-Worker Architecture} -- a multi-agent design where each worker agent is equipped with only 3--5 tools, reducing per-call token overhead by up to 73\%. In sustained deployments spanning 30+ days, the framework autonomously completed 500+ experiment cycles across four concurrent research projects, achieving a 52\% improvement over baseline metrics in one project through 200+ automated experiments -- all at an average LLM cost of \$0.08 per 24-hour cycle. Code is available at https://github.com/Xiangyue-Zhang/auto-deep-researcher-24x7.
 - [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1)
     - Hongtao Wu, Boyun Zheng, Dingjie Song, Yu Jiang, Jianfeng Gao, Lei Xing, et al.
     - 📅 Date: March 30, 2026

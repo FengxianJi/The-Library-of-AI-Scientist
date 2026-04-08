@@ -1,7 +1,14 @@
 # Reasoning Papers
 
-Total: 37 papers
+Total: 38 papers
 
+- [Towards Trustworthy Report Generation: A Deep Research Agent with Progressive Confidence Estimation and Calibration](http://arxiv.org/abs/2604.05952v1)
+    - Yi Yuan, Xuhong Wang, Shanzhe Lei
+    - 📅 Date: April 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: As agent-based systems continue to evolve, deep research agents are capable of automatically generating research-style reports across diverse domains. While these agents promise to streamline information synthesis and knowledge exploration, existing evaluation frameworks-typically based on subjective dimensions-fail to capture a critical aspect of report quality: trustworthiness. In open-ended research scenarios where ground-truth answers are unavailable, current evaluation methods cannot effectively measure the epistemic confidence of generated content, making calibration difficult and leaving users susceptible to misleading or hallucinated information. To address this limitation, we propose a novel deep research agent that incorporates progressive confidence estimation and calibration within the report generation pipeline. Our system leverages a deliberative search model, featuring deep retrieval and multi-hop reasoning to ground outputs in verifiable evidence while assigning confidence scores to individual claims. Combined with a carefully designed workflow, this approach produces trustworthy reports with enhanced transparency. Experimental results and case studies demonstrate that our method substantially improves interpretability and significantly increases user trust.
 - [Towards a Medical AI Scientist](http://arxiv.org/abs/2603.28589v1)
     - Hongtao Wu, Boyun Zheng, Dingjie Song, Yu Jiang, Jianfeng Gao, Lei Xing, et al.
     - 📅 Date: March 30, 2026

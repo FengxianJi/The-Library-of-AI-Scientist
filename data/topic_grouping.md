@@ -3,6 +3,6 @@
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (10 papers)
-- [Misc](paper_by_topic/paper_misc.md) (12 papers)
+- [Misc](paper_by_topic/paper_misc.md) (13 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)

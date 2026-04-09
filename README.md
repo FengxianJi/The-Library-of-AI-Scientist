@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (10 papers)
-- [Misc](paper_by_topic/paper_misc.md) (12 papers)
+- [Misc](paper_by_topic/paper_misc.md) (13 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (61 papers)
-- [Automation](paper_by_key/paper_automation.md) (73 papers)
+- [Automation](paper_by_key/paper_automation.md) (74 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (87 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (35 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (68 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (42 papers)
-- [Framework](paper_by_key/paper_framework.md) (99 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (43 papers)
+- [Framework](paper_by_key/paper_framework.md) (100 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (37 papers)
 - [Llm](paper_by_key/paper_llm.md) (97 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (10 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (38 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (39 papers)
 - [Survey](paper_by_key/paper_survey.md) (21 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Infrastructure First: Enabling Embodied AI for Science in the Global South](http://arxiv.org/abs/2604.06722v1)
+    - Shaoshan Liu, Jie Tang, Marwa S. Hassan, Mohamed H. Sharkawy, Moustafa M. G. Fouda, Tiewei Shang, et al.
+    - 📅 Date: April 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [experiment], [reasoning]
+    - 📖 TLDR: Embodied AI for Science (EAI4S) brings intelligence into the laboratory by uniting perception, reasoning, and robotic action to autonomously run experiments in the physical world. For the Global South, this shift is not about adopting advanced automation for its own sake, but about overcoming a fundamental capacity constraint: too few hands to run too many experiments. By enabling continuous, reliable experimentation under limits of manpower, power, and connectivity, EAI4S turns automation from a luxury into essential scientific infrastructure. The main obstacle, however, is not algorithmic capability. It is infrastructure. Open-source AI and foundation models have narrowed the knowledge gap, but EAI4S depends on dependable edge compute, energy-efficient hardware, modular robotic systems, localized data pipelines, and open standards. Without these foundations, even the most capable models remain trapped in well-resourced laboratories. This article argues for an infrastructure-first approach to EAI4S and outlines the practical requirements for deploying embodied intelligence at scale, offering a concrete pathway for Global South institutions to translate AI advances into sustained scientific capacity and competitive research output.
 - [AutoSOTA: An End-to-End Automated Research System for State-of-the-Art AI Model Discovery](http://arxiv.org/abs/2604.05550v1)
     - Yu Li, Chenyang Shao, Xinyang Liu, Ruotong Zhao, Peijie Liu, Hongyuan Su, et al.
     - 📅 Date: April 07, 2026

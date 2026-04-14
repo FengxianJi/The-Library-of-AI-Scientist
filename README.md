@@ -25,30 +25,31 @@ This repository tracks the latest research in this rapidly evolving field.
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (18 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (3 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
-- [Literature Review](paper_by_topic/paper_literature_review.md) (3 papers)
+- [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (10 papers)
-- [Misc](paper_by_topic/paper_misc.md) (13 papers)
+- [Misc](paper_by_topic/paper_misc.md) (14 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (61 papers)
-- [Automation](paper_by_key/paper_automation.md) (74 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (87 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (35 papers)
+- [Agent](paper_by_key/paper_agent.md) (62 papers)
+- [Automation](paper_by_key/paper_automation.md) (75 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (88 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (68 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (43 papers)
-- [Framework](paper_by_key/paper_framework.md) (100 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (44 papers)
+- [Framework](paper_by_key/paper_framework.md) (102 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (37 papers)
-- [Llm](paper_by_key/paper_llm.md) (97 papers)
+- [Llm](paper_by_key/paper_llm.md) (98 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (10 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (39 papers)
-- [Survey](paper_by_key/paper_survey.md) (21 papers)
+- [Survey](paper_by_key/paper_survey.md) (23 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
+- [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
 - [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
 - [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)
 - [Xinyu Geng](paper_by_author/paper_xinyu_geng.md) (2 papers)
@@ -65,10 +66,23 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Peixuan Han](paper_by_author/paper_peixuan_han.md) (2 papers)
 - [Yifei Li](paper_by_author/paper_yifei_li.md) (2 papers)
 - [Yuqiang Li](paper_by_author/paper_yuqiang_li.md) (2 papers)
-- [Shiyang Feng](paper_by_author/paper_shiyang_feng.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Inspectable AI for Science: A Research Object Approach to Generative AI Governance](http://arxiv.org/abs/2604.11261v1)
+    - Ruta Binkyte, Sharif Abuaddba, Chamikara Mahawaga, Ming Ding, Natasha Fernandes, Mario Fritz
+    - 📅 Date: April 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Literature Review]
+    - 🔑 Key: [llm], [framework], [survey]
+    - 📖 TLDR: This paper introduces AI as a Research Object (AI-RO), a paradigm for governing the use of generative AI in scientific research. Instead of debating whether AI is an author or merely a tool, we propose treating AI interactions as structured, inspectable components of the research process. Under this view, the legitimacy of an AI-assisted scientific paper depends on how model use is integrated into the workflow, documented, and made accountable. Drawing on Research Object theory and FAIR principles, we propose a framework for recording model configuration, prompts, and outputs through interaction logs and metadata packaging. These properties are particularly consequential in security and privacy (S&P) research, where provenance artifacts must satisfy confidentiality constraints, integrity guarantees, and auditability requirements that generic disclosure practices do not address. We implement a lightweight writing pipeline in which a language model synthesizes human-authored structured literature review notes under explicit constraints and produces a verifiable provenance record. We present this work as a position supported by an initial demonstrative workflow, arguing that governance of generative AI in science can be implemented as structured documentation, controlled disclosure, and integrity-preserving provenance capture. Based on this example, we outline and motivate a set of necessary future developments required to make such practices practical and widely adoptable.
+- [Camyla: Scaling Autonomous Research in Medical Image Segmentation](http://arxiv.org/abs/2604.10696v1)
+    - Yifan Gao, Haoyue Li, Feng Yuan, Xin Gao, Weiran Huang, Xiaosong Wang
+    - 📅 Date: April 12, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [dataset], [experiment], [survey]
+    - 📖 TLDR: We present Camyla, a system for fully autonomous research within the scientific domain of medical image segmentation. Camyla transforms raw datasets into literature-grounded research proposals, executable experiments, and complete manuscripts without human intervention. Autonomous experimentation over long horizons poses three interrelated challenges: search effort drifts toward unpromising directions, knowledge from earlier trials degrades as context accumulates, and recovery from failures collapses into repetitive incremental fixes. To address these challenges, the system combines three coupled mechanisms: Quality-Weighted Branch Exploration for allocating effort across competing proposals, Layered Reflective Memory for retaining and compressing cross-trial knowledge at multiple granularities, and Divergent Diagnostic Feedback for diversifying recovery after underperforming trials. The system is evaluated on CamylaBench, a contamination-free benchmark of 31 datasets constructed exclusively from 2025 publications, under a strict zero-intervention protocol across two independent runs within a total of 28 days on an 8-GPU cluster. Across the two runs, Camyla generates more than 2,700 novel model implementations and 40 complete manuscripts, and surpasses the strongest per-dataset baseline selected from 14 established architectures, including nnU-Net, on 22 and 18 of 31 datasets under identical training budgets, respectively (union: 24/31). Senior human reviewers score the generated manuscripts at the T1/T2 boundary of contemporary medical imaging journals. Relative to automated baselines, Camyla outperforms AutoML and NAS systems on aggregate segmentation performance and exceeds six open-ended research agents on both task completion and baseline-surpassing frequency. These results suggest that domain-scale autonomous research is achievable in medical image segmentation.
 - [Infrastructure First: Enabling Embodied AI for Science in the Global South](http://arxiv.org/abs/2604.06722v1)
     - Shaoshan Liu, Jie Tang, Marwa S. Hassan, Mohamed H. Sharkawy, Moustafa M. G. Fouda, Tiewei Shang, et al.
     - 📅 Date: April 08, 2026

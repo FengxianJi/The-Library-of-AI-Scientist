@@ -1,7 +1,14 @@
 # Misc Papers
 
-Total: 14 papers
+Total: 15 papers
 
+- [Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics](http://arxiv.org/abs/2604.12198v1)
+    - Haonan Huang
+    - 📅 Date: April 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [reasoning]
+    - 📖 TLDR: Recent autonomous LLM agents have demonstrated end-to-end automation of machine-learning research. Real-world physical science is intrinsically harder, requiring deep reasoning bounded by physical truth and, because real systems are too complex to study in isolation, almost always built on existing literature. We focus on the smallest meaningful unit of such research, a mini research loop in which an agent reads a paper, reproduces it, critiques it, and extends it. We test this loop in two complementary regimes: scale and depth. At scale, across 111 open-access computational physics papers, an agent autonomously runs the read-plan-compute-compare loop and, without being asked to critique, raises substantive concerns on ~42% of papers - 97.7% of which require execution to surface. In depth, for one Nature Communications paper on multiscale simulation of a 2D-material MOSFET, the agent runs new calculations missing from the original and produces, unsupervised, a publishable Comment -- composed, figured, typeset, and PDF-iterated -- that revises the paper's headline conclusion.
 - [Camyla: Scaling Autonomous Research in Medical Image Segmentation](http://arxiv.org/abs/2604.10696v1)
     - Yifan Gao, Haoyue Li, Feng Yuan, Xin Gao, Weiran Huang, Xiaosong Wang
     - 📅 Date: April 12, 2026

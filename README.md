@@ -26,23 +26,23 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (3 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (10 papers)
-- [Misc](paper_by_topic/paper_misc.md) (14 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
+- [Misc](paper_by_topic/paper_misc.md) (15 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (62 papers)
-- [Automation](paper_by_key/paper_automation.md) (75 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (88 papers)
+- [Agent](paper_by_key/paper_agent.md) (64 papers)
+- [Automation](paper_by_key/paper_automation.md) (76 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (89 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (68 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (44 papers)
-- [Framework](paper_by_key/paper_framework.md) (102 papers)
+- [Framework](paper_by_key/paper_framework.md) (104 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (37 papers)
-- [Llm](paper_by_key/paper_llm.md) (98 papers)
+- [Llm](paper_by_key/paper_llm.md) (100 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (10 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (39 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (41 papers)
 - [Survey](paper_by_key/paper_survey.md) (23 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics](http://arxiv.org/abs/2604.12198v1)
+    - Haonan Huang
+    - 📅 Date: April 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [reasoning]
+    - 📖 TLDR: Recent autonomous LLM agents have demonstrated end-to-end automation of machine-learning research. Real-world physical science is intrinsically harder, requiring deep reasoning bounded by physical truth and, because real systems are too complex to study in isolation, almost always built on existing literature. We focus on the smallest meaningful unit of such research, a mini research loop in which an agent reads a paper, reproduces it, critiques it, and extends it. We test this loop in two complementary regimes: scale and depth. At scale, across 111 open-access computational physics papers, an agent autonomously runs the read-plan-compute-compare loop and, without being asked to critique, raises substantive concerns on ~42% of papers - 97.7% of which require execution to surface. In depth, for one Nature Communications paper on multiscale simulation of a 2D-material MOSFET, the agent runs new calculations missing from the original and produces, unsupervised, a publishable Comment -- composed, figured, typeset, and PDF-iterated -- that revises the paper's headline conclusion.
 - [Inspectable AI for Science: A Research Object Approach to Generative AI Governance](http://arxiv.org/abs/2604.11261v1)
     - Ruta Binkyte, Sharif Abuaddba, Chamikara Mahawaga, Ming Ding, Natasha Fernandes, Mario Fritz
     - 📅 Date: April 13, 2026
@@ -76,6 +83,13 @@ This repository tracks the latest research in this rapidly evolving field.
     - 💻 Topic: [Literature Review]
     - 🔑 Key: [llm], [framework], [survey]
     - 📖 TLDR: This paper introduces AI as a Research Object (AI-RO), a paradigm for governing the use of generative AI in scientific research. Instead of debating whether AI is an author or merely a tool, we propose treating AI interactions as structured, inspectable components of the research process. Under this view, the legitimacy of an AI-assisted scientific paper depends on how model use is integrated into the workflow, documented, and made accountable. Drawing on Research Object theory and FAIR principles, we propose a framework for recording model configuration, prompts, and outputs through interaction logs and metadata packaging. These properties are particularly consequential in security and privacy (S&P) research, where provenance artifacts must satisfy confidentiality constraints, integrity guarantees, and auditability requirements that generic disclosure practices do not address. We implement a lightweight writing pipeline in which a language model synthesizes human-authored structured literature review notes under explicit constraints and produces a verifiable provenance record. We present this work as a position supported by an initial demonstrative workflow, arguing that governance of generative AI in science can be implemented as structured documentation, controlled disclosure, and integrity-preserving provenance capture. Based on this example, we outline and motivate a set of necessary future developments required to make such practices practical and widely adoptable.
+- [Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks](http://arxiv.org/abs/2604.12102v1)
+    - Arun Sharma
+    - 📅 Date: April 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark], [reasoning]
+    - 📖 TLDR: We introduce compute-grounded reasoning (CGR), a design paradigm for spatial-aware research agents in which every answerable sub-problem is resolved by deterministic computation before a language model is asked to generate. Spatial Atlas instantiates CGR as a single Agent-to-Agent (A2A) server that handles two challenging benchmarks: FieldWorkArena, a multimodal spatial question-answering benchmark spanning factory, warehouse, and retail environments, and MLE-Bench, a suite of 75 Kaggle machine learning competitions requiring end-to-end ML engineering. A structured spatial scene graph engine extracts entities and relations from vision descriptions, computes distances and safety violations deterministically, then feeds computed facts to large language models, thereby avoiding hallucinated spatial reasoning. Entropy-guided action selection maximizes information gain per step and routes queries across a three-tier frontier model stack (OpenAI + Anthropic). A self-healing ML pipeline with strategy-aware code generation, a score-driven iterative refinement loop, and a prompt-based leak audit registry round out the system. We evaluate across both benchmarks and show that CGR yields competitive accuracy while maintaining interpretability through structured intermediate representations and deterministic spatial computations.
 - [Camyla: Scaling Autonomous Research in Medical Image Segmentation](http://arxiv.org/abs/2604.10696v1)
     - Yifan Gao, Haoyue Li, Feng Yuan, Xin Gao, Weiran Huang, Xiaosong Wang
     - 📅 Date: April 12, 2026

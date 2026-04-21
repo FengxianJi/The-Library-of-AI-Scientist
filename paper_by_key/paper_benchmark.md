@@ -1,7 +1,14 @@
 # Benchmark Papers
 
-Total: 89 papers
+Total: 90 papers
 
+- [LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent](http://arxiv.org/abs/2604.17931v1)
+    - Wanli Li, Bince Qu, Bo Pan, Jianyu Zhang, Zheng Liu, Pan Zhang, et al.
+    - 📅 Date: April 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark]
+    - 📖 TLDR: Reinforcement Learning (RL) has emerged as a powerful training paradigm for LLM-based agents. However, scaling agentic RL for deep research remains constrained by two coupled challenges: hand-crafted synthetic data fails to elicit genuine real-world search capabilities, and real-world search dependency during RL training introduces instability and prohibitive cost, which limits the scalability of Agentic RL. LiteResearcher is a training framework that makes Agentic RL scalable: by constructing a lite virtual world that mirrors real-world search dynamics, we enable a continuously improving training recipe that empowers a tiny search agent to outperform large-scale open-source and commercial models (e.g., Tongyi DeepResearch and Claude-4.5 Sonnet). Specifically, on common benchmarks such as GAIA and Xbench, our LiteResearcher-4B achieves open-source state-of-the-art results of 71.3% and 78.0% respectively, demonstrating that scalable RL training is a key enabler for Deep Research Agents.
 - [Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks](http://arxiv.org/abs/2604.12102v1)
     - Arun Sharma
     - 📅 Date: April 13, 2026

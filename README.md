@@ -27,20 +27,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
-- [Misc](paper_by_topic/paper_misc.md) (15 papers)
+- [Misc](paper_by_topic/paper_misc.md) (16 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (9 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (64 papers)
+- [Agent](paper_by_key/paper_agent.md) (65 papers)
 - [Automation](paper_by_key/paper_automation.md) (76 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (89 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (90 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (68 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (44 papers)
-- [Framework](paper_by_key/paper_framework.md) (104 papers)
+- [Framework](paper_by_key/paper_framework.md) (105 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (37 papers)
-- [Llm](paper_by_key/paper_llm.md) (100 papers)
+- [Llm](paper_by_key/paper_llm.md) (101 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (10 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (41 papers)
 - [Survey](paper_by_key/paper_survey.md) (23 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [LiteResearcher: A Scalable Agentic RL Training Framework for Deep Research Agent](http://arxiv.org/abs/2604.17931v1)
+    - Wanli Li, Bince Qu, Bo Pan, Jianyu Zhang, Zheng Liu, Pan Zhang, et al.
+    - 📅 Date: April 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark]
+    - 📖 TLDR: Reinforcement Learning (RL) has emerged as a powerful training paradigm for LLM-based agents. However, scaling agentic RL for deep research remains constrained by two coupled challenges: hand-crafted synthetic data fails to elicit genuine real-world search capabilities, and real-world search dependency during RL training introduces instability and prohibitive cost, which limits the scalability of Agentic RL. LiteResearcher is a training framework that makes Agentic RL scalable: by constructing a lite virtual world that mirrors real-world search dynamics, we enable a continuously improving training recipe that empowers a tiny search agent to outperform large-scale open-source and commercial models (e.g., Tongyi DeepResearch and Claude-4.5 Sonnet). Specifically, on common benchmarks such as GAIA and Xbench, our LiteResearcher-4B achieves open-source state-of-the-art results of 71.3% and 78.0% respectively, demonstrating that scalable RL training is a key enabler for Deep Research Agents.
 - [Towards grounded autonomous research: an end-to-end LLM mini research loop on published computational physics](http://arxiv.org/abs/2604.12198v1)
     - Haonan Huang
     - 📅 Date: April 14, 2026

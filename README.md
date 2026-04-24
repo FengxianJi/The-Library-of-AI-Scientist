@@ -27,20 +27,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
-- [Misc](paper_by_topic/paper_misc.md) (17 papers)
+- [Misc](paper_by_topic/paper_misc.md) (18 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (10 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (68 papers)
-- [Automation](paper_by_key/paper_automation.md) (77 papers)
+- [Agent](paper_by_key/paper_agent.md) (69 papers)
+- [Automation](paper_by_key/paper_automation.md) (78 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (93 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (68 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (44 papers)
-- [Framework](paper_by_key/paper_framework.md) (108 papers)
+- [Framework](paper_by_key/paper_framework.md) (109 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (38 papers)
-- [Llm](paper_by_key/paper_llm.md) (103 papers)
+- [Llm](paper_by_key/paper_llm.md) (104 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (11 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (43 papers)
 - [Survey](paper_by_key/paper_survey.md) (24 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation](http://arxiv.org/abs/2604.21910v1)
+    - Bartosz Balis, Michal Orzechowski, Piotr Kica, Michal Dygas, Michal Kuszewski
+    - 📅 Date: April 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework]
+    - 📖 TLDR: Scientific workflow systems automate execution -- scheduling, fault tolerance, resource management -- but not the semantic translation that precedes it. Scientists still manually convert research questions into workflow specifications, a task requiring both domain knowledge and infrastructure expertise. We propose an agentic architecture that closes this gap through three layers: an LLM interprets natural language into structured intents (semantic layer); validated generators produce reproducible workflow DAGs (deterministic layer); and domain experts author ``Skills'': markdown documents encoding vocabulary mappings, parameter constraints, and optimization strategies (knowledge layer). This decomposition confines LLM non-determinism to intent extraction: identical intents always yield identical workflows. We implement and evaluate the architecture on the 1000 Genomes population genetics workflow and Hyperflow WMS running on Kubernetes. In an ablation study on 150 queries, Skills raise full-match intent accuracy from 44% to 83%; skill-driven deferred workflow generation reduces data transfer by 92\%; and the end-to-end pipeline completes queries on Kubernetes with LLM overhead below 15 seconds and cost under $0.001 per query.
 - [MedSkillAudit: A Domain-Specific Audit Framework for Medical Research Agent Skills](http://arxiv.org/abs/2604.20441v1)
     - Yingyong Hou, Xinyuan Lao, Huimei Wang, Qianyu Yao, Wei Chen, Bocheng Huang, et al.
     - 📅 Date: April 22, 2026

@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (19 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (20 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (3 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
@@ -32,11 +32,11 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (69 papers)
-- [Automation](paper_by_key/paper_automation.md) (78 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (93 papers)
+- [Agent](paper_by_key/paper_agent.md) (70 papers)
+- [Automation](paper_by_key/paper_automation.md) (79 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (94 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (68 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (69 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (44 papers)
 - [Framework](paper_by_key/paper_framework.md) (109 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (38 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Intern-Atlas: A Methodological Evolution Graph as Research Infrastructure for AI Scientists](http://arxiv.org/abs/2604.28158v1)
+    - Yujun Wu, Dongxu Zhang, Xinchen Li, Jinhang Xu, Yiling Duan, Yumou Liu, et al.
+    - 📅 Date: April 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [benchmark], [discovery]
+    - 📖 TLDR: Existing research infrastructure is fundamentally document-centric, providing citation links between papers but lacking explicit representations of methodological evolution. In particular, it does not capture the structured relationships that explain how and why research methods emerge, adapt, and build upon one another. With the rise of AI-driven research agents as a new class of consumers of scientific knowledge, this limitation becomes increasingly consequential, as such agents cannot reliably reconstruct method evolution topologies from unstructured text. We introduce Intern-Atlas, a methodological evolution graph that automatically identifies method-level entities, infers lineage relationships among methodologies, and captures the bottlenecks that drive transitions between successive innovations. Built from 1,030,314 papers spanning AI conferences, journals, and arXiv preprints, the resulting graph comprises 9,410,201 semantically typed edges, each grounded in verbatim source evidence, forming a queryable causal network of methodological development. To operationalize this structure, we further propose a self-guided temporal tree search algorithm for constructing evolution chains that trace the progression of methods over time. We evaluate the quality of the resulting graph against expert-curated ground-truth evolution chains and observe strong alignment. In addition, we demonstrate that Intern-Atlas enables downstream applications in idea evaluation and automated idea generation. We position methodological evolution graphs as a foundational data layer for the emerging automated scientific discovery.
 - [From Research Question to Scientific Workflow: Leveraging Agentic AI for Science Automation](http://arxiv.org/abs/2604.21910v1)
     - Bartosz Balis, Michal Orzechowski, Piotr Kica, Michal Dygas, Michal Kuszewski
     - 📅 Date: April 23, 2026

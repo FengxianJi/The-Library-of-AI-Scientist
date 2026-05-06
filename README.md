@@ -28,22 +28,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
 - [Misc](paper_by_topic/paper_misc.md) (18 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (10 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (71 papers)
-- [Automation](paper_by_key/paper_automation.md) (80 papers)
+- [Agent](paper_by_key/paper_agent.md) (72 papers)
+- [Automation](paper_by_key/paper_automation.md) (81 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (94 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (69 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (44 papers)
-- [Framework](paper_by_key/paper_framework.md) (110 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (45 papers)
+- [Framework](paper_by_key/paper_framework.md) (111 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (38 papers)
-- [Llm](paper_by_key/paper_llm.md) (105 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (12 papers)
+- [Llm](paper_by_key/paper_llm.md) (106 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (13 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (44 papers)
-- [Survey](paper_by_key/paper_survey.md) (25 papers)
+- [Survey](paper_by_key/paper_survey.md) (26 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (4 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration](http://arxiv.org/abs/2605.03042v1)
+    - Ruofeng Yang, Yongcan Li, Shuai Li
+    - 📅 Date: May 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [experiment], [survey], [multi-agent]
+    - 📖 TLDR: This report describes ARIS (Auto-Research-in-sleep), an open-source research harness for autonomous research, including its architecture, assurance mechanisms, and early deployment experience. The performance of agent systems built on LLMs depends on both the model weights and the harness around them, which governs what information to store, retrieve, and present to the model. For long-horizon research workflows, the central failure mode is not a visible breakdown but a plausible unsupported success: a long-running agent can produce claims whose evidential support is incomplete, misreported, or silently inherited from the executor's framing. Therefore, we present ARIS as a research harness that coordinates machine-learning research workflows through cross-model adversarial collaboration as a default configuration: an executor model drives forward progress while a reviewer from a different model family is recommended to critique intermediate artifacts and request revisions. ARIS has three architectural layers. The execution layer provides more than 65 reusable Markdown-defined skills, model integrations via MCP, a persistent research wiki for iterative reuse of prior findings, and deterministic figure generation. The orchestration layer coordinates five end-to-end workflows with adjustable effort settings and configurable routing to reviewer models. The assurance layer includes a three-stage process for checking whether experimental claims are supported by evidence: integrity verification, result-to-claim mapping, and claim auditing that cross-checks manuscript statements against the claim ledger and raw evidence, as well as a five-pass scientific-editing pipeline, mathematical-proof checks, and visual inspection of the rendered PDF. A prototype self-improvement loop records research traces and proposes harness improvements that are adopted only after reviewer approval.
 - [NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science](http://arxiv.org/abs/2605.02092v1)
     - Bing Zhou, Xiao Huang, Huan Ning, Qiusheng Wu, Diya Li, Ziyi Zhang
     - 📅 Date: May 03, 2026

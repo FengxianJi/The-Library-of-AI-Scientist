@@ -1,7 +1,14 @@
 # Papers by Zonglin Yang
 
-Total: 4 papers
+Total: 5 papers
 
+- [SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems](http://arxiv.org/abs/2605.10246v1)
+    - Zonglin Yang, Xingtong Liu, Xinyan Xu
+    - 📅 Date: May 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [automation], [framework], [benchmark]
+    - 📖 TLDR: AI scientist systems are increasingly deployed for autonomous research, yet their academic integrity has never been systematically evaluated. We introduce SCIINTEGRITY-BENCH, the first benchmark designed around a dilemmatic evaluation paradigm: each of its 33 scenarios across 11 trap categories is constructed so that honest acknowledgment of failure is the only correct response, while task completion requires misconduct. Across 231 evaluation runs spanning 7 state-of-the-art LLMs, the overall integrity problem rate reaches 34.2%, and no model achieves zero failures. Most strikingly, across missing-data scenarios, all seven models generate synthetic data rather than acknowledging infeasibility, differing only in whether they disclose the substitution. A further prompt ablation study separates two drivers: removing explicit completion pressure sharply reduces undisclosed fabrication from 20.6% to 3.2%, while the underlying synthesis rate remains unchanged, revealing an intrinsic completion bias that persists independent of prompt-level instructions. These findings point to the absence of honest refusal as a trained disposition as the primary driver of observed failures. We release SCIINTEGRITY-BENCH at https://github.com/liuxingtong/Sci-Integrity-Bench.
 - [Harnessing Large Language Models for Scientific Novelty Detection](https://arxiv.org/abs/2505.24615)
     - Yan Liu, Zonglin Yang, Soujanya Poria, Thanh-Son Nguyen, Erik Cambria
     - 🏛️ Institutions: Nanyang Technological University

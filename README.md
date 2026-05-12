@@ -22,31 +22,31 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (20 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (21 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (34 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
 - [Misc](paper_by_topic/paper_misc.md) (18 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (39 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (72 papers)
-- [Automation](paper_by_key/paper_automation.md) (81 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (94 papers)
+- [Agent](paper_by_key/paper_agent.md) (73 papers)
+- [Automation](paper_by_key/paper_automation.md) (83 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (95 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (69 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (45 papers)
-- [Framework](paper_by_key/paper_framework.md) (111 papers)
+- [Framework](paper_by_key/paper_framework.md) (113 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (38 papers)
-- [Llm](paper_by_key/paper_llm.md) (106 papers)
+- [Llm](paper_by_key/paper_llm.md) (107 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (13 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (44 papers)
-- [Survey](paper_by_key/paper_survey.md) (26 papers)
+- [Survey](paper_by_key/paper_survey.md) (27 papers)
 
 ###  By Top Authors
-- [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (4 papers)
+- [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
@@ -69,6 +69,20 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems](http://arxiv.org/abs/2605.10246v1)
+    - Zonglin Yang, Xingtong Liu, Xinyan Xu
+    - 📅 Date: May 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [automation], [framework], [benchmark]
+    - 📖 TLDR: AI scientist systems are increasingly deployed for autonomous research, yet their academic integrity has never been systematically evaluated. We introduce SCIINTEGRITY-BENCH, the first benchmark designed around a dilemmatic evaluation paradigm: each of its 33 scenarios across 11 trap categories is constructed so that honest acknowledgment of failure is the only correct response, while task completion requires misconduct. Across 231 evaluation runs spanning 7 state-of-the-art LLMs, the overall integrity problem rate reaches 34.2%, and no model achieves zero failures. Most strikingly, across missing-data scenarios, all seven models generate synthetic data rather than acknowledging infeasibility, differing only in whether they disclose the substitution. A further prompt ablation study separates two drivers: removing explicit completion pressure sharply reduces undisclosed fabrication from 20.6% to 3.2%, while the underlying synthesis rate remains unchanged, revealing an intrinsic completion bias that persists independent of prompt-level instructions. These findings point to the absence of honest refusal as a trained disposition as the primary driver of observed failures. We release SCIINTEGRITY-BENCH at https://github.com/liuxingtong/Sci-Integrity-Bench.
+- [Position: Academic Conferences are Potentially Facing Denominator Gaming Caused by Fully Automated Scientific Agents](http://arxiv.org/abs/2605.09915v1)
+    - Rong Shan, Te Gao, Hang Zheng, Yunjia Xi, Jiachen Zhu, Zeyu Zheng, et al.
+    - 📅 Date: May 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [agent], [automation], [framework], [survey]
+    - 📖 TLDR: The implicit policy of maintaining relatively stable acceptance rates at top AI conferences, despite exponentially growing submissions, introduces a critical structural vulnerability. This position paper characterizes a new systemic threat we term Agentic Denominator Gaming, in which a malicious actor deploys AI agents to generate and submit a large volume of superficially plausible but low-quality papers. Crucially, their objective is not the acceptance of low-quality papers, but rather to inflate the submission denominator and overwhelm reviewing capacity. Under a relatively stable acceptance rate, this dilution can systematically increase the publication probability of a small, targeted set of legitimate papers. We analyze the practical feasibility of this threat and its broader consequences, including intensified reviewer burnout, degraded review quality, and the emergence of industrialized automated agent mills. Finally, we propose and evaluate a range of mitigation strategies, and argue that durable protection will require system-level policy and incentive reforms, rather than relying primarily on technical detection alone.
 - [ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration](http://arxiv.org/abs/2605.03042v1)
     - Ruofeng Yang, Yongcan Li, Shuai Li
     - 📅 Date: May 04, 2026

@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (21 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (22 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
@@ -32,17 +32,17 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (74 papers)
-- [Automation](paper_by_key/paper_automation.md) (83 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (96 papers)
+- [Agent](paper_by_key/paper_agent.md) (75 papers)
+- [Automation](paper_by_key/paper_automation.md) (84 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (97 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (70 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (45 papers)
-- [Framework](paper_by_key/paper_framework.md) (114 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (39 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (71 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (46 papers)
+- [Framework](paper_by_key/paper_framework.md) (115 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (40 papers)
 - [Llm](paper_by_key/paper_llm.md) (108 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (13 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (44 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (45 papers)
 - [Survey](paper_by_key/paper_survey.md) (27 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration](http://arxiv.org/abs/2605.20025v1)
+    - Jiaqi Liu, Shi Qiu, Mairui Li, Bingzhou Li, Haonian Ji, Siwei Han, et al.
+    - 📅 Date: May 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [discovery], [experiment], [hypothesis], [reasoning], [multi-agent]
+    - 📖 TLDR: Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the next attempt, and lessons accumulate across cycles. Existing autonomous research systems often model this process as a linear pipeline: they rely on single-agent reasoning, stop when execution fails, and do not carry experience across runs. We present AutoResearchClaw, a multi-agent autonomous research pipeline built on five mechanisms: structured multi-agent debate for hypothesis generation and result analysis, a self-healing executor with a \textsc{Pivot}/\textsc{Refine} decision loop that transforms failures into information, verifiable result reporting that prevents fabricated numbers and hallucinated citations, human-in-the-loop collaboration with seven intervention modes spanning full autonomy to step-by-step oversight, and cross-run evolution that converts past mistakes into future safeguards. On ARC-Bench, a 25-topic experiment-stage benchmark, AutoResearchClaw outperforms AI Scientist v2 by 54.7%. A human-in-the-loop ablation across seven intervention modes reveals that precise, targeted collaboration at high-leverage decision points consistently outperforms both full autonomy and exhaustive step-by-step oversight. We position AutoResearchClaw as a research amplifier that augments rather than replaces human scientific judgment. Code is available at https://github.com/aiming-lab/AutoResearchClaw.
 - [Evidence-Grounded Frontier Mapping and Agentic Hypothesis Generation in Nanomedicine](http://arxiv.org/abs/2605.18144v1)
     - Christiaan G. A. Viviers, Koen de Bruin, Mirre M. Trines, Ayla M. Hokke, Roy van der Meel, Avi Schroeder, et al.
     - 📅 Date: May 18, 2026

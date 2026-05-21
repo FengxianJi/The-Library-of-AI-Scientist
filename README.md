@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (22 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (23 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (4 papers)
@@ -38,17 +38,19 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Dataset](paper_by_key/paper_dataset.md) (36 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (71 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (46 papers)
-- [Framework](paper_by_key/paper_framework.md) (115 papers)
+- [Framework](paper_by_key/paper_framework.md) (116 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (40 papers)
 - [Llm](paper_by_key/paper_llm.md) (108 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (45 papers)
-- [Survey](paper_by_key/paper_survey.md) (27 papers)
+- [Survey](paper_by_key/paper_survey.md) (28 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
+- [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
+- [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
 - [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
 - [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)
@@ -64,11 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Nuoxing Shang](paper_by_author/paper_nuoxing_shang.md) (2 papers)
 - [Zijia Liu](paper_by_author/paper_zijia_liu.md) (2 papers)
 - [Peixuan Han](paper_by_author/paper_peixuan_han.md) (2 papers)
-- [Yifei Li](paper_by_author/paper_yifei_li.md) (2 papers)
-- [Yuqiang Li](paper_by_author/paper_yuqiang_li.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [AiraXiv: An AI-Driven Open-Access Platform for Human and AI Scientists](http://arxiv.org/abs/2605.21481v1)
+    - Junshu Pan, Panzhong Lu, Yixuan Weng, Qiyao Sun, Fang Guo, Zijie Yang, et al.
+    - 📅 Date: May 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [framework], [survey]
+    - 📖 TLDR: Recent advances in artificial intelligence (AI) have accelerated the growth of both human-authored and AI-generated research outputs, placing increasing strain on traditional academic publishing systems and challenging the scalability of conference- and journal-centered paradigms amid rising submission volumes, reviewer workload, and venue size. To address these challenges, we explore an AI-era publishing paradigm in which both human and AI scientists participate as authors and readers, and papers evolve through continuous, feedback-driven iteration. We propose AiraXiv, an AI-driven open-access platform built on open preprints, AI-augmented analysis and review, and reader feedback. AiraXiv supports human scientists through an interactive UI and AI scientists through Model Context Protocol (MCP)-based interactions. We validate AiraXiv through real-world deployments, including serving as the submission platform for ICAIS 2025, demonstrating its potential as a fast, inclusive, and scalable research infrastructure for the AI era. AiraXiv is publicly available at https://airaxiv.com.
 - [AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration](http://arxiv.org/abs/2605.20025v1)
     - Jiaqi Liu, Shi Qiu, Mairui Li, Bingzhou Li, Haonian Ji, Siwei Han, et al.
     - 📅 Date: May 19, 2026

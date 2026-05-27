@@ -1,7 +1,21 @@
 # Misc Papers
 
-Total: 19 papers
+Total: 21 papers
 
+- [E3: Issue-Level Backtesting for Automated Research Critique](http://arxiv.org/abs/2605.27072v1)
+    - Yashwardhan Chaudhuri, Sanyam Jain, Paridhi Mundra
+    - 📅 Date: May 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [automation], [benchmark], [dataset], [survey]
+    - 📖 TLDR: We present E3, an automated review assistant that augments reviewers and engineering teams by identifying decision-relevant technical concerns in research papers. For each concern, E3 reports its nature, its location, its bearing on the contribution, and the analysis or evidence that would resolve it, covering unsupported claims, missing ablations, weak baselines, hidden assumptions, threats to validity, and leakage risks. To evaluate E3 without contamination confounds we adopt an issue-level backtesting protocol: the corpus is restricted to papers postdating the training cutoff of every automated source, and for each paper a meta-judge that observes only anonymised reviews labels every issue-source pair as Caught, Partial, or Missed. Applied to 100 ICLR 2026 papers and 4598 judged issue rows, comparing E3 against the ICLR human reviews and two prompt-matched LLM baselines built on gpt-5.4 from OpenAI and claude-opus-4-6 from Anthropic, with meta-judge gpt-5.5, E3 attains the highest recall on every aggregate metric. Partial-inclusive recall reaches 90.2 percent, which is 15.5 points over GPT, 17.1 points over Claude, and 29.2 points over the human reviews, and strict recall preserves the ordering at 65.8 percent. On concerns raised by the human reviewers, E3 recovers 89.6 percent; on concerns the human reviewers missed it surfaces 1635 additional rows admitted into the judged union, 406 above the next-best source. Corpus, baseline prompts, judge prompt template, and evaluation code are released.
+- [Experiments in Agentic AI for Science](http://arxiv.org/abs/2605.26305v1)
+    - Judy Fox, Geoffrey Fox
+    - 📅 Date: May 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [dataset], [experiment], [reasoning]
+    - 📖 TLDR: This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab, utilizing Python-based local orchestrators to invoke large language model (LLM) cloud backends. The first agent, DeepTS/DeepCollector, automates the large-scale curation, extraction, and deduplication of time-series datasets. The second, DeepScribe, is an autonomous presentation analyzer that converts visually dense, mathematically complex physics lectures into structured scientific reports. Through practical systems engineering-such as granular attribute extraction (Cellular RAG), remote data inspection, and distributed concurrency controls-we demonstrate how agentic AI can overcome the context and reasoning limitations of current state-of-the-art systems to rigorously support scientific workflows. Finally, we outline a generalization of DeepTS to support deep knowledge graphs and discuss the application of this conceptual approach to high-energy physics (DeepQCD).
 - [Sibyl-AutoResearch: Autonomous Research Needs Self-Evolving Trial-and-Error Harnesses, Not Paper Generators](http://arxiv.org/abs/2605.22343v1)
     - Chengcheng Wang, Qinhua Xie, Wei He, Jianyuan Guo, Shiqi Wang, Chang Xu
     - 📅 Date: May 21, 2026

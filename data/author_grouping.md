@@ -1,6 +1,6 @@
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
+- [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
-- [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (3 papers)
 - [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)

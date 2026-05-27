@@ -1,7 +1,14 @@
 # Reasoning Papers
 
-Total: 45 papers
+Total: 46 papers
 
+- [Experiments in Agentic AI for Science](http://arxiv.org/abs/2605.26305v1)
+    - Judy Fox, Geoffrey Fox
+    - 📅 Date: May 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [dataset], [experiment], [reasoning]
+    - 📖 TLDR: This paper details two novel frameworks for developing autonomous, agentic AI in scientific workflows. Both systems leverage a hybrid Local Body, Remote Brain architecture via Google Colab, utilizing Python-based local orchestrators to invoke large language model (LLM) cloud backends. The first agent, DeepTS/DeepCollector, automates the large-scale curation, extraction, and deduplication of time-series datasets. The second, DeepScribe, is an autonomous presentation analyzer that converts visually dense, mathematically complex physics lectures into structured scientific reports. Through practical systems engineering-such as granular attribute extraction (Cellular RAG), remote data inspection, and distributed concurrency controls-we demonstrate how agentic AI can overcome the context and reasoning limitations of current state-of-the-art systems to rigorously support scientific workflows. Finally, we outline a generalization of DeepTS to support deep knowledge graphs and discuss the application of this conceptual approach to high-energy physics (DeepQCD).
 - [AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration](http://arxiv.org/abs/2605.20025v1)
     - Jiaqi Liu, Shi Qiu, Mairui Li, Bingzhou Li, Haonian Ji, Siwei Han, et al.
     - 📅 Date: May 19, 2026

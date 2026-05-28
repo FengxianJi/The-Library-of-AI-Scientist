@@ -1,7 +1,14 @@
 # Machine Learning Papers
 
-Total: 11 papers
+Total: 12 papers
 
+- [QSignAI: Quantum-Randomness-Seeded Identity Signatures at the Intersection of AI for Science and Science for AI](http://arxiv.org/abs/2605.27729v1)
+    - Dongping Liu, Aoyu Zhang, Luyao Zhang
+    - 📅 Date: May 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: The 2024--2025 Nobel and Turing awards recognised artificial intelligence and quantum science in the same breath -- machine learning as a physical science, artificial intelligence solving 50-year scientific problems, superconducting quantum circuits as the hardware foundation of quantum computing, and quantum information principles as computing's highest achievement. Yet no deployed artificial intelligence system has brought these two streams together for the general public: identity systems still rely on pseudo-random tokens, and quantum circuits remain invisible to the billions of people who use bot-enabled social messaging platforms daily. This paper presents QSignAI, a production-deployed open-source platform demonstrating a bidirectional relationship between artificial intelligence and quantum science in a real-time event participation system. We address three research questions: first, can quantum-randomness generation via real quantum circuits be embedded in an artificial-intelligence-driven social platform with acceptable latency and cost; second, can an artificial intelligence bot make quantum phenomena perceptually legible to general audiences with no prior technical knowledge; and third, does a system combining both directions work in practice. A conversational artificial intelligence bot routes each participant's first message through a two-circuit quantum pipeline on a cloud quantum simulator, producing a unique quantum-randomness-seeded identity signature per participant. The first two questions are answered through system design and qualitative deployment evidence; measurable comparisons are identified as priority future work.
 - [Spatial Atlas: Compute-Grounded Reasoning for Spatial-Aware Research Agent Benchmarks](http://arxiv.org/abs/2604.12102v1)
     - Arun Sharma
     - 📅 Date: April 13, 2026

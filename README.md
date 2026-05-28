@@ -26,7 +26,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (11 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
 - [Misc](paper_by_topic/paper_misc.md) (21 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
@@ -38,7 +38,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Dataset](paper_by_key/paper_dataset.md) (38 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (72 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (47 papers)
-- [Framework](paper_by_key/paper_framework.md) (119 papers)
+- [Framework](paper_by_key/paper_framework.md) (120 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (40 papers)
 - [Llm](paper_by_key/paper_llm.md) (111 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
@@ -76,6 +76,13 @@ This repository tracks the latest research in this rapidly evolving field.
     - 💻 Topic: [Misc]
     - 🔑 Key: [llm], [automation], [benchmark], [dataset], [survey]
     - 📖 TLDR: We present E3, an automated review assistant that augments reviewers and engineering teams by identifying decision-relevant technical concerns in research papers. For each concern, E3 reports its nature, its location, its bearing on the contribution, and the analysis or evidence that would resolve it, covering unsupported claims, missing ablations, weak baselines, hidden assumptions, threats to validity, and leakage risks. To evaluate E3 without contamination confounds we adopt an issue-level backtesting protocol: the corpus is restricted to papers postdating the training cutoff of every automated source, and for each paper a meta-judge that observes only anonymised reviews labels every issue-source pair as Caught, Partial, or Missed. Applied to 100 ICLR 2026 papers and 4598 judged issue rows, comparing E3 against the ICLR human reviews and two prompt-matched LLM baselines built on gpt-5.4 from OpenAI and claude-opus-4-6 from Anthropic, with meta-judge gpt-5.5, E3 attains the highest recall on every aggregate metric. Partial-inclusive recall reaches 90.2 percent, which is 15.5 points over GPT, 17.1 points over Claude, and 29.2 points over the human reviews, and strict recall preserves the ordering at 65.8 percent. On concerns raised by the human reviewers, E3 recovers 89.6 percent; on concerns the human reviewers missed it surfaces 1635 additional rows admitted into the judged union, 406 above the next-best source. Corpus, baseline prompts, judge prompt template, and evaluation code are released.
+- [QSignAI: Quantum-Randomness-Seeded Identity Signatures at the Intersection of AI for Science and Science for AI](http://arxiv.org/abs/2605.27729v1)
+    - Dongping Liu, Aoyu Zhang, Luyao Zhang
+    - 📅 Date: May 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [framework]
+    - 📖 TLDR: The 2024--2025 Nobel and Turing awards recognised artificial intelligence and quantum science in the same breath -- machine learning as a physical science, artificial intelligence solving 50-year scientific problems, superconducting quantum circuits as the hardware foundation of quantum computing, and quantum information principles as computing's highest achievement. Yet no deployed artificial intelligence system has brought these two streams together for the general public: identity systems still rely on pseudo-random tokens, and quantum circuits remain invisible to the billions of people who use bot-enabled social messaging platforms daily. This paper presents QSignAI, a production-deployed open-source platform demonstrating a bidirectional relationship between artificial intelligence and quantum science in a real-time event participation system. We address three research questions: first, can quantum-randomness generation via real quantum circuits be embedded in an artificial-intelligence-driven social platform with acceptable latency and cost; second, can an artificial intelligence bot make quantum phenomena perceptually legible to general audiences with no prior technical knowledge; and third, does a system combining both directions work in practice. A conversational artificial intelligence bot routes each participant's first message through a two-circuit quantum pipeline on a cloud quantum simulator, producing a unique quantum-randomness-seeded identity signature per participant. The first two questions are answered through system design and qualitative deployment evidence; measurable comparisons are identified as priority future work.
 - [ScientistOne: Towards Human-Level Autonomous Research via Chain-of-Evidence](http://arxiv.org/abs/2605.26340v1)
     - Rui Meng, Bhavana Dalvi Mishra, Jiefeng Chen, Chun-Liang Li, Palash Goyal, Mihir Parmar, et al.
     - 📅 Date: May 25, 2026

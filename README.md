@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (23 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (24 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
@@ -32,18 +32,18 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (78 papers)
-- [Automation](paper_by_key/paper_automation.md) (88 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (100 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (38 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (72 papers)
+- [Agent](paper_by_key/paper_agent.md) (79 papers)
+- [Automation](paper_by_key/paper_automation.md) (89 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (101 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (39 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (73 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (47 papers)
-- [Framework](paper_by_key/paper_framework.md) (120 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (40 papers)
-- [Llm](paper_by_key/paper_llm.md) (111 papers)
+- [Framework](paper_by_key/paper_framework.md) (121 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (41 papers)
+- [Llm](paper_by_key/paper_llm.md) (112 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (46 papers)
-- [Survey](paper_by_key/paper_survey.md) (30 papers)
+- [Survey](paper_by_key/paper_survey.md) (31 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?](http://arxiv.org/abs/2605.30329v1)
+    - Sy-Tuyen Ho, Minghui Liu, Huy Nghiem, Furong Huang
+    - 📅 Date: May 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [dataset], [discovery], [hypothesis], [survey]
+    - 📖 TLDR: Autonomous AI research agents aim to accelerate scientific discovery by automating the research pipeline, from hypothesis generation to peer review. However, existing benchmarks rarely test a fundamental bottleneck: whether Large Language Models can judge the methodological viability of a research idea before expending time and computational resources. We introduce SoundnessBench, a curated benchmark of 1,099 machine-learning research proposals reconstructed from ICLR submissions, labeled with reviewer soundness sub-scores, and audited against source papers. SoundnessBench should be interpreted as a benchmark for recoverable proposal-stage soundness rather than exact prediction of full-paper review outcomes. Across 12 frontier LLMs, we find a pervasive optimism bias: under standard prompting, models frequently rate low-soundness proposals as sound, while aggressive prompting largely shifts errors from false positives to false negatives. Additional controls for public-corpus contamination, paper-identifying phrases, surface features, and human audit quality suggest that this behavior is not explained by a single confounder. Our results indicate that current LLMs are not yet reliable as standalone first-gate evaluators for scientific rigor.
 - [E3: Issue-Level Backtesting for Automated Research Critique](http://arxiv.org/abs/2605.27072v1)
     - Yashwardhan Chaudhuri, Sanyam Jain, Paridhi Mundra
     - 📅 Date: May 26, 2026

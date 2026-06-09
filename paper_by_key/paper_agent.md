@@ -1,7 +1,14 @@
 # Agent Papers
 
-Total: 79 papers
+Total: 80 papers
 
+- [AI Scientists Are Only as Good as Their Evidence: A Stratified Ablation of Proprietary Data and Reasoning Skills in Drug-Asset Valuation](http://arxiv.org/abs/2606.09556v1)
+    - Yinan Wang
+    - 📅 Date: June 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark], [dataset], [hypothesis], [reasoning]
+    - 📖 TLDR: AI Scientist agents are often evaluated as if capability were mainly a function of model quality, prompting, or reasoning scaffolds. We test a different hypothesis in drug-asset valuation: for knowledge-intensive scientific decisions, the limiting factor is often the evidence substrate the agent can access. We run a controlled three-arm ablation on a production valuation agent: A is a plain web-only LLM analyst, B adds public structured tools plus a 14-dimension valuation playbook, verifier, objectivity policy and red-team, and C adds the proprietary Noah AI corpus of curated pipeline, trial and deal intelligence. Across a 13-asset stratified benchmark, B improves calibration and audit discipline: tier-in-range accuracy rises from 0.80 to 0.89 and objectivity from 3.16 to 3.30. But B does not remove the factual ceiling. Under capability-superset accounting, A and B recover only 0.25 and 0.38 of the curated gold competitive record, while C recovers 0.96; on the curated long-tail subset, C reaches 0.93 vs. 0.26/0.30. Raw blind-panel decision quality is similar for A and B (7.01 vs. 6.96), so we introduce completeness-aware decision utility: informed decision-quality = decision-quality x gold-coverage. On this metric, C reaches 7.43 vs. 1.76/2.57 for A/B. Even a perfect non-proprietary-data report would be capped at 3.83 by B's coverage. The result is not that reasoning scaffolds are unimportant; they improve calibration and discipline. Rather, proprietary evidence sets the upper bound of what the AI Scientist can know and therefore decide.
 - [SoundnessBench: Can Your AI Scientist Really Tell Good Research Ideas from Bad Ones?](http://arxiv.org/abs/2605.30329v1)
     - Sy-Tuyen Ho, Minghui Liu, Huy Nghiem, Furong Huang
     - 📅 Date: May 28, 2026

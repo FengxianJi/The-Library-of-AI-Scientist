@@ -27,20 +27,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
-- [Misc](paper_by_topic/paper_misc.md) (22 papers)
+- [Misc](paper_by_topic/paper_misc.md) (23 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (81 papers)
-- [Automation](paper_by_key/paper_automation.md) (90 papers)
+- [Agent](paper_by_key/paper_agent.md) (82 papers)
+- [Automation](paper_by_key/paper_automation.md) (91 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (102 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (40 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (73 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (47 papers)
-- [Framework](paper_by_key/paper_framework.md) (123 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (42 papers)
-- [Llm](paper_by_key/paper_llm.md) (114 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (48 papers)
+- [Framework](paper_by_key/paper_framework.md) (124 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (43 papers)
+- [Llm](paper_by_key/paper_llm.md) (115 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (47 papers)
 - [Survey](paper_by_key/paper_survey.md) (31 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1)
+    - Jiajie Jin, Yuyang Hu, Kai Qiu, Qi Dai, Chong Luo, Guanting Dong, et al.
+    - 📅 Date: June 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [experiment], [hypothesis]
+    - 📖 TLDR: Scientific progress depends on a repeated loop of exploration, experimentation, and abstraction. Researchers test candidate directions, interpret the evidence, and carry the resulting lessons into later attempts. We study how an AI agent can run this loop autonomously over long horizons. We introduce Arbor, a general framework for autonomous research that combines a long-lived coordinator, short-lived executors, and Hypothesis Tree Refinement (HTR), a persistent tree that links hypotheses, artifacts, evidence, and distilled insights across time. The coordinator manages global research strategy over the tree, while executors implement and test individual hypotheses in isolated worktrees. As results return, Arbor updates the tree, propagates reusable lessons, refines the search frontier, and admits verified improvements. This design turns autonomous research from a sequence of local attempts into a cumulative process in which strategy, execution, and evidence are carried across time. We evaluate Arbor under Autonomous Optimization (AO), an operational setting where an agent improves an initial research artifact through iterative experimentation without step-level human supervision. Across six real research tasks in model training, harness engineering, and data synthesis, Arbor achieves the best held-out result on all six tasks, attaining more than 2.5x the average relative held-out gain of Codex and Claude Code under the same task interface and resource budget. On MLE-Bench Lite, Arbor reaches 86.36% Any Medal with GPT-5.5, the strongest result in our comparison.
 - [Moonshine: An Autonomous Mathematical Research Agent Centered on Conjecture Generation](http://arxiv.org/abs/2606.10806v1)
     - Xiaoyang Chen, Xiang Jiang
     - 📅 Date: June 09, 2026

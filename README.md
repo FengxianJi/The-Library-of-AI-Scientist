@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (25 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (26 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
@@ -33,16 +33,16 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (82 papers)
-- [Automation](paper_by_key/paper_automation.md) (91 papers)
+- [Automation](paper_by_key/paper_automation.md) (92 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (102 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (40 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (73 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (48 papers)
-- [Framework](paper_by_key/paper_framework.md) (124 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (49 papers)
+- [Framework](paper_by_key/paper_framework.md) (125 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (43 papers)
 - [Llm](paper_by_key/paper_llm.md) (115 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (47 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (48 papers)
 - [Survey](paper_by_key/paper_survey.md) (31 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](http://arxiv.org/abs/2606.18874v1)
+    - Zijian Wang, Hanqi Li, Ziyue Yang, Zijian Hu, Shenghan Zuo, Yunzhe Zhang, et al.
+    - 📅 Date: June 17, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [automation], [framework], [experiment], [reasoning]
+    - 📖 TLDR: AI systems can increasingly automate scientific workflows, but the reasoning that links prior evidence, generated ideas, experiments and final claims often remains implicit inside model inference. Here we introduce Xcientist, a research harness that externalizes research synthesis and experimental validation into inspectable, contract-governed processes. Xcientist organizes literature evidence, idea states, implementation plans, ablation records and repair traces as persistent research artifacts, so that generated mechanisms can be grounded, executed, tested and revised without losing their evidential basis. We identify claim drift as a failure mode of automated research, where runnable artifacts no longer support the mechanism originally claimed. Across training-free memory systems, graph-structured traffic forecasting and multi-scale physics-informed neural networks, Xcientist preserves traceable trajectories from problem formulation to mechanism design, validation and bounded revision. These results suggest that AI scientists should be evaluated not only by their final artifacts, but by whether their synthesis and validation processes remain attributable, inspectable and scientifically accountable.
 - [Toward Generalist Autonomous Research via Hypothesis-Tree Refinement](http://arxiv.org/abs/2606.11926v1)
     - Jiajie Jin, Yuyang Hu, Kai Qiu, Qi Dai, Chong Luo, Guanting Dong, et al.
     - 📅 Date: June 10, 2026

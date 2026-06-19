@@ -4,7 +4,6 @@ A curated collection of research papers on AI scientists, automated scientific d
 
 ##  Statistics
 
-
 ![Keyword Word Cloud](data/statistics/keyword_wordcloud.png)
 
 **Total Papers:** See counts below organized by different categories.
@@ -28,20 +27,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
-- [Misc](paper_by_topic/paper_misc.md) (23 papers)
+- [Misc](paper_by_topic/paper_misc.md) (24 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (82 papers)
-- [Automation](paper_by_key/paper_automation.md) (92 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (102 papers)
+- [Agent](paper_by_key/paper_agent.md) (83 papers)
+- [Automation](paper_by_key/paper_automation.md) (93 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (103 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (40 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (73 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (49 papers)
-- [Framework](paper_by_key/paper_framework.md) (125 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (50 papers)
+- [Framework](paper_by_key/paper_framework.md) (126 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (43 papers)
-- [Llm](paper_by_key/paper_llm.md) (115 papers)
+- [Llm](paper_by_key/paper_llm.md) (116 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (48 papers)
 - [Survey](paper_by_key/paper_survey.md) (31 papers)
@@ -70,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems](http://arxiv.org/abs/2606.20394v1)
+    - Amit Jain, Richard Linares
+    - 📅 Date: June 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: Spacecraft guidance, navigation, and control functions are increasingly realized as learned policies distilled from expert solvers. Developing such a policy is itself a research process: an investigator selects an architecture and hyperparameters, runs experiments, and must determine whether an apparent improvement is genuine or merely seed noise. This paper presents AutoResearch, a framework in which a large language model autonomously drives that loop for aerospace control problems, coupled with a credibility layer, built into the loop, that certifies each reported result against the problem's own measured seed noise. The language model serves only as the offline research agent that develops the control policy; the trained policy it produces is then deployed onboard the spacecraft, while the model itself never operates the vehicle. At each iteration the agent reads a plain-language problem description and the run history, proposes a single edit to the training script, executes it, and logs the outcome. No reported result is credited until it passes the same three checks: measured per-problem seed noise, reseeded verification of the best configuration, and leave-one-out pruning of the agent's edits. The same loop is applied, unchanged, to two aerospace control problems: a Clohessy-Wiltshire relative rendezvous and a safety-constrained collision-avoidance docking past a keep-out zone, each calibrated against a known optimal control benchmark. In both, the audited policy clears the measured seed noise by many standard deviations; an undirected search over the same parameters does not. On the docking problem the gap becomes categorical: undirected search yields no feasible policy, while the learned policy stays outside the keep-out zone on every seed.
 - [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](http://arxiv.org/abs/2606.18874v1)
     - Zijian Wang, Hanqi Li, Ziyue Yang, Zijian Hu, Shenghan Zuo, Yunzhe Zhang, et al.
     - 📅 Date: June 17, 2026

@@ -22,28 +22,28 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (26 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (28 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
 - [Misc](paper_by_topic/paper_misc.md) (24 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (11 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (83 papers)
-- [Automation](paper_by_key/paper_automation.md) (93 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (103 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (40 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (73 papers)
+- [Agent](paper_by_key/paper_agent.md) (86 papers)
+- [Automation](paper_by_key/paper_automation.md) (95 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (105 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (41 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (75 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (50 papers)
-- [Framework](paper_by_key/paper_framework.md) (126 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (43 papers)
-- [Llm](paper_by_key/paper_llm.md) (116 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (14 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (48 papers)
-- [Survey](paper_by_key/paper_survey.md) (31 papers)
+- [Framework](paper_by_key/paper_framework.md) (129 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (45 papers)
+- [Llm](paper_by_key/paper_llm.md) (117 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (16 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (50 papers)
+- [Survey](paper_by_key/paper_survey.md) (32 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -69,6 +69,27 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts](http://arxiv.org/abs/2606.23175v1)
+    - Steven Young Eulig
+    - 📅 Date: June 22, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: AI scientist systems are described as tools, coauthors, or founders, but we evaluate them as if only the final answer matters. This position paper argues that outcome-only evaluation is insufficient, and that task outcome, mechanism fidelity, and epistemic honesty must be measured separately. Our evidence comes from 28 episodes of a coding agent attempting to rediscover a known particle identification observable in a Geant4 simulation, including an 8-episode probe across two additional frontier models. In 4/20 primary-model and 3/8 cross-model episodes, agents reach right-looking results through incorrect reasoning that breaks when conditions change, which we call Correct Answer, Wrong Mechanism (CAWM). Honesty and mechanism fidelity dissociate within a single agent trajectory. When given a partially misleading prior, all five agents reject the false component on evidence, yet one defends its chosen observable with physics inconsistent with its own data. In the simulation-based discovery setting studied here, coding agents prove reliable tools but unreliable scientific co-authors for open-ended claim-making, where co-author trust requires mechanism-fidelity verification they do not reliably self-apply. The failure is detectable, and we propose a lightweight test. A one-step regime-shift check needs only the agent's claim and flags the over-generalized cases. A companion recomputation flags the remaining cases when the correct observable is known. Together, these checks flag every CAWM case in this study.
+- [AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions](http://arxiv.org/abs/2606.22859v1)
+    - Raul Jimenez, Boris Bolliet, Francisco Villaescusa-Navarro, Rabih Zbib, Benjamin Wandelt, David N. Spergel, et al.
+    - 📅 Date: June 22, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [discovery], [hypothesis], [survey], [multi-agent]
+    - 📖 TLDR: Agentic artificial intelligence (AI) systems are beginning to assist, accelerate, and partially automate scientific discovery, performing tasks that span literature synthesis, code generation, data analysis, hypothesis proposal, and model criticism. We argue that this transition is qualitative rather than incremental, and that suitably designed multi-agent systems may evolve from passive computational tools into ``AI scientists'' that can expand the hypothesis-generating and verification capacity of science. Such systems must be developed and deployed within a scientific ecosystem fit for purpose: institutions must be redesigned for verification, accountability, interpretability, and dual-use safety. We sketch how multi-agent architectures, illustrated by the prototype framework \textit{Denario}, accelerate the discovery cycle and traverse model spaces beyond human reach; examine what this implies for authorship, peer review, and the enduring role of human scientists; and close with recommendations for governing AI as an epistemic actor rather than a mere instrument.
+- [PaperClaw: Harnessing Agents for Autonomous Research and Human-in-the-Loop Refinement](http://arxiv.org/abs/2606.22610v1)
+    - Weiwei Ye, Hangchen Liu, Dongyuan Li, Renhe Jiang
+    - 📅 Date: June 21, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [dataset], [hypothesis], [reasoning], [multi-agent]
+    - 📖 TLDR: Large language models have become capable reasoners and tool users that write and run code and search the literature, which makes automating the research process itself a realistic goal. We present PAPERCLAW, a harnessed multi-agent system that carries a project autonomously, from a field of study to a finished paper. PAPERCLAW curates a domain from a field's live literature, datasets, and code; brainstorms it into an idea with a pre-registered main-result contract; and drives a stoppable hypothesis map through an iterative propose, test, reflect loop that grows only from measured verdicts and halts once the evidence supports the idea, at which point it writes a venue-compliant paper. A full-lifecycle memory keeps each stage in a single living record, so a long run can be paused, inspected, and resumed without losing context. At the centre is an in-cycle research assistant with research tools and skills: it can drive the whole pipeline on its own, while the same interface lets a person step in at any stage, turning a first autonomous draft into a stronger paper through human-in-the-loop refinement. Throughout, PAPERCLAW keeps its output grounded and checkable, citing only references validated against open scholarly indexes and reporting results that genuinely ran. An evaluation with an LLM judge finds that PAPERCLAW produces strong papers both fully autonomously and with human-in-the-loop refinement.
 - [Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems](http://arxiv.org/abs/2606.20394v1)
     - Amit Jain, Richard Linares
     - 📅 Date: June 18, 2026

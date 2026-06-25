@@ -2,7 +2,7 @@
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
 - [Misc](paper_by_topic/paper_misc.md) (24 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)

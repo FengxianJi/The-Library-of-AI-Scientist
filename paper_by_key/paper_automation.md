@@ -1,7 +1,14 @@
 # Automation Papers
 
-Total: 95 papers
+Total: 96 papers
 
+- [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1)
+    - Antonis Antoniades, Deepak Nathani, Ritam Saha, Alfonso Amayuelas, Ivan Bercovich, Zhaotian Weng, et al.
+    - 📅 Date: June 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [llm], [agent], [automation], [framework]
+    - 📖 TLDR: Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code, to mastering the exploration of simultaneously performant, diverse and novel ideas. To this end, we introduce Heuresis, a framework that abstracts the research pipeline into a set of general and composable primitives, enabling open-ended scientific exploration in machine learning research. We implement six search strategies: a greedy baseline, two archive-based (MAP-Elites, Go-Explore), one evolutionary (Islands), and two divergent (Curiosity, Omni), and evaluate them across three axes (Quality, Diversity, and Novelty) on three domains (LLM Pretraining, On-Policy RL, and Model Unlearning), totalling 3,222 scored runs. We find that completely novel ideas are rare. No idea across our scored runs is rated as "Original", and only a few achieve only "Minor Similarity" to prior work. Moreover, novel ideas never approach the highest-performing known-recipe scores. Across all six strategies and three domains, only one such idea lands in the top-10 by quality. We also observed agents resorting to a variety of reward-hacking techniques during execution (40 confirmed fabrications across 1,628 scored runs), and detecting them was necessary to keep the search faithful to the task. Our results show that while current search and Quality-Diversity strategies enable us to steer where the generated ideas land on the quality, diversity, and novelty axes, they do not expand the quality-novelty frontier. Bridging this gap is the open challenge towards the ultimate goal of perpetual, autonomous scientific progress. Code is available at github.com/a-antoniades/Heuresis.
 - [AI Scientists as Engines of Discovery: A Case for Development within Reformed Institutions](http://arxiv.org/abs/2606.22859v1)
     - Raul Jimenez, Boris Bolliet, Francisco Villaescusa-Navarro, Rabih Zbib, Benjamin Wandelt, David N. Spergel, et al.
     - 📅 Date: June 22, 2026

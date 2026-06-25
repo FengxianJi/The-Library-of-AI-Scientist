@@ -1,6 +1,7 @@
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Deepak Nathani](paper_by_author/paper_deepak_nathani.md) (2 papers)
 - [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
@@ -17,4 +18,3 @@
 - [Ziheng Qi](paper_by_author/paper_ziheng_qi.md) (2 papers)
 - [Nuoxing Shang](paper_by_author/paper_nuoxing_shang.md) (2 papers)
 - [Zijia Liu](paper_by_author/paper_zijia_liu.md) (2 papers)
-- [Peixuan Han](paper_by_author/paper_peixuan_han.md) (2 papers)

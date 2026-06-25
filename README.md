@@ -26,21 +26,21 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (12 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
 - [Misc](paper_by_topic/paper_misc.md) (24 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (86 papers)
-- [Automation](paper_by_key/paper_automation.md) (95 papers)
+- [Agent](paper_by_key/paper_agent.md) (87 papers)
+- [Automation](paper_by_key/paper_automation.md) (96 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (105 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (41 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (75 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (50 papers)
-- [Framework](paper_by_key/paper_framework.md) (129 papers)
+- [Framework](paper_by_key/paper_framework.md) (130 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (45 papers)
-- [Llm](paper_by_key/paper_llm.md) (117 papers)
+- [Llm](paper_by_key/paper_llm.md) (118 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (16 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (50 papers)
 - [Survey](paper_by_key/paper_survey.md) (32 papers)
@@ -49,6 +49,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Deepak Nathani](paper_by_author/paper_deepak_nathani.md) (2 papers)
 - [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
@@ -65,10 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Ziheng Qi](paper_by_author/paper_ziheng_qi.md) (2 papers)
 - [Nuoxing Shang](paper_by_author/paper_nuoxing_shang.md) (2 papers)
 - [Zijia Liu](paper_by_author/paper_zijia_liu.md) (2 papers)
-- [Peixuan Han](paper_by_author/paper_peixuan_han.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1)
+    - Antonis Antoniades, Deepak Nathani, Ritam Saha, Alfonso Amayuelas, Ivan Bercovich, Zhaotian Weng, et al.
+    - 📅 Date: June 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [llm], [agent], [automation], [framework]
+    - 📖 TLDR: Autonomous AI Research promises to accelerate the scientific progress of machine learning. To realise this goal, current Large Language Model (LLM)-based agents need to go beyond just writing code, to mastering the exploration of simultaneously performant, diverse and novel ideas. To this end, we introduce Heuresis, a framework that abstracts the research pipeline into a set of general and composable primitives, enabling open-ended scientific exploration in machine learning research. We implement six search strategies: a greedy baseline, two archive-based (MAP-Elites, Go-Explore), one evolutionary (Islands), and two divergent (Curiosity, Omni), and evaluate them across three axes (Quality, Diversity, and Novelty) on three domains (LLM Pretraining, On-Policy RL, and Model Unlearning), totalling 3,222 scored runs. We find that completely novel ideas are rare. No idea across our scored runs is rated as "Original", and only a few achieve only "Minor Similarity" to prior work. Moreover, novel ideas never approach the highest-performing known-recipe scores. Across all six strategies and three domains, only one such idea lands in the top-10 by quality. We also observed agents resorting to a variety of reward-hacking techniques during execution (40 confirmed fabrications across 1,628 scored runs), and detecting them was necessary to keep the search faithful to the task. Our results show that while current search and Quality-Diversity strategies enable us to steer where the generated ideas land on the quality, diversity, and novelty axes, they do not expand the quality-novelty frontier. Bridging this gap is the open challenge towards the ultimate goal of perpetual, autonomous scientific progress. Code is available at github.com/a-antoniades/Heuresis.
 - [Position: Correct Answer, Wrong Mechanism -- When AI Scientists Defend General Claims Their Own Data Contradicts](http://arxiv.org/abs/2606.23175v1)
     - Steven Young Eulig
     - 📅 Date: June 22, 2026

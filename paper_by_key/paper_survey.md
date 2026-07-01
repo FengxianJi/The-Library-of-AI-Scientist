@@ -1,7 +1,14 @@
 # Survey Papers
 
-Total: 33 papers
+Total: 34 papers
 
+- [FARS: A Fully Automated Research System Deployed at Scale](http://arxiv.org/abs/2606.31651v1)
+    - Qiong Tang, Xiangkun Hu, Xiangyang Liu, Yiran Chen, Yunfan Shao
+    - 📅 Date: June 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [dataset], [experiment], [hypothesis], [survey]
+    - 📖 TLDR: Recent automated research systems show that language-model agents can generate hypotheses, run experiments, and write complete manuscripts, but most evidence still comes from selected examples, human-framed topics, or a few pre-defined research tasks. We present FARS (Fully Automated Research System), a fully automated AI-for-AI research system designed to operate across research topics at scale. FARS autonomously generates and advances projects through ideation, planning, experimentation, and writing, using stage-specific agents coordinated through a shared workspace that records proposals, code, logs, results, and manuscripts. In its first public deployment, FARS produced 166 complete research papers spanning 67 fine-grained AI/ML topics while preserving intermediate artifacts as an auditable corpus rather than a curated set of successes. We evaluate this corpus with 282 structured reviews from volunteer reviewers covering 140 papers, including overall ratings, sub-scores, integrity checks, and LLM-use disclosure. The reviews indicate that FARS can produce review-worthy and occasionally strong AI/ML research artifacts in a large-scale public deployment, while also exposing recurring failure modes in narrow experimental scope, methodological limitations, and integrity issues.
 - [Clarus: Coordinating Autonomous Research Agents toward Web-Scale Scientific Collaboration](http://arxiv.org/abs/2606.30246v1)
     - Zihan Guo, Zeyi Chen, Zhiyu Chen, Zicai Cui, Shuai Shao, Bo Huang, et al.
     - 📅 Date: June 29, 2026

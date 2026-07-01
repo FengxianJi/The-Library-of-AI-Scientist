@@ -1,7 +1,14 @@
 # Llm Papers
 
-Total: 118 papers
+Total: 119 papers
 
+- [FARS: A Fully Automated Research System Deployed at Scale](http://arxiv.org/abs/2606.31651v1)
+    - Qiong Tang, Xiangkun Hu, Xiangyang Liu, Yiran Chen, Yunfan Shao
+    - 📅 Date: June 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [dataset], [experiment], [hypothesis], [survey]
+    - 📖 TLDR: Recent automated research systems show that language-model agents can generate hypotheses, run experiments, and write complete manuscripts, but most evidence still comes from selected examples, human-framed topics, or a few pre-defined research tasks. We present FARS (Fully Automated Research System), a fully automated AI-for-AI research system designed to operate across research topics at scale. FARS autonomously generates and advances projects through ideation, planning, experimentation, and writing, using stage-specific agents coordinated through a shared workspace that records proposals, code, logs, results, and manuscripts. In its first public deployment, FARS produced 166 complete research papers spanning 67 fine-grained AI/ML topics while preserving intermediate artifacts as an auditable corpus rather than a curated set of successes. We evaluate this corpus with 282 structured reviews from volunteer reviewers covering 140 papers, including overall ratings, sub-scores, integrity checks, and LLM-use disclosure. The reviews indicate that FARS can produce review-worthy and occasionally strong AI/ML research artifacts in a large-scale public deployment, while also exposing recurring failure modes in narrow experimental scope, methodological limitations, and integrity issues.
 - [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1)
     - Antonis Antoniades, Deepak Nathani, Ritam Saha, Alfonso Amayuelas, Ivan Bercovich, Zhaotian Weng, et al.
     - 📅 Date: June 23, 2026

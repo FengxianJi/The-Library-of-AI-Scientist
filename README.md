@@ -24,31 +24,32 @@ This repository tracks the latest research in this rapidly evolving field.
 ###  By Research Topic
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (30 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
-- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (35 papers)
+- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
-- [Misc](paper_by_topic/paper_misc.md) (26 papers)
+- [Misc](paper_by_topic/paper_misc.md) (27 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (91 papers)
-- [Automation](paper_by_key/paper_automation.md) (100 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (107 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (42 papers)
+- [Agent](paper_by_key/paper_agent.md) (93 papers)
+- [Automation](paper_by_key/paper_automation.md) (101 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (108 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (75 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (53 papers)
-- [Framework](paper_by_key/paper_framework.md) (134 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (47 papers)
-- [Llm](paper_by_key/paper_llm.md) (119 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (54 papers)
+- [Framework](paper_by_key/paper_framework.md) (136 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (48 papers)
+- [Llm](paper_by_key/paper_llm.md) (121 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (50 papers)
-- [Survey](paper_by_key/paper_survey.md) (34 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (51 papers)
+- [Survey](paper_by_key/paper_survey.md) (35 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (4 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Haonan Huang](paper_by_author/paper_haonan_huang.md) (2 papers)
 - [Deepak Nathani](paper_by_author/paper_deepak_nathani.md) (2 papers)
 - [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
@@ -65,10 +66,23 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Jiaxun Zhang](paper_by_author/paper_jiaxun_zhang.md) (2 papers)
 - [Ziheng Qi](paper_by_author/paper_ziheng_qi.md) (2 papers)
 - [Nuoxing Shang](paper_by_author/paper_nuoxing_shang.md) (2 papers)
-- [Zijia Liu](paper_by_author/paper_zijia_liu.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics](http://arxiv.org/abs/2607.02329v1)
+    - Haonan Huang
+    - 📅 Date: July 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [dataset], [reasoning], [survey]
+    - 📖 TLDR: Autonomous-research agents have demonstrated end-to-end LLM automation in machine-learning sandboxes where execution provides calibration. Frontier physical science differs categorically: physical reasoning underlies every methodology choice, toolchains are often underdocumented, and calibration must come from external literature anchors - which unscaffolded agents cite but do not confront, hallucinating plausible, unverifiable results from internal priors. We present a pipeline that runs end-to-end from a corpus of 11,083 recent condensed-matter physics arXiv papers to a publication-grade manuscript with three substantive physics findings (here on altermagnetic piezomagnetism): the agent autonomously conceives a research direction by mapping the corpus, calibrates methodology by reproducing published references, conducts novel first-principles computations, and writes the manuscript - grounded in literature throughout, across 47 fresh-context sessions in six phases sharing only on-disk state, with 2,162 literature-consultation events. Fault tolerance emerges from redundancy: fresh-context isolation, distributed grounding, and adversarial review catch what any single session misses; pre- and post-pilot stages are fully autonomous, and pilot requires bounded human intervention only at reproduction failures - operational knowledge curation, not scientific direction. Two paired failure modes - a pre-architecture baseline and a no-pilot ablation - isolate structurally enforced numerical confrontation at calibration checkpoints as the operative grounding mechanism. The primitives, characterized failure modes, and quantified intervention pattern lay a foundation for autonomous research in high-stakes scientific domains beyond computational physics.
+- [EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation](http://arxiv.org/abs/2607.01584v1)
+    - Mahyar Ghazanfari, Amin Tabrizian, Armin Mehrabian, Peng Wei
+    - 📅 Date: July 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark], [dataset], [experiment], [hypothesis]
+    - 📖 TLDR: Large language models have recently been explored for scientific hypothesis generation, but most prior work relies on unstructured literature and free-form textual claims. We present a pipeline for Earth observation that grounds hypothesis generation directly in the NASA Earth Observation Knowledge Graph. A heterogeneous graph neural network trained on historical co-usage relations ranks candidate dataset pairings, and a three-agent LLM pipeline filters, generates, and evaluates structured research hypotheses. Applied to 1,475 NASA datasets, the system produces 160 hypotheses spanning multiple Earth-science domains, including ecohydrology, glaciology, aerosol--cloud interactions, vegetation phenology, and stratospheric chemistry. Model-predicted novel dataset pairings are rated nearly as plausible as held-out real co-usages from the literature, indicating that the pipeline surfaces scientifically coherent yet unexplored combinations. A 2*2*2 factorial experiment across GPT-5.2 and Claude Sonnet 4.6 shows that hypothesis rankings remain stable, while absolute scores depend strongly on judge identity, highlighting limitations of single-judge LLM evaluation.
 - [FARS: A Fully Automated Research System Deployed at Scale](http://arxiv.org/abs/2606.31651v1)
     - Qiong Tang, Xiangkun Hu, Xiangyang Liu, Yiran Chen, Yunfan Shao
     - 📅 Date: June 30, 2026

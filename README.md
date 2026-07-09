@@ -27,23 +27,23 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
-- [Misc](paper_by_topic/paper_misc.md) (27 papers)
+- [Misc](paper_by_topic/paper_misc.md) (28 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (93 papers)
-- [Automation](paper_by_key/paper_automation.md) (101 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (108 papers)
+- [Automation](paper_by_key/paper_automation.md) (102 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (109 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (75 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (54 papers)
-- [Framework](paper_by_key/paper_framework.md) (136 papers)
+- [Framework](paper_by_key/paper_framework.md) (137 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (48 papers)
 - [Llm](paper_by_key/paper_llm.md) (121 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (51 papers)
-- [Survey](paper_by_key/paper_survey.md) (35 papers)
+- [Survey](paper_by_key/paper_survey.md) (36 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](http://arxiv.org/abs/2607.07663v1)
+    - Mingguang Chen, Licheng Wang, Bo Qu
+    - 📅 Date: July 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [survey]
+    - 📖 TLDR: AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI research itself. This literature is described under a vocabulary ("self-refine," "self-reward," "self-play," "self-evolve") that conflates fundamentally different ambitions. We survey 1,250 arXiv papers (2024-2026) along two axes: what the system improves -- its behavior in deployment, its policy through training, its evaluator, or the research process itself -- and the degree of loop closure (human-in-the-loop to fully closed). The taxonomy separates bounded self-refinement -- convergent, evaluable, and already industrial practice -- from open-ended recursive self-improvement (RSI), which remains bounded by grounding requirements, collapse dynamics, and compute constraints on every measured axis. Its distinctive feature is a dedicated category for self-evaluation: every improvement loop is a claim that some signal can substitute for human judgment. We survey the evaluator design space -- judges, process reward models, verifiers, rubrics, meta-evaluation -- order the signals into a verification hierarchy from formal verifiers (strongest) to intrinsic self-assessment (weakest), and observe that demonstrated self-improvement strength tracks this hierarchy, that its failure modes (self-confirming loops, model collapse, diversity collapse) follow from its violations, and that the "research direction-setting" bottleneck keeping humans in the loop sits at the top of that hierarchy. We connect the technical literature to the theory of RSI limits and to the safety and governance questions raised by frontier-lab accounts of closing the loop, and identify governance-grade measurement of self-improvement as the field's most underpopulated niche.
 - [Grounded autonomous research: a fault-tolerant LLM pipeline from corpus to manuscript in frontier computational physics](http://arxiv.org/abs/2607.02329v1)
     - Haonan Huang
     - 📅 Date: July 02, 2026

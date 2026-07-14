@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (30 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (32 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
@@ -32,18 +32,18 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (93 papers)
-- [Automation](paper_by_key/paper_automation.md) (102 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (109 papers)
+- [Agent](paper_by_key/paper_agent.md) (94 papers)
+- [Automation](paper_by_key/paper_automation.md) (103 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (110 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (75 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (77 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (54 papers)
-- [Framework](paper_by_key/paper_framework.md) (137 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (48 papers)
-- [Llm](paper_by_key/paper_llm.md) (121 papers)
+- [Framework](paper_by_key/paper_framework.md) (139 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (49 papers)
+- [Llm](paper_by_key/paper_llm.md) (122 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (51 papers)
-- [Survey](paper_by_key/paper_survey.md) (36 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (53 papers)
+- [Survey](paper_by_key/paper_survey.md) (37 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -69,6 +69,20 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [NVAITC AI Scientist: A Governed End-to-End Research System -- A Hypertension GWAS Case Study](http://arxiv.org/abs/2607.11084v1)
+    - Eddie Huang, Ken Liao, Iven Fu, Yang-Hsien Lin, Chao-Shun Zhan, Andy Liao, et al.
+    - 📅 Date: July 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [discovery], [reasoning], [survey]
+    - 📖 TLDR: Agentic research systems are emerging as a new paradigm for coordinating scientific workflows beyond isolated model inference, code generation, or statistical analysis. However, deployment in institutional biomedical environments requires governed mechanisms for research planning, data access, workflow orchestration, evidence tracking, reproducibility, and human oversight. We present NVAITC AI Scientist (NAIS), a governed end-to-end agentic research system designed to support domain-general scientific workflows while keeping protected data within institutional privacy boundaries. NAIS integrates proposal review, execution planning, governed computational routing, reproducible workflow orchestration, evidence generation, and scientist-in-the-loop oversight. We validate NAIS in a real-world hypertension genome-wide association study (GWAS) using hospital-linked genotype and electronic health record (EHR) data from 286,422 individuals under an aggregate-only data policy. The agent planned cohort extraction, orchestrated GWAS execution, generated quality-control summaries, and drafted publication-oriented outputs. Human-AI review identified phenotype discrepancies and enabled iterative refinement of the hypertension definition. After reconciliation, the agent-orchestrated GWAS reproduced established hypertension loci, including FGF5, ATP2B1, CNNM2, FTO, and GRB14, with the strongest signal at FGF5 reaching $-\log_{10}(p) \sim 70$. As a secondary demonstration, NAIS also supported a drug-induced liver injury prediction workflow, achieving a multimodal graph neural network AUC of 0.842. These results demonstrate that governed agentic research systems can support scalable AI-assisted biomedical discovery while producing outputs comparable to expert-led workflows.
+- [Are LLMs Ready for Scientific Discovery? A Capability-Oriented Benchmark for AI Scientists](http://arxiv.org/abs/2607.11079v1)
+    - Chuhan Shi, Xiaoquan Ren, Sicheng Song, Haobo Li, Rui Sheng, Yushi Sun
+    - 📅 Date: July 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [automation], [framework], [benchmark], [discovery], [hypothesis], [reasoning]
+    - 📖 TLDR: Existing benchmarks for scientific data analysis evaluate LLMs primarily on code execution or workflow completion, overlooking that scientific analysis serves to support distinct types of scientific claims: hypothesis exploration, statistical inference, mechanistic explanation, each with different assumptions and validity criteria. We introduce SDABench, a benchmark that reorganizes evaluation around six capabilities (descriptive, exploratory, inferential, predictive, causal, and mechanistic) across five domains (Biology, Chemistry, Environment, Geography, Physics). SDABench comprises 527 real-data instances (SDA-Real) and 6000 synthetic instances (SDA-Synth), each in both multiple-choice and open-ended formats, constructed through an automated pipeline. Evaluating 15 representative LLMs, we find that models handle descriptive analysis well but degrade sharply on tasks requiring assumption selection, latent-process modeling, or mechanistic reasoning. SDABench further provides a five-stage error analysis framework that locates where LLMs fail: more advanced models more reliably identify the relevant scope and variables, but still struggle to select appropriate analytical procedures, model variable relationships, and draw valid conclusions.
 - [Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops](http://arxiv.org/abs/2607.07663v1)
     - Mingguang Chen, Licheng Wang, Bo Qu
     - 📅 Date: July 08, 2026

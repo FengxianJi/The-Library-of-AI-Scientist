@@ -1,7 +1,14 @@
 # Experiment Papers
 
-Total: 54 papers
+Total: 55 papers
 
+- [Efficiency Matters in Autonomous Research](http://arxiv.org/abs/2607.24647v1)
+    - Haiqian Yang, Yuan Cao
+    - 📅 Date: July 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process is an equally important but often overlooked dimension of performance. A strong AR system should not only produce high-quality results, but also reach them with as small a budget as possible. Search efficiency will become increasingly important as AR expands from domains with inexpensive verification, such as mathematics and coding, to real-world scientific settings in which solution evaluation may require costly physical experiments. To capture this dimension, we propose evaluating AR systems using the area under the curve (AUC) of the Pareto frontier, alongside final outcome quality. We compare several families of search algorithms, including hill climbing, beam search, tree search, and evolutionary search, across twelve systems-optimization tasks. We find that no single search structure is consistently the most efficient. We also show that search efficiency and final outcome quality are distinct performance dimensions: a method that eventually achieves the best result may nevertheless improve slowly and consume substantially more evaluation budget before reaching that result. Because the most effective search policy is generally unknown in advance, we introduce an adaptive procedure called fluid search, which uses a portfolio bandit to dynamically allocate a fixed evaluation budget across a forest of search processes. Across the evaluated tasks, fluid search achieves the highest overall search efficiency, closely matching the performance of a per-task oracle that is given the best search structure for each task in advance.
 - [EO-Agents: A Three-Agent LLM Pipeline for Earth Observation Hypothesis Generation](http://arxiv.org/abs/2607.01584v1)
     - Mahyar Ghazanfari, Amin Tabrizian, Armin Mehrabian, Peng Wei
     - 📅 Date: July 02, 2026

@@ -27,18 +27,18 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
-- [Misc](paper_by_topic/paper_misc.md) (28 papers)
+- [Misc](paper_by_topic/paper_misc.md) (29 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (94 papers)
-- [Automation](paper_by_key/paper_automation.md) (103 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (110 papers)
+- [Automation](paper_by_key/paper_automation.md) (104 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (111 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (77 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (54 papers)
-- [Framework](paper_by_key/paper_framework.md) (139 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (55 papers)
+- [Framework](paper_by_key/paper_framework.md) (140 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (49 papers)
 - [Llm](paper_by_key/paper_llm.md) (122 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Efficiency Matters in Autonomous Research](http://arxiv.org/abs/2607.24647v1)
+    - Haiqian Yang, Yuan Cao
+    - 📅 Date: July 27, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process is an equally important but often overlooked dimension of performance. A strong AR system should not only produce high-quality results, but also reach them with as small a budget as possible. Search efficiency will become increasingly important as AR expands from domains with inexpensive verification, such as mathematics and coding, to real-world scientific settings in which solution evaluation may require costly physical experiments. To capture this dimension, we propose evaluating AR systems using the area under the curve (AUC) of the Pareto frontier, alongside final outcome quality. We compare several families of search algorithms, including hill climbing, beam search, tree search, and evolutionary search, across twelve systems-optimization tasks. We find that no single search structure is consistently the most efficient. We also show that search efficiency and final outcome quality are distinct performance dimensions: a method that eventually achieves the best result may nevertheless improve slowly and consume substantially more evaluation budget before reaching that result. Because the most effective search policy is generally unknown in advance, we introduce an adaptive procedure called fluid search, which uses a portfolio bandit to dynamically allocate a fixed evaluation budget across a forest of search processes. Across the evaluated tasks, fluid search achieves the highest overall search efficiency, closely matching the performance of a per-task oracle that is given the best search structure for each task in advance.
 - [NVAITC AI Scientist: A Governed End-to-End Research System -- A Hypertension GWAS Case Study](http://arxiv.org/abs/2607.11084v1)
     - Eddie Huang, Ken Liao, Iven Fu, Yang-Hsien Lin, Chao-Shun Zhan, Andy Liao, et al.
     - 📅 Date: July 13, 2026

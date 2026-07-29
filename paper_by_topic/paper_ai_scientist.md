@@ -1,7 +1,14 @@
 # AI Scientist Papers
 
-Total: 32 papers
+Total: 33 papers
 
+- [OmniQEC: discovering practical quantum error-correcting codes by an AI scientist](http://arxiv.org/abs/2607.25865v1)
+    - Ge Yan, Shanchuan Li, Pengyue Ma, Qixin Zhang, Pingchuan Ma, Jianping Wang, et al.
+    - 📅 Date: July 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: Quantum error correction (QEC) is indispensable for scalable fault-tolerant quantum computing. However, discovering QEC codes that remain effective is challenging, as logical performance depends on the interplay between code structure, hardware, syndrome extraction, and decoding, which often impose competing requirements. Here we introduce OmniQEC, an efficient AI scientist for discovering QEC codes suited to deployment on modern quantum processors. OmniQEC formulates QEC design as an iterative discovery process in which an orchestrator, implemented by advanced large language models (LLMs), coordinates code generation, code-level screening, syndrome-extraction synthesis, and decoder-based circuit evaluation. At its core, OmniQEC combines a self-evolving reasoning mechanism with a slow--fast synergistic workflow: a fast loop explores candidates using inexpensive code-level proxies, whereas a slow loop performs physically grounded circuit-level evaluation and feeds the resulting evidence back into the search. We evaluate OmniQEC across four qLDPC construction families, three LLM backends, and $14$ total-physical-qubit budgets per backend. The discovered codes show steadily improving logical-error suppression with increasing physical-qubit budgets and outperform the BB codes with $[\![72,12,6]\!]$ and $[\![144,12,12]\!]$ under complete-implementation budgets of 98 and 240 physical qubits, respectively. The discovered codes are hardware-friendly and may be of independent interest for practical QEC implementation. These findings pave the way towards LLM-assisted QEC discovery grounded in physically informed code--circuit--decoder co-design.
 - [NVAITC AI Scientist: A Governed End-to-End Research System -- A Hypertension GWAS Case Study](http://arxiv.org/abs/2607.11084v1)
     - Eddie Huang, Ken Liao, Iven Fu, Yang-Hsien Lin, Chao-Shun Zhan, Andy Liao, et al.
     - 📅 Date: July 13, 2026

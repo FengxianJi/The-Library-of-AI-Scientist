@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (32 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (33 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
@@ -34,15 +34,15 @@ This repository tracks the latest research in this rapidly evolving field.
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (94 papers)
 - [Automation](paper_by_key/paper_automation.md) (104 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (111 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (112 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (77 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (78 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (55 papers)
 - [Framework](paper_by_key/paper_framework.md) (140 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (49 papers)
-- [Llm](paper_by_key/paper_llm.md) (122 papers)
+- [Llm](paper_by_key/paper_llm.md) (123 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (53 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (54 papers)
 - [Survey](paper_by_key/paper_survey.md) (37 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [OmniQEC: discovering practical quantum error-correcting codes by an AI scientist](http://arxiv.org/abs/2607.25865v1)
+    - Ge Yan, Shanchuan Li, Pengyue Ma, Qixin Zhang, Pingchuan Ma, Jianping Wang, et al.
+    - 📅 Date: July 28, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: Quantum error correction (QEC) is indispensable for scalable fault-tolerant quantum computing. However, discovering QEC codes that remain effective is challenging, as logical performance depends on the interplay between code structure, hardware, syndrome extraction, and decoding, which often impose competing requirements. Here we introduce OmniQEC, an efficient AI scientist for discovering QEC codes suited to deployment on modern quantum processors. OmniQEC formulates QEC design as an iterative discovery process in which an orchestrator, implemented by advanced large language models (LLMs), coordinates code generation, code-level screening, syndrome-extraction synthesis, and decoder-based circuit evaluation. At its core, OmniQEC combines a self-evolving reasoning mechanism with a slow--fast synergistic workflow: a fast loop explores candidates using inexpensive code-level proxies, whereas a slow loop performs physically grounded circuit-level evaluation and feeds the resulting evidence back into the search. We evaluate OmniQEC across four qLDPC construction families, three LLM backends, and $14$ total-physical-qubit budgets per backend. The discovered codes show steadily improving logical-error suppression with increasing physical-qubit budgets and outperform the BB codes with $[\![72,12,6]\!]$ and $[\![144,12,12]\!]$ under complete-implementation budgets of 98 and 240 physical qubits, respectively. The discovered codes are hardware-friendly and may be of independent interest for practical QEC implementation. These findings pave the way towards LLM-assisted QEC discovery grounded in physically informed code--circuit--decoder co-design.
 - [Efficiency Matters in Autonomous Research](http://arxiv.org/abs/2607.24647v1)
     - Haiqian Yang, Yuan Cao
     - 📅 Date: July 27, 2026

@@ -1,7 +1,21 @@
 # Llm Papers
 
-Total: 123 papers
+Total: 125 papers
 
+- [Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities](http://arxiv.org/abs/2608.03569v1)
+    - William Bolton, Philip Torr
+    - 📅 Date: August 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [framework], [benchmark], [hypothesis], [reasoning]
+    - 📖 TLDR: Benchmarking the ability of AI scientists to generate novel ideas is notoriously difficult. Existing benchmarks in this field have made progress in evaluating scientific reasoning and research replication, but often rely on synthetic tasks or retrospective targets, which may be confounded by prior exposure. We hypothesize that complex, adversarial, fast-moving real-world domains where expert practitioners independently generate observable outputs can provide a practical solution to fill this gap and evaluate the capabilities needed for AI scientists, including reasoning, novelty, and hypothesis formulation. We instantiate this framework in two structurally different domains, Formula 1 (F1), where models ideate around car design concepts for the 2026 season, and real pre-season innovations provide a ground truth, and Magic: The Gathering (MTG), where models propose decks from a recently updated card pool and are evaluated against 19 Pro Tour (PT) decklists. Across both domains, models produce plausible outputs, but few align with real-world expert solutions. In F1, the best model, GPT-5.2 matched 10 of 40 real innovations with 166 ideas proposed across runs. In MTG, the best deck from Gemini 3 Flash recovered 5 of 7 new-set cards from the third-place PT deck, and across all 108 decks, the cards models selected most often were also the cards most widely adopted by PT decks (Spearman $ρ= 0.74$, $p = 0.0003$). These results suggest that a key capability gap for AI scientists is not idea generation, but filtering, prioritization, and coherent novelty.
+- [Training Documents Reranker with Search Rubrics for Deep Research Agent](http://arxiv.org/abs/2608.03527v1)
+    - Wenhan Liu, Yu Lu, Qiaolin Xia, Hui Xu, Tong Zhao, Jian Xi, et al.
+    - 📅 Date: August 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [framework], [benchmark], [experiment]
+    - 📖 TLDR: Retrieval systems help deep research agents generate high-quality answers by providing relevant documents. However, existing retrievers typically select documents through relevance matching, while individually well-matched top-$k$ documents may not form a \textit{set} that satisfies the complex information needs of an agent query (\eg, diverse, concise and authoritative documents). In this paper, we propose search-oriented rubrics that \textit{explicitly} define the requirements that high-quality document sets should satisfy for each agent query. Our search rubrics are organized into a hierarchical structure and synthesized using a powerful LLM. Based on these search rubrics, we further train a document reranker \textbf{RubricRanker} to select a high-quality subset from retrieved documents. We design a two-stage training framework that consists of rubrics-guided supervised fine-tuning and rubric-based reinforcement learning. Extensive experiments demonstrate that RubricRanker outperforms the strongest baseline by 2.6 points on four deep research benchmarks and generalizes well to five RAG benchmarks.
 - [OmniQEC: discovering practical quantum error-correcting codes by an AI scientist](http://arxiv.org/abs/2607.25865v1)
     - Ge Yan, Shanchuan Li, Pengyue Ma, Qixin Zhang, Pingchuan Ma, Jianping Wang, et al.
     - 📅 Date: July 28, 2026

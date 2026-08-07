@@ -1,6 +1,6 @@
 # Hypothesis Papers
 
-Total: 51 papers
+Total: 52 papers
 
 - [EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v1)
     - Zhenjiang Ren, Ruiji Li, Xujing Zhang, Ziliang Pang, Shuo Ren, Jiajun Zhang
@@ -9,6 +9,13 @@ Total: 51 papers
     - 💻 Topic: [Misc]
     - 🔑 Key: [agent], [automation], [framework], [experiment], [hypothesis]
     - 📖 TLDR: Autonomous research agents can generate hypotheses, execute experiments, and draft manuscripts, yet their outputs often contain unsupported claims and inconsistencies between research questions, experiments, results, and conclusions. We argue that this problem is partly architectural: existing systems organize research as sequential pipelines but do not explicitly maintain or validate the evolving claim-evidence structure across stages.In this paper, we introduce EviGraph, an autonomous research framework that represents the research process as a typed evidence graph containing Problem, Gap, Hypothesis, Experiment, Finding, and Claim nodes. The graph serves as the operational state of the agent rather than a post-hoc record. EviGraph inspects evidence chains for missing dependencies, semantic misalignment, and result-claim inconsistencies, localizes the earliest weak node, and regenerates its affected downstream subgraph. Graph checkpointing prevents unsuccessful repairs from corrupting previously validated evidence. Manuscripts are generated only after every retained claim is grounded in a validated evidence chain.Experiments on ARC-Bench-ML and NanoResearch-20 show that EviGraph outperforms the compared end-to-end research-agent baselines in overall research performance, improves Claim Support Rate by 40.19% over the strongest baseline, and achieves 87.73% Experimental Data Consistency. These results demonstrate the value of explicit evidence-state maintenance for reliable autonomous research.
+- [Project2Task: Graph-Guided Project-Level Planning for Autonomous Research](http://arxiv.org/abs/2608.05225v1)
+    - Huirui Xu, Runtao Xu, Shuo Ren, Jiajun Zhang
+    - 📅 Date: August 05, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [hypothesis]
+    - 📖 TLDR: Research agents can increasingly search literature, propose hypotheses, generate code, run experiments, and draft manuscripts from a single topic. However, a research project is not merely a larger task: it is a long-horizon agenda that must be advanced through multiple bounded tasks with distinct but related objectives, parallel alternatives, and dependency-aware sequences. Existing single-task systems often treat the project as one oversized task, produce a flat set of vague or overlapping tasks, or leave task boundaries and execution order to manual coordination. We introduce Project2Task, a graph-guided project-level planning layer for autonomous research. Given a project brief, it represents candidate contributions as innovation atoms and organizes them in a directed lineage graph. A lightweight Bernoulli block-model objective selects among horizontal, vertical, and hybrid portfolio decompositions. Project2Task then generates bounded tasks with explicit contribution ownership, repairs overlaps and missing execution fields, and emits dependency-aware task contracts that specify objectives, inputs, expected artifacts, evaluation requirements, boundary constraints, dependencies, and execution order. The contracts are independent of any particular downstream research executor and support integration of task outputs into a coherent project-level result. On a benchmark of ten project briefs yielding roughly 30 tasks, manuscript-based portfolio evaluation gives Project2Task an average quality score of 7.15, compared with 4.58 for the Brief Baseline and 5.31 for the Topic-only Setting. Integrating its contracts with AutoResearchClaw increases average downstream task accuracy from 0.536 to 0.759. These results demonstrate the value of explicit project-to-task planning for producing coherent, non-redundant, and executable research-task portfolios.
 - [Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities](http://arxiv.org/abs/2608.03569v1)
     - William Bolton, Philip Torr
     - 📅 Date: August 04, 2026

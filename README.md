@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
-- [Misc](paper_by_topic/paper_misc.md) (32 papers)
+- [Misc](paper_by_topic/paper_misc.md) (33 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (97 papers)
-- [Automation](paper_by_key/paper_automation.md) (106 papers)
+- [Agent](paper_by_key/paper_agent.md) (98 papers)
+- [Automation](paper_by_key/paper_automation.md) (107 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (115 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (78 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (58 papers)
-- [Framework](paper_by_key/paper_framework.md) (144 papers)
+- [Framework](paper_by_key/paper_framework.md) (145 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (52 papers)
 - [Llm](paper_by_key/paper_llm.md) (125 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (55 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (56 papers)
 - [Survey](paper_by_key/paper_survey.md) (37 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Tree-of-Ideas: Automated Research Ideation via Cross-Trajectory Reasoning over Scholarly Evolution](http://arxiv.org/abs/2608.10740v1)
+    - Xun Li, Yiying Yang, Pengtao Li, Xiao Yao, Suyu Liu, Xiaoyang Ye, et al.
+    - 📅 Date: August 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [reasoning]
+    - 📖 TLDR: Effective research ideation requires moving beyond a static understanding of prior work to trace how research problems and solutions evolve across the literature. Existing methods either treat papers as unstructured context or model scholarly evolution as isolated citation chains, overlooking interactions among research trajectories. We propose Tree-of-Ideas (ToI), a two-stage framework. EvoTrace reconstructs branching scholarly trajectories from citations, tracking evolving methods, resolved problems, and gaps. EvoAgent then reasons across trajectories to identify convergent problems and complementary solutions, generating grounded research ideas. Across six AI research topics, ToI achieves the highest score among automatic methods (6.27 vs. 5.36 for the strongest baseline on a 10-point scale), with strong Novelty (6.36) and Groundedness (7.00). Also, its score approaches that of human-paper references (6.29), demonstrating the value of cross-path evolutionary reasoning.
 - [EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v1)
     - Zhenjiang Ren, Ruiji Li, Xujing Zhang, Ziliang Pang, Shuo Ren, Jiajun Zhang
     - 📅 Date: August 05, 2026

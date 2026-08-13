@@ -1,3 +1,10 @@
+- [Tree-of-Ideas: Automated Research Ideation via Cross-Trajectory Reasoning over Scholarly Evolution](http://arxiv.org/abs/2608.10740v1)
+    - Xun Li, Yiying Yang, Pengtao Li, Xiao Yao, Suyu Liu, Xiaoyang Ye, et al.
+    - 📅 Date: August 11, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [reasoning]
+    - 📖 TLDR: Effective research ideation requires moving beyond a static understanding of prior work to trace how research problems and solutions evolve across the literature. Existing methods either treat papers as unstructured context or model scholarly evolution as isolated citation chains, overlooking interactions among research trajectories. We propose Tree-of-Ideas (ToI), a two-stage framework. EvoTrace reconstructs branching scholarly trajectories from citations, tracking evolving methods, resolved problems, and gaps. EvoAgent then reasons across trajectories to identify convergent problems and complementary solutions, generating grounded research ideas. Across six AI research topics, ToI achieves the highest score among automatic methods (6.27 vs. 5.36 for the strongest baseline on a 10-point scale), with strong Novelty (6.36) and Groundedness (7.00). Also, its score approaches that of human-paper references (6.29), demonstrating the value of cross-path evolutionary reasoning.
 - [EviGraph: Evidence-Guided Autonomous Research Agents](http://arxiv.org/abs/2608.04738v1)
     - Zhenjiang Ren, Ruiji Li, Xujing Zhang, Ziliang Pang, Shuo Ren, Jiajun Zhang
     - 📅 Date: August 05, 2026

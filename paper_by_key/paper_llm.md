@@ -1,7 +1,14 @@
 # Llm Papers
 
-Total: 125 papers
+Total: 126 papers
 
+- [Training AI Scientists to Replicate Research](http://arxiv.org/abs/2608.13331v1)
+    - Damon Falck, Samer Sabri, Anja Surina, Thom Foster, Anya Sims, Sam Devlin, et al.
+    - 📅 Date: August 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [experiment], [hypothesis]
+    - 📖 TLDR: The replicability of papers is a cornerstone of scientific knowledge, ensuring the reliability of existing results and providing a base for further experiments. The act of replication typically illuminates details that were previously underspecified, and thus requires similar hypothesis-driven exploration to open-ended research. In this work, we develop Replica, a scalable task space for paper replication. To provide reward signal, we introduce an auto-generated rubric-based judge that has low noise and agrees with human assessment of replication quality. We post-train Faraday, a 27B-parameter "AI Scientist" agent that leverages coding agents as tools, surpassing the performance of Claude Opus 4.8 and GPT-5.5 on held-out replication tasks. Qualitative analysis of individual rollouts reveals that Faraday adopts a more scientifically-principled approach. We believe that our results provide a stepping stone towards AI agents capable of long-horizon scientific innovation without requiring complex harnesses.
 - [Adversarial Fast-Moving Real-World Domains as Test Beds for Benchmarking AI Scientist Capabilities](http://arxiv.org/abs/2608.03569v1)
     - William Bolton, Philip Torr
     - 📅 Date: August 04, 2026

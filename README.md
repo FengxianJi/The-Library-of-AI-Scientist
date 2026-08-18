@@ -27,20 +27,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
-- [Misc](paper_by_topic/paper_misc.md) (33 papers)
+- [Misc](paper_by_topic/paper_misc.md) (34 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (100 papers)
-- [Automation](paper_by_key/paper_automation.md) (108 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (116 papers)
+- [Agent](paper_by_key/paper_agent.md) (101 papers)
+- [Automation](paper_by_key/paper_automation.md) (109 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (117 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (79 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (60 papers)
-- [Framework](paper_by_key/paper_framework.md) (146 papers)
+- [Framework](paper_by_key/paper_framework.md) (147 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (54 papers)
-- [Llm](paper_by_key/paper_llm.md) (126 papers)
+- [Llm](paper_by_key/paper_llm.md) (127 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (57 papers)
 - [Survey](paper_by_key/paper_survey.md) (37 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](http://arxiv.org/abs/2608.16211v1)
+    - Junqi Liu, Yufan He, Yexiao He, Pengfei Guo, Dong Yang, Andriy Myronenko, et al.
+    - 📅 Date: August 17, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark]
+    - 📖 TLDR: Long-horizon agents are beginning to automate complete workflows that produce code, reports, and research artifacts. Medical imaging workflows are multi-stage and data-sensitive, while expert trajectories remain scarce and difficult to share. Structured benchmarks can localize failures through stage-level rubrics, but standard post-training discards these diagnostics before the next training round. We present Benchmark-as-Teacher (BaT), a recursive self-improvement system for agent post-training. BaT contains two linked components: the asynchronous Stage Bank data pipeline and BiCuRL (Bilevel Curriculum Reinforcement Learning), its self-improving post-training method. Stage Bank synthesizes content-isolated training states outside the policy-update loop. BiCuRL uses a fixed held-out evaluation to select the next stage curriculum, verifies rollouts with task rubrics, updates the policy with GRPO, and returns the candidate checkpoint to evaluation. On AutoMedBench-Lite, BaT-4B and BaT-9B more than double the Overall scores of their Qwen Instruct baselines. BaT-9B Agent reaches 79.6 Overall, exceeding Claude Opus 4.6 with Claude Code at 77.5.
 - [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist](http://arxiv.org/abs/2608.13558v1)
     - Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
     - 📅 Date: August 13, 2026

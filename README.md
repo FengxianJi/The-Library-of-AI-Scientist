@@ -22,8 +22,8 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (36 papers)
-- [Data Analysis](paper_by_topic/paper_data_analysis.md) (4 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (37 papers)
+- [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
@@ -32,18 +32,18 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (101 papers)
+- [Agent](paper_by_key/paper_agent.md) (103 papers)
 - [Automation](paper_by_key/paper_automation.md) (109 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (117 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (118 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (79 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (60 papers)
-- [Framework](paper_by_key/paper_framework.md) (147 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (54 papers)
+- [Framework](paper_by_key/paper_framework.md) (149 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (55 papers)
 - [Llm](paper_by_key/paper_llm.md) (127 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (57 papers)
-- [Survey](paper_by_key/paper_survey.md) (37 papers)
+- [Survey](paper_by_key/paper_survey.md) (38 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -69,6 +69,20 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Symposium: Trust via Auditable Records for Communities of AI Scientist Agents](http://arxiv.org/abs/2608.19511v1)
+    - Dexter Pratt
+    - 📅 Date: August 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [hypothesis]
+    - 📖 TLDR: Symposium is a formal framework and practical implementation to record the operation of AI agents deployed by small scientific research communities. Symposium provides long-term, immutable histories of agent-driven research activity, leaving auditable trails of analyses, hypotheses, data, and scientific discourse. This shared record of published artifacts enables agents to build on prior work and preserves the evidence researchers and agents need to make purpose-dependent trust assessments. Symposium captures scientific argument, including structured claims, fine-grained evidence citations, assumptions, and explicit declarations of what material may and may not be used as evidence. Symposium differs from AI co-scientist agents or integrated AI research environments; it is a framework that separates a scientific community's durable history from the agents and other systems that operate on that history. It assumes that a community will use diverse AI systems in a rapidly evolving environment. A working implementation of the publication infrastructure, agent prompt components, and documentation are provided to enable users to rapidly set up and run their own Symposium community.
+- [Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis](http://arxiv.org/abs/2608.19902v1)
+    - Zijiao Chen, Nicholas Lu, Xinhui Li, Jocelyn A. Ricard, Ce Ju, Huan H. Wang, et al.
+    - 📅 Date: August 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Data Analysis]
+    - 🔑 Key: [agent], [framework], [benchmark], [survey]
+    - 📖 TLDR: AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evidence supports. Agents may reproduce failures including selective analysis, premature declarations of success and optimization of imperfect criteria. We present Brain Researcher, an agentic research harness operating in a neuroimaging researcher's computational environment under rules for admissible analyses, required checks and claim scope. In benchmarks, Brain Researcher increased first-choice tool-selection accuracy across seven models by 70.2 percentage points (23.3% without it versus 93.6% with it) and verifiable grounding from 4.6% to 22.0%. In collaborator-led and self-evolving studies, multiverse analyses exposed analytic-choice sensitivity, and scientific review classified claims as accepted, qualified, revised, blocked, rejected or deferred. By linking decisions to evidence and provenance, Brain Researcher embeds methodological judgment within the workflow, not after it.
 - [BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics](http://arxiv.org/abs/2608.16211v1)
     - Junqi Liu, Yufan He, Yexiao He, Pengfei Guo, Dong Yang, Andriy Myronenko, et al.
     - 📅 Date: August 17, 2026

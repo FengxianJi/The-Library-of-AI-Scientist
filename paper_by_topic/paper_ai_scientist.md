@@ -1,7 +1,14 @@
 # AI Scientist Papers
 
-Total: 36 papers
+Total: 37 papers
 
+- [Symposium: Trust via Auditable Records for Communities of AI Scientist Agents](http://arxiv.org/abs/2608.19511v1)
+    - Dexter Pratt
+    - 📅 Date: August 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [hypothesis]
+    - 📖 TLDR: Symposium is a formal framework and practical implementation to record the operation of AI agents deployed by small scientific research communities. Symposium provides long-term, immutable histories of agent-driven research activity, leaving auditable trails of analyses, hypotheses, data, and scientific discourse. This shared record of published artifacts enables agents to build on prior work and preserves the evidence researchers and agents need to make purpose-dependent trust assessments. Symposium captures scientific argument, including structured claims, fine-grained evidence citations, assumptions, and explicit declarations of what material may and may not be used as evidence. Symposium differs from AI co-scientist agents or integrated AI research environments; it is a framework that separates a scientific community's durable history from the agents and other systems that operate on that history. It assumes that a community will use diverse AI systems in a rapidly evolving environment. A working implementation of the publication infrastructure, agent prompt components, and documentation are provided to enable users to rapidly set up and run their own Symposium community.
 - [OmniScientist: An Omni-Modal Omni-Discipline AI Scientist](http://arxiv.org/abs/2608.13558v1)
     - Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu
     - 📅 Date: August 13, 2026

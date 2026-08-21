@@ -1,7 +1,14 @@
 # Data Analysis Papers
 
-Total: 4 papers
+Total: 5 papers
 
+- [Bringing analytic rigor to agentic AI for science: The Brain Researcher platform for neuroimaging data analysis](http://arxiv.org/abs/2608.19902v1)
+    - Zijiao Chen, Nicholas Lu, Xinhui Li, Jocelyn A. Ricard, Ce Ju, Huan H. Wang, et al.
+    - 📅 Date: August 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Data Analysis]
+    - 🔑 Key: [agent], [framework], [benchmark], [survey]
+    - 📖 TLDR: AI agents can execute scientific analyses, but an analytic output becomes a defensible claim only after alternatives are weighed and the claim is limited to what the evidence supports. Agents may reproduce failures including selective analysis, premature declarations of success and optimization of imperfect criteria. We present Brain Researcher, an agentic research harness operating in a neuroimaging researcher's computational environment under rules for admissible analyses, required checks and claim scope. In benchmarks, Brain Researcher increased first-choice tool-selection accuracy across seven models by 70.2 percentage points (23.3% without it versus 93.6% with it) and verifiable grounding from 4.6% to 22.0%. In collaborator-led and self-evolving studies, multiverse analyses exposed analytic-choice sensitivity, and scientific review classified claims as accepted, qualified, revised, blocked, rejected or deferred. By linking decisions to evidence and provenance, Brain Researcher embeds methodological judgment within the workflow, not after it.
 - [NORA: A Harness-Engineered Autonomous Research Agent for End-to-End Spatial Data Science](http://arxiv.org/abs/2605.02092v1)
     - Bing Zhou, Xiao Huang, Huan Ning, Qiusheng Wu, Diya Li, Ziyi Zhang
     - 📅 Date: May 03, 2026

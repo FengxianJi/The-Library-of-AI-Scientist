@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (37 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (38 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
@@ -32,17 +32,17 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (103 papers)
-- [Automation](paper_by_key/paper_automation.md) (109 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (118 papers)
+- [Agent](paper_by_key/paper_agent.md) (104 papers)
+- [Automation](paper_by_key/paper_automation.md) (110 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (119 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (79 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (60 papers)
-- [Framework](paper_by_key/paper_framework.md) (149 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (55 papers)
-- [Llm](paper_by_key/paper_llm.md) (127 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (17 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (57 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (80 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (61 papers)
+- [Framework](paper_by_key/paper_framework.md) (150 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (56 papers)
+- [Llm](paper_by_key/paper_llm.md) (128 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (18 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (58 papers)
 - [Survey](paper_by_key/paper_survey.md) (38 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning](http://arxiv.org/abs/2608.25770v1)
+    - Ziqing Qian, Jiaying Lei, Yifang Wang, Nan Cao
+    - 📅 Date: August 26, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [hypothesis], [reasoning], [multi-agent]
+    - 📖 TLDR: Large language models (LLMs) have enabled AI scientist systems to automate scientific discovery, yet existing approaches most rely on static prompting or fixed workflows and fail to accumulate experience for continual improvement. We propose HypoForge, an experience-guided multi-agent framework that learns reusable scientific skills for automated hypothesis generation and hypothesis testing. HypoForge is built on the observation that these two stages involve different supervision signals. For hypothesis generation, where explicit feedback is unavailable, HypoForge adopts an adversarial generator--discriminator mechanism to improve reasoning through comparative critique. For hypothesis testing, where empirical feedback is available, HypoForge learns testing skills from execution outcomes and ground-truth results. By matching skill learning strategies with stage-specific supervision, HypoForge enables continual improvement without fine-tuning foundation models. Experiments on hypothesis generation and testing benchmarks show that HypoForge consistently outperforms existing AI scientist frameworks and skill-level variants. Further analysis demonstrates the effectiveness of the proposed stage-specific skill learning paradigms.
 - [Symposium: Trust via Auditable Records for Communities of AI Scientist Agents](http://arxiv.org/abs/2608.19511v1)
     - Dexter Pratt
     - 📅 Date: August 20, 2026

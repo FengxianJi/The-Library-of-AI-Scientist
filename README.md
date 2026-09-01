@@ -25,25 +25,25 @@ This repository tracks the latest research in this rapidly evolving field.
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (38 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
-- [Literature Review](paper_by_topic/paper_literature_review.md) (5 papers)
+- [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
 - [Misc](paper_by_topic/paper_misc.md) (34 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (104 papers)
-- [Automation](paper_by_key/paper_automation.md) (110 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (119 papers)
+- [Agent](paper_by_key/paper_agent.md) (105 papers)
+- [Automation](paper_by_key/paper_automation.md) (111 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (120 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (80 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (61 papers)
-- [Framework](paper_by_key/paper_framework.md) (150 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (81 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (62 papers)
+- [Framework](paper_by_key/paper_framework.md) (151 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (56 papers)
-- [Llm](paper_by_key/paper_llm.md) (128 papers)
+- [Llm](paper_by_key/paper_llm.md) (129 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (18 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (58 papers)
-- [Survey](paper_by_key/paper_survey.md) (38 papers)
+- [Survey](paper_by_key/paper_survey.md) (39 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -51,6 +51,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Jintian Zhang](paper_by_author/paper_jintian_zhang.md) (2 papers)
 - [Zhenjiang Ren](paper_by_author/paper_zhenjiang_ren.md) (2 papers)
 - [Haonan Huang](paper_by_author/paper_haonan_huang.md) (2 papers)
 - [Deepak Nathani](paper_by_author/paper_deepak_nathani.md) (2 papers)
@@ -65,10 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Xinyu Wang](paper_by_author/paper_xinyu_wang.md) (2 papers)
 - [Qiuchen Wang](paper_by_author/paper_qiuchen_wang.md) (2 papers)
 - [Ruixue Ding](paper_by_author/paper_ruixue_ding.md) (2 papers)
-- [Kunlun Zhu](paper_by_author/paper_kunlun_zhu.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents](http://arxiv.org/abs/2608.31076v1)
+    - Xuehai Wang, Haowei Qin, Tongxin Liu, Junkai Li, Buqiang Xu, Jintian Zhang, et al.
+    - 📅 Date: August 31, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Literature Review]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment], [survey]
+    - 📖 TLDR: Autonomous scientific research agents are increasingly applied to end-to-end scientific workflows, including literature review, data analysis, experimentation, and report generation. However, open-ended research tasks often do not clearly specify the analyses, methods, and success criteria required to complete the task. As a result, agents may miss important analyses, use inappropriate methods, or draw conclusions that are insufficiently supported by evidence. To address the problem, we present AutoSciRub, an evaluation-first framework that induces a task-specific executable rubric before research execution, and uses it to guide execution, criterion-level verification as well as iterative revision. AutoSciRub decomposes an underspecified instruction into atomic scientific goals, grounds them in relevant literature and task-visible data, and synthesizes specific, actionable, and verifiable criteria. The resulting rubric makes implicit experimental and evidential requirements explicit, providing guidance for experiments and analyses. During revision, rubric-guided verification identifies unmet criteria and enables targeted refinement of the research report and its supporting artifacts. On ResearchClawBench, AutoSciRub consistently improves all tested configurations, with an average gain of 2.08 points across three backbone LLMs under the fixed Codex harness and 2.95 points across three agent harnesses using a fixed DeepSeek-V4-Flash backbone. On a randomly sampled 20-task subset of AstaBench E2E Discovery, AutoSciRub further achieves an average improvement of 16.8 points across three agent harnesses, while maintaining or increasing the number of successfully completed tasks. These results demonstrate that evaluation-first guidance provides an effective and generalizable control mechanism for autonomous scientific research (Code: https://github.com/zjunlp/AutoSciRub).
 - [HypoForge: A Self-Improving Multi-Agent Framework for Automated Hypothesis Generation and Testing via Scientific Skill Learning](http://arxiv.org/abs/2608.25770v1)
     - Ziqing Qian, Jiaying Lei, Yifang Wang, Nan Cao
     - 📅 Date: August 26, 2026

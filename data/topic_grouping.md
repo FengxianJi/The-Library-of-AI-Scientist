@@ -1,4 +1,4 @@
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (38 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (39 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)

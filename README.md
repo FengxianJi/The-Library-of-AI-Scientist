@@ -28,20 +28,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
 - [Misc](paper_by_topic/paper_misc.md) (34 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (12 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (106 papers)
-- [Automation](paper_by_key/paper_automation.md) (112 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (120 papers)
+- [Agent](paper_by_key/paper_agent.md) (107 papers)
+- [Automation](paper_by_key/paper_automation.md) (113 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (121 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (81 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (82 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (62 papers)
-- [Framework](paper_by_key/paper_framework.md) (151 papers)
+- [Framework](paper_by_key/paper_framework.md) (152 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (56 papers)
-- [Llm](paper_by_key/paper_llm.md) (130 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (18 papers)
+- [Llm](paper_by_key/paper_llm.md) (131 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (58 papers)
 - [Survey](paper_by_key/paper_survey.md) (39 papers)
 
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](http://arxiv.org/abs/2609.04170v1)
+    - Davide Paglieri, Logan Cross, Tim Genewein, Joel Z. Leibo, Nenad Tomasev, Alexander Sasha Vezhnevets
+    - 📅 Date: September 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [multi-agent]
+    - 📖 TLDR: Multi-agent AI science ecosystems rely on agents possessing tools that allow them to communicate, coordinate, and build on each other's work. Yet this shared infrastructure can also introduce vulnerabilities by creating a substrate for the contagious spread of unintended and undesirable behaviors. We report a case study on a research collective of 100 autonomous LLM agents tasked with proving formal mathematical conjectures. Within the swarm, cheating spontaneously emerged and was later challenged by whistleblowers - both without any external intervention. When a single agent discovered an exploit in the evaluation system, it propagated across the collective via a shared knowledge library and later through peer-to-peer messages. Despite early reluctance, a cohort of agents adopted the exploit in response to competitive pressure. A separate group of agents produced an emergent counter-response: auditing fraudulent proofs, alerting peers across broadcast and private channels, staging boycotts, lodging formal complaints, and proposing validation patches. In recent incidents, agent swarms coordinated covertly through improvised side-channels (Dalton and Wallace, 2026; Greenblatt et al., 2026). Our setting differs: the same transparent channels that carried the exploit also gave non-cheating agents the visibility they needed to detect fraud, organize resistance, and enforce norms. We cast the problem of managing the agents' shared infrastructure as the knowledge commons governance problem (Ostrom, 1990). To protect the commons from exploits, we propose to adopt institutional mechanisms, such as graduated sanctioning and collective-choice rules, to support decentralized self-governance in autonomous swarms.
 - [Learning to Evaluate Before Improving: Automatic Rubric Induction for Automatic Research Agents](http://arxiv.org/abs/2608.31076v1)
     - Xuehai Wang, Haowei Qin, Tongxin Liu, Junkai Li, Buqiang Xu, Jintian Zhang, et al.
     - 📅 Date: August 31, 2026

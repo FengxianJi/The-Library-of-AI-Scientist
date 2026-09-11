@@ -24,7 +24,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ###  By Research Topic
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (39 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
-- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (36 papers)
+- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (13 papers)
 - [Misc](paper_by_topic/paper_misc.md) (34 papers)
@@ -32,17 +32,17 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (107 papers)
-- [Automation](paper_by_key/paper_automation.md) (113 papers)
+- [Agent](paper_by_key/paper_agent.md) (108 papers)
+- [Automation](paper_by_key/paper_automation.md) (114 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (121 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (82 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (62 papers)
-- [Framework](paper_by_key/paper_framework.md) (152 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (56 papers)
-- [Llm](paper_by_key/paper_llm.md) (131 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (63 papers)
+- [Framework](paper_by_key/paper_framework.md) (153 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (57 papers)
+- [Llm](paper_by_key/paper_llm.md) (132 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (58 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (59 papers)
 - [Survey](paper_by_key/paper_survey.md) (39 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System](http://arxiv.org/abs/2609.10922v1)
+    - Ming Li, Dai Li, Xuying Ning, Bo Sun, Rui Li, Yi Zhang, et al.
+    - 📅 Date: September 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [experiment], [hypothesis], [reasoning]
+    - 📖 TLDR: Auto-research agents have shown the potential to automate hypothesis generation, experiment execution, and iterative refinement. However, scaling this paradigm to industry-scale recommendation models introduces two challenges: (1) long feedback loops, where model training can take days, making serial iteration prohibitively slow and requiring parallel exploration across multiple research directions; and (2) system complexity, where large configurations, fragile infrastructure dependencies, and multi-day GPU jobs require robust and recoverable execution. We present Auto-RecSys, an autonomous research system for long-horizon experimentation on industry-scale recommendation models. Auto-RecSys addresses these challenges through three harness designs: (1) distributed asynchronous execution for running multiple experiments in parallel across servers, (2) centralized cross-server memory for persistent and recoverable execution across sessions and failures, and (3) cognitive-procedural separation, where natural-language skill files guide LLM reasoning while deterministic scripts enforce operational correctness. Auto-RecSys further employs a dual-loop self-evolving architecture: an Execution Evolution Loop in which model-specific playbooks accumulate operational knowledge by recording failed attempts and crystallizing successful pipelines, and an Idea Evolution Loop in which experimental outcomes inform subsequent ideation. Evaluated on recommendation models, Auto-RecSys significantly reduces the human time required per experiment cycle and improves execution reliability as its playbooks mature.
 - [A Case Study on Emergent Cheating and Whistleblowing in Autonomous Research Swarms](http://arxiv.org/abs/2609.04170v1)
     - Davide Paglieri, Logan Cross, Tim Genewein, Joel Z. Leibo, Nenad Tomasev, Alexander Sasha Vezhnevets
     - 📅 Date: September 03, 2026

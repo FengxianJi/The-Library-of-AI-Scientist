@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (39 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (40 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
@@ -32,7 +32,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (108 papers)
+- [Agent](paper_by_key/paper_agent.md) (109 papers)
 - [Automation](paper_by_key/paper_automation.md) (114 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (121 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
@@ -40,7 +40,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Experiment](paper_by_key/paper_experiment.md) (63 papers)
 - [Framework](paper_by_key/paper_framework.md) (153 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (57 papers)
-- [Llm](paper_by_key/paper_llm.md) (132 papers)
+- [Llm](paper_by_key/paper_llm.md) (133 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (59 papers)
 - [Survey](paper_by_key/paper_survey.md) (39 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET](http://arxiv.org/abs/2609.17123v1)
+    - Min-Hui Kim, Khushi Sharma, Sarah Zhang, Ye Wang
+    - 📅 Date: September 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent]
+    - 📖 TLDR: Thermal optimization of 2D CFET inverters requires testing structural proposals against their electrical costs. We examine these research tasks using an AI agent workflow within a supplied electrothermal model. At 12 nm, Astra selects a redistributed source-interconnect geometry, while a coordinating agent proposes a substrate-directed heat-removal path. The combined design reduces peak temperature rise by 1.67 K at fixed metal volume and 20 μW. A subsequent metal-resistance sensitivity gives about 0.6-K inverter cooling alongside a 2% nFET on-current loss. Effective contact-length scaling further shows that lower temperature can accompany higher thermal resistance when current falls. Reproduction identifies agreeing implementations and retains a 104.95-K failure for diagnosis. These results show that an AI scientist workflow can propose thermal structures, test them under common constraints, and quantify their electrical cost.
 - [Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System](http://arxiv.org/abs/2609.10922v1)
     - Ming Li, Dai Li, Xuying Ning, Bo Sun, Rui Li, Yi Zhang, et al.
     - 📅 Date: September 10, 2026

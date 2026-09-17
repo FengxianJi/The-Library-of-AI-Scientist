@@ -1,6 +1,6 @@
 # Agent Papers
 
-Total: 109 papers
+Total: 110 papers
 
 - [AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET](http://arxiv.org/abs/2609.17123v1)
     - Min-Hui Kim, Khushi Sharma, Sarah Zhang, Ye Wang
@@ -9,6 +9,13 @@ Total: 109 papers
     - 💻 Topic: [AI Scientist]
     - 🔑 Key: [llm], [agent]
     - 📖 TLDR: Thermal optimization of 2D CFET inverters requires testing structural proposals against their electrical costs. We examine these research tasks using an AI agent workflow within a supplied electrothermal model. At 12 nm, Astra selects a redistributed source-interconnect geometry, while a coordinating agent proposes a substrate-directed heat-removal path. The combined design reduces peak temperature rise by 1.67 K at fixed metal volume and 20 μW. A subsequent metal-resistance sensitivity gives about 0.6-K inverter cooling alongside a 2% nFET on-current loss. Effective contact-length scaling further shows that lower temperature can accompany higher thermal resistance when current falls. Reproduction identifies agreeing implementations and retains a 104.95-K failure for diagnosis. These results show that an AI scientist workflow can propose thermal structures, test them under common constraints, and quantify their electrical cost.
+- [PrimeScientist: Strategic Allocation of Research Effort in Autonomous Research](http://arxiv.org/abs/2609.17846v1)
+    - Xinle Yu, Fan Bai, Kaiser Sun, Hengshuo Miao, Abhay Anand, Zhongyan Luo, et al.
+    - 📅 Date: September 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: Autonomous research agents aim to automate scientific workflows, from proposing ideas to conducting experiments and analyzing results. Yet current AI and research agents can propose more directions than available resources allow them to pursue. Moreover, each attempt could consume substantial resources, requiring agents to reconsider how to invest in subsequent research. Thus, deciding how to invest research effort strategically should be a defining capability of autonomous research agents. Accordingly, we introduce PrimeScientist, which jointly determines research direction and resource investment across successive research attempts. Specifically, we formulate this challenge of strategic research effort allocation as a sequential decision problem where remaining resources should explicitly guide the research policy. We first introduce an executable plan tree that preserves competing plans and their outcomes across attempts. Building on this representation, we propose an adaptive MCTS-based allocation policy that balances exploration and exploitation using experimental feedback and remaining resources. Comprehensive evaluations across AI research, systems and code optimization, and machine learning engineering show that strategic allocation improves research quality and sample efficiency together. Across 12 AI research tasks, PrimeScientist improves average reward by 10.3% with 50.6% fewer research attempts than AutoResearch under the same resource budget. We believe making research effort allocation an explicit optimization target establishes effective resource use as a core research capability for autonomous agents to drive scientific breakthroughs at scale.
 - [Auto-RecSys: Harnessing Autonomous Research Agents for Industry-Scale Recommender System](http://arxiv.org/abs/2609.10922v1)
     - Ming Li, Dai Li, Xuying Ning, Bo Sun, Rui Li, Yi Zhang, et al.
     - 📅 Date: September 10, 2026

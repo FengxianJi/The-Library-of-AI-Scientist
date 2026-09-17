@@ -1,7 +1,14 @@
 # Machine Learning Papers
 
-Total: 13 papers
+Total: 14 papers
 
+- [PrimeScientist: Strategic Allocation of Research Effort in Autonomous Research](http://arxiv.org/abs/2609.17846v1)
+    - Xinle Yu, Fan Bai, Kaiser Sun, Hengshuo Miao, Abhay Anand, Zhongyan Luo, et al.
+    - 📅 Date: September 15, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: Autonomous research agents aim to automate scientific workflows, from proposing ideas to conducting experiments and analyzing results. Yet current AI and research agents can propose more directions than available resources allow them to pursue. Moreover, each attempt could consume substantial resources, requiring agents to reconsider how to invest in subsequent research. Thus, deciding how to invest research effort strategically should be a defining capability of autonomous research agents. Accordingly, we introduce PrimeScientist, which jointly determines research direction and resource investment across successive research attempts. Specifically, we formulate this challenge of strategic research effort allocation as a sequential decision problem where remaining resources should explicitly guide the research policy. We first introduce an executable plan tree that preserves competing plans and their outcomes across attempts. Building on this representation, we propose an adaptive MCTS-based allocation policy that balances exploration and exploitation using experimental feedback and remaining resources. Comprehensive evaluations across AI research, systems and code optimization, and machine learning engineering show that strategic allocation improves research quality and sample efficiency together. Across 12 AI research tasks, PrimeScientist improves average reward by 10.3% with 50.6% fewer research attempts than AutoResearch under the same resource budget. We believe making research effort allocation an explicit optimization target establishes effective resource use as a core research capability for autonomous agents to drive scientific breakthroughs at scale.
 - [Heuresis: Search Strategies for Autonomous AI Research Agents Across Quality, Diversity and Novelty](http://arxiv.org/abs/2606.25198v1)
     - Antonis Antoniades, Deepak Nathani, Ritam Saha, Alfonso Amayuelas, Ivan Bercovich, Zhaotian Weng, et al.
     - 📅 Date: June 23, 2026

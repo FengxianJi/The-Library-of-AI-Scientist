@@ -6,7 +6,7 @@ A curated collection of research papers on AI scientists, automated scientific d
 
 ![Keyword Word Cloud](data/statistics/keyword_wordcloud.png)
 
-**Total Papers:** See counts below organized by different categories.
+**Total Papers:** 189 papers, organized by topic, keyword and author below.
 
 ##  What is an AI Scientist?
 
@@ -1544,20 +1544,19 @@ The repository will automatically regenerate all categorized views when your PR 
 ### Adding Papers Efficiently
 
 **Option 1: Use AI Assistance**
-- Copy the prompt from `update_template_or_data/utils/prompts/auto_prompt_en.txt`
-- Paste it to ChatGPT/Claude along with your paper title or arXiv link
-- Copy the formatted output into `update_paper_list.md`
+- Copy the format block above into ChatGPT/Claude along with your paper title or arXiv link
+- Ask it to return the entry in that exact format
+- Copy the formatted output into `data/update_paper_list.md`
 
 **Option 2: Manual Entry**
 - Follow the format above
 - Ensure all required fields are filled
 - Use consistent formatting
 
-**Option 3: Auto-fill Institutions (OpenAlex / DeepSeek)**
-- Use `update_template_or_data/update_institutions_with_deepseek.md`
-- Start with `--provider auto --auto-blend balanced`.
-- If manual queue is still large, try `--auto-blend aggressive`.
-- Run a dry-run first, then `--apply` after review.
+**Option 3: Auto-fill Institutions (OpenAlex)**
+- Run `backend/scripts/enrich_institutions.py`
+- Entries missing the Institutions field are looked up via the free OpenAlex API (no API key required)
+- Matched institution names are written back into `data/update_paper_list.md`
 
 ## How This Repository Works
 

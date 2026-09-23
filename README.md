@@ -1524,7 +1524,7 @@ This repository tracks the latest research in this rapidly evolving field.
 We welcome contributions! To add a new paper:
 
 1. Fork this repository
-2. Add your paper to `update_template_or_data/update_paper_list.md` following this format:
+2. Add your paper to `data/update_paper_list.md` following this format:
 
 ```markdown
 - [Paper Title](https://arxiv.org/abs/XXXX.XXXXX or DOI)
@@ -1563,7 +1563,7 @@ The repository will automatically regenerate all categorized views when your PR 
 
 This repository uses automation to maintain organization:
 
-1. **Master Database**: All papers are stored in `update_template_or_data/update_paper_list.md`
+1. **Master Database**: All papers are stored in `data/update_paper_list.md`
 2. **Automated Processing**: GitHub Actions runs a Python script on every update
 3. **Generated Views**: Papers are automatically organized by:
    - Topic (AI Scientist, Scientific Discovery, etc.)

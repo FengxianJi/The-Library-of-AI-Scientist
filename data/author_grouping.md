@@ -3,6 +3,7 @@
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Yue Huang](paper_by_author/paper_yue_huang.md) (2 papers)
 - [Jintian Zhang](paper_by_author/paper_jintian_zhang.md) (2 papers)
 - [Dingjie Song](paper_by_author/paper_dingjie_song.md) (2 papers)
 - [Zhenjiang Ren](paper_by_author/paper_zhenjiang_ren.md) (2 papers)
@@ -17,4 +18,3 @@
 - [Peng Xia](paper_by_author/paper_peng_xia.md) (2 papers)
 - [Zhen Zhang](paper_by_author/paper_zhen_zhang.md) (2 papers)
 - [Xinyu Wang](paper_by_author/paper_xinyu_wang.md) (2 papers)
-- [Qiuchen Wang](paper_by_author/paper_qiuchen_wang.md) (2 papers)

@@ -27,23 +27,23 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (14 papers)
-- [Misc](paper_by_topic/paper_misc.md) (34 papers)
+- [Misc](paper_by_topic/paper_misc.md) (35 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (110 papers)
-- [Automation](paper_by_key/paper_automation.md) (115 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (122 papers)
+- [Agent](paper_by_key/paper_agent.md) (111 papers)
+- [Automation](paper_by_key/paper_automation.md) (116 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (123 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (82 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (64 papers)
-- [Framework](paper_by_key/paper_framework.md) (154 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (65 papers)
+- [Framework](paper_by_key/paper_framework.md) (155 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (57 papers)
-- [Llm](paper_by_key/paper_llm.md) (133 papers)
+- [Llm](paper_by_key/paper_llm.md) (134 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (59 papers)
-- [Survey](paper_by_key/paper_survey.md) (39 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (60 papers)
+- [Survey](paper_by_key/paper_survey.md) (40 papers)
 
 ###  By Top Authors
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
@@ -51,6 +51,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Yue Huang](paper_by_author/paper_yue_huang.md) (2 papers)
 - [Jintian Zhang](paper_by_author/paper_jintian_zhang.md) (2 papers)
 - [Dingjie Song](paper_by_author/paper_dingjie_song.md) (2 papers)
 - [Zhenjiang Ren](paper_by_author/paper_zhenjiang_ren.md) (2 papers)
@@ -65,10 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Peng Xia](paper_by_author/paper_peng_xia.md) (2 papers)
 - [Zhen Zhang](paper_by_author/paper_zhen_zhang.md) (2 papers)
 - [Xinyu Wang](paper_by_author/paper_xinyu_wang.md) (2 papers)
-- [Qiuchen Wang](paper_by_author/paper_qiuchen_wang.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Reward Hacking Challenges Oversight of Autonomous Research Agents](http://arxiv.org/abs/2609.28614v1)
+    - Yue Huang, Zhangchen Xu, Yuchen Ma, Wenjie Wang, Zheyuan Liu, Ziwei Xu, et al.
+    - 📅 Date: September 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment], [reasoning], [survey]
+    - 📖 TLDR: Autonomous research agents can design experiments, evaluate results, and write reports, giving them control over both a scientific result and the evidence used to support it. This creates a risk of reward hacking: meeting the reward criteria without achieving the intended goal. We study (1) how often models reward-hack without instructions to do so, (2) how effective and detectable their methods are when hacking is allowed, and (3) how they adapt when an LLM review panel returns its decision and reasons. Across 17 language models and 38 tasks, the spontaneous reward-hacking rate is 30.5% on open-ended research-pipeline tasks and 2.9% on task-specific kernels. When hacking is allowed on tasks whose pass thresholds exceed our best compliant baselines, 505/677 attempts (74.6%) are confirmed reward hacks: they both clear the threshold and receive mechanism-verification panel confirmation of an evaluation exploit. An LLM panel reviewing only submitted code and reported scores misses 33/505 confirmed hacks (6.5%). Direct methods that achieve the highest scores are often easy to detect, while less direct methods evade more often. In a five-round loop, the number of model-task pairs with an evasion rises from 7 to 56. Among 79 pairs evaluated under two feedback conditions, cumulative evasion reaches 40.5% with detailed feedback and 20.3% with generic rejection. The detailed condition includes the review decision, reasons, and attempt history, so this comparison does not isolate the effect of explanations. These findings highlight the need for stronger defenses, including metrics kept outside the agent's control and independent recomputation on data chosen to expose likely exploits.
 - [AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET](http://arxiv.org/abs/2609.17123v1)
     - Min-Hui Kim, Khushi Sharma, Sarah Zhang, Ye Wang
     - 📅 Date: September 15, 2026

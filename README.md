@@ -27,30 +27,34 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (14 papers)
-- [Misc](paper_by_topic/paper_misc.md) (35 papers)
+- [Misc](paper_by_topic/paper_misc.md) (37 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (112 papers)
-- [Automation](paper_by_key/paper_automation.md) (116 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (124 papers)
+- [Agent](paper_by_key/paper_agent.md) (114 papers)
+- [Automation](paper_by_key/paper_automation.md) (118 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (126 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (82 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (65 papers)
-- [Framework](paper_by_key/paper_framework.md) (155 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (57 papers)
-- [Llm](paper_by_key/paper_llm.md) (134 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (83 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (67 papers)
+- [Framework](paper_by_key/paper_framework.md) (157 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (58 papers)
+- [Llm](paper_by_key/paper_llm.md) (135 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (60 papers)
 - [Survey](paper_by_key/paper_survey.md) (40 papers)
 
 ###  By Top Authors
+- [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
 - [Zonglin Yang](paper_by_author/paper_zonglin_yang.md) (5 papers)
-- [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (4 papers)
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Jiefeng Chen](paper_by_author/paper_jiefeng_chen.md) (2 papers)
+- [Mihir Parmar](paper_by_author/paper_mihir_parmar.md) (2 papers)
+- [Rui Meng](paper_by_author/paper_rui_meng.md) (2 papers)
+- [Chun-Liang Li](paper_by_author/paper_chun_liang_li.md) (2 papers)
 - [Yue Huang](paper_by_author/paper_yue_huang.md) (2 papers)
 - [Jintian Zhang](paper_by_author/paper_jintian_zhang.md) (2 papers)
 - [Dingjie Song](paper_by_author/paper_dingjie_song.md) (2 papers)
@@ -62,13 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
 - [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
 - [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)
-- [Xinyu Geng](paper_by_author/paper_xinyu_geng.md) (2 papers)
-- [Peng Xia](paper_by_author/paper_peng_xia.md) (2 papers)
-- [Zhen Zhang](paper_by_author/paper_zhen_zhang.md) (2 papers)
-- [Xinyu Wang](paper_by_author/paper_xinyu_wang.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Experimental Experience Modeling for Autonomous Research](http://arxiv.org/abs/2609.39392v1)
+    - Wenda Wei, Yingchen Zhang, Ruqing Zhang, Jiafeng Guo, Daiting Shi, Xueqi Cheng
+    - 📅 Date: September 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [hypothesis]
+    - 📖 TLDR: Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. A fundamental challenge is deciding which experiments are worth running, particularly when prior evidence is insufficient to resolve uncertainty. Yet current research agents lack a systematic way to leverage experimental experience when making such decisions. We introduce Experimental Experience Modeling (EEM), a framework for making informed experimental decisions by acquiring, reusing, and accumulating experimental experience. EEM extracts decision-relevant records from earlier experimental trajectories, distills them into reusable experience, and organizes them in an experience library. For a new experimental decision, EEM retrieves relevant historical experience and assesses whether it provides sufficient support for deciding whether a candidate direction warrants further investment. When historical experience is insufficient, EEM conducts a targeted, low-cost pilot experiment to acquire the missing decision-relevant experience on demand. It then combines this newly acquired experience with retrieved historical experience to determine whether the direction warrants full-scale evaluation, which requires substantial resources. The resulting experimental outcomes are further distilled into reusable experience, allowing the library to continually grow through iterative accumulation. Experiments on autonomous research benchmarks show that EEM improves research performance while reducing model interaction overhead, demonstrating the value of reusing accumulated experience and acquiring additional experience only when needed.
 - [Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes](http://arxiv.org/abs/2609.36726v1)
     - Kargi Chauhan
     - 📅 Date: September 29, 2026
@@ -76,6 +83,13 @@ This repository tracks the latest research in this rapidly evolving field.
     - 💻 Topic: [AI Scientist]
     - 🔑 Key: [agent], [benchmark]
     - 📖 TLDR: Can a scientific agent distinguish a law it inferred from evidence from one it merely recognizes? We introduce Synthetic Universes, a controlled benchmark that pairs canonical famous worlds with matched twisted twins governed by nearby noncanonical mechanisms. We evaluate each reported law twice: by executing it on held-out continuations and transfer settings, and by independently checking whether it recovers the generating mechanism. In the current checkpoint of a pre-specified 60-cell study, 22 trials were graded and one additional run ended in infrastructure failure. Among 20 twin trials, 8 pass predictive verification while 5 recover the generator. The dissociation is bidirectional: six parsable outputs predict successfully while missing the mechanism, whereas three recover the mechanism but fail predictive rollout. Drag exhibits the first pattern (5/5 predictive pass, 1/5 mechanism recovery); Gravity exhibits the second (1/5 predictive pass, 4/5 mechanism recovery). Because matched famous controls, the corrected identifiability sweep, and the Evidence Ladder remain incomplete, we do not claim a confirmatory causal prior-conflict effect. Instead, the completed runs establish a narrower verification result: predictive adequacy and mechanism recovery are distinct scientific claims and require distinct tests.
+- [AIM: Agentic Idea Management for Automated Research](http://arxiv.org/abs/2609.38445v1)
+    - Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen, Mihir Parmar, Rui Meng, Chun-Liang Li, et al.
+    - 📅 Date: September 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Frontier LLMs are increasingly used to automate scientific research through iterative search. We distinguish idea-driven search from solution-driven search and identify three core challenges: organizing evolving research ideas, selecting promising directions, and maintaining alignment between ideas and their implementations. To address these challenges, we introduce the Agentic Idea Manager (AIM), a fully autonomous framework for managing and exploring research directions in idea-driven automated research. Inspired by Bayesian optimization, AIM uses an Agentic Surrogate and an Agentic Acquisition mechanism to organize discovered ideas and guide their selection. A Solution Auditor maintains idea-solution integrity, while a Resource Planner adaptively allocates the remaining experimental budget across parallel search branches. Experiments on 10 AutoLab benchmark tasks show that AIM surpasses the strongest baseline by 1.6 percentage points on System Optimization tasks and 4.9 percentage points on long-horizon Model Development & CUDA tasks. Notably, AIM reaches the best baseline performance up to 3.1x faster in wall-clock time. We further provide a theoretical analysis of when searching over ideas becomes beneficial. Our analysis shows that explicit idea-level allocation makes semantic coverage directly controllable, and that broader coverage becomes increasingly valuable when competitive research directions are sparse among many plausible alternatives. Project Page: https://imhgchoi.github.io/agentic-idea-manager/
 - [Reward Hacking Challenges Oversight of Autonomous Research Agents](http://arxiv.org/abs/2609.28614v1)
     - Yue Huang, Zhangchen Xu, Yuchen Ma, Wenjie Wang, Zheyuan Liu, Ziwei Xu, et al.
     - 📅 Date: September 23, 2026

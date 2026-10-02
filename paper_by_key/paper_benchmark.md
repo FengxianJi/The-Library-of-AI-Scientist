@@ -1,7 +1,14 @@
 # Benchmark Papers
 
-Total: 126 papers
+Total: 128 papers
 
+- [Can AI Scientists Coordinate at Runtime?](http://arxiv.org/abs/2610.00980v1)
+    - Zijian Liu, Yangzhixin Luo, Junyu Lu, Yi Li, Yu Chen, David Xu, et al.
+    - 📅 Date: October 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [benchmark], [multi-agent]
+    - 📖 TLDR: Multi-agent AI scientists have shown improving performance across a diverse range of tasks. Yet a common approach is design-time agentic orchestration, which typically relies on fixed workflows. In contrast, human scientists coordinate and adjust their division of labor at runtime. We therefore ask: can AI scientists also coordinate at runtime? To this end, we introduce Runtime Agent Coordination (RAC), which selects agents from existing AI-scientist hosts during execution, assigns scoped work contracts, and provides artifact-grounded verification. Verification informs subsequent agents without blocking transitions or discarding artifacts. We conduct a single-seed exploratory evaluation across Agent Laboratory, EvoScientist, and ARK on ResearchClawBench, preserving host models, tools, and permissions under host-calibrated budgets. Four cumulative conditions separate native execution, runtime communication, runtime selection, and the combined addition of contracts and verification. Runtime selection yields the highest observed mean score for each host; adding contracts and verification reduces these means, with host-dependent outcomes relative to native execution. These results motivate runtime coordination while exposing the limits of additional coordination mechanisms under constrained budgets. Code is available at https://github.com/systemind-team/Runtime-AI-Scientist.
 - [Experimental Experience Modeling for Autonomous Research](http://arxiv.org/abs/2609.39392v1)
     - Wenda Wei, Yingchen Zhang, Ruqing Zhang, Jiafeng Guo, Daiting Shi, Xueqi Cheng
     - 📅 Date: September 30, 2026
@@ -9,6 +16,13 @@ Total: 126 papers
     - 💻 Topic: [Misc]
     - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [hypothesis]
     - 📖 TLDR: Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. A fundamental challenge is deciding which experiments are worth running, particularly when prior evidence is insufficient to resolve uncertainty. Yet current research agents lack a systematic way to leverage experimental experience when making such decisions. We introduce Experimental Experience Modeling (EEM), a framework for making informed experimental decisions by acquiring, reusing, and accumulating experimental experience. EEM extracts decision-relevant records from earlier experimental trajectories, distills them into reusable experience, and organizes them in an experience library. For a new experimental decision, EEM retrieves relevant historical experience and assesses whether it provides sufficient support for deciding whether a candidate direction warrants further investment. When historical experience is insufficient, EEM conducts a targeted, low-cost pilot experiment to acquire the missing decision-relevant experience on demand. It then combines this newly acquired experience with retrieved historical experience to determine whether the direction warrants full-scale evaluation, which requires substantial resources. The resulting experimental outcomes are further distilled into reusable experience, allowing the library to continually grow through iterative accumulation. Experiments on autonomous research benchmarks show that EEM improves research performance while reducing model interaction overhead, demonstrating the value of reusing accumulated experience and acquiring additional experience only when needed.
+- [esQueranto: Differentiable Structured Quantum Light for Automated Scientific Discovery](http://arxiv.org/abs/2610.00750v1)
+    - Marcello Armezzani, Tareq Jaouni, Pontus Lindgren, Sören Arlt, Mario Krenn, Xuemei Gu
+    - 📅 Date: September 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [automation], [framework], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Uncovering new phenomena in nature requires experiments. For centuries, their design has been exclusively a human endeavor. Today, a new paradigm is emerging in which artificial intelligence and computational methods can design experiments themselves. Realizing this form of automated scientific discovery requires simulators that are sufficiently expressive to represent the diverse physical processes and couplings from which new experiments can be constructed. In this direction, we introduce \textsc{esQueranto}, a differentiable software that brings photon-number quantum optics and structured-light propagation into a common description, allowing the spatial evolution of light to directly influence non-classical quantum states and their interference. \textsc{esQueranto} is implemented in JAX, providing automatic differentiation and hardware-accelerated evaluation for optimization and automated search. We demonstrate the framework across a broad range of quantum-optical applications that exercise complementary aspects of its physical description. By combining quantum and structured-light physics within a single differentiable simulator, \textsc{esQueranto} takes an important step towards the dream of a foundational simulator in physics.
 - [Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes](http://arxiv.org/abs/2609.36726v1)
     - Kargi Chauhan
     - 📅 Date: September 29, 2026

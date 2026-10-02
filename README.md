@@ -22,28 +22,28 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (41 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (43 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (14 papers)
 - [Misc](paper_by_topic/paper_misc.md) (37 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (40 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (114 papers)
-- [Automation](paper_by_key/paper_automation.md) (118 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (126 papers)
+- [Agent](paper_by_key/paper_agent.md) (116 papers)
+- [Automation](paper_by_key/paper_automation.md) (120 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (128 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (83 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (67 papers)
-- [Framework](paper_by_key/paper_framework.md) (157 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (58 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (84 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (69 papers)
+- [Framework](paper_by_key/paper_framework.md) (160 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (59 papers)
 - [Llm](paper_by_key/paper_llm.md) (135 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (19 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (20 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (60 papers)
-- [Survey](paper_by_key/paper_survey.md) (40 papers)
+- [Survey](paper_by_key/paper_survey.md) (41 papers)
 
 ###  By Top Authors
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
@@ -69,6 +69,20 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Can AI Scientists Coordinate at Runtime?](http://arxiv.org/abs/2610.00980v1)
+    - Zijian Liu, Yangzhixin Luo, Junyu Lu, Yi Li, Yu Chen, David Xu, et al.
+    - 📅 Date: October 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [framework], [benchmark], [multi-agent]
+    - 📖 TLDR: Multi-agent AI scientists have shown improving performance across a diverse range of tasks. Yet a common approach is design-time agentic orchestration, which typically relies on fixed workflows. In contrast, human scientists coordinate and adjust their division of labor at runtime. We therefore ask: can AI scientists also coordinate at runtime? To this end, we introduce Runtime Agent Coordination (RAC), which selects agents from existing AI-scientist hosts during execution, assigns scoped work contracts, and provides artifact-grounded verification. Verification informs subsequent agents without blocking transitions or discarding artifacts. We conduct a single-seed exploratory evaluation across Agent Laboratory, EvoScientist, and ARK on ResearchClawBench, preserving host models, tools, and permissions under host-calibrated budgets. Four cumulative conditions separate native execution, runtime communication, runtime selection, and the combined addition of contracts and verification. Runtime selection yields the highest observed mean score for each host; adding contracts and verification reduces these means, with host-dependent outcomes relative to native execution. These results motivate runtime coordination while exposing the limits of additional coordination mechanisms under constrained budgets. Code is available at https://github.com/systemind-team/Runtime-AI-Scientist.
+- [YouRA: A Persistent-State Architecture for Evidence-Traceable Autonomous Research Agents](http://arxiv.org/abs/2610.01097v1)
+    - Yoonkyu Woo, Woojin Lee, Jin-Xia Huang
+    - 📅 Date: October 01, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [experiment], [hypothesis], [survey]
+    - 📖 TLDR: End-to-end research agents can now produce complete scientific papers, yet manuscript claims often diverge from executed experiments. This gap is structural: research state, failure histories, and claim-evidence alignment are not maintained as persistent, verifiable state across long-horizon pipelines. We present YouRA (Your Research Agent), an architecture for stateful, evidence-traceable autonomous research. YouRA preserves research state, execution evidence, and failure history across the research trajectory by integrating three components: a Verification State Architecture (VSA) that tracks hypotheses, gates, and evidence pointers; an Independent Controller that turns state and reflection records into lifecycle, recovery, and debate/review control while separating control from execution; and Stateful Reflection that logs failures as structured lessons and routes recovery through bounded repair, redesign, or reset. On MLR-Bench's predefined ten-task end-to-end subset, YouRA improves over both MLR-Agent and AI Scientist V2 on scalar Overall across all three matched backbones. An automated diagnostic using MLR-Bench's hallucination taxonomy reports intersection/union counts for four fact-based failure types, and data-provenance diagnostic shows more real-data-based outputs. Ablating each of the four components (the VSA, the Independent Controller, MCP tool access, and reflection-guided recovery) supports their separable contributions. Removing either core-state component drops YouRA below the full system. Code: https://github.com/PrayPrey/Your-Research-Agent.
 - [Experimental Experience Modeling for Autonomous Research](http://arxiv.org/abs/2609.39392v1)
     - Wenda Wei, Yingchen Zhang, Ruqing Zhang, Jiafeng Guo, Daiting Shi, Xueqi Cheng
     - 📅 Date: September 30, 2026
@@ -76,6 +90,13 @@ This repository tracks the latest research in this rapidly evolving field.
     - 💻 Topic: [Misc]
     - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [hypothesis]
     - 📖 TLDR: Autonomous research agents can generate hypotheses and conduct experiments, but experimentation remains a major source of computational cost. A fundamental challenge is deciding which experiments are worth running, particularly when prior evidence is insufficient to resolve uncertainty. Yet current research agents lack a systematic way to leverage experimental experience when making such decisions. We introduce Experimental Experience Modeling (EEM), a framework for making informed experimental decisions by acquiring, reusing, and accumulating experimental experience. EEM extracts decision-relevant records from earlier experimental trajectories, distills them into reusable experience, and organizes them in an experience library. For a new experimental decision, EEM retrieves relevant historical experience and assesses whether it provides sufficient support for deciding whether a candidate direction warrants further investment. When historical experience is insufficient, EEM conducts a targeted, low-cost pilot experiment to acquire the missing decision-relevant experience on demand. It then combines this newly acquired experience with retrieved historical experience to determine whether the direction warrants full-scale evaluation, which requires substantial resources. The resulting experimental outcomes are further distilled into reusable experience, allowing the library to continually grow through iterative accumulation. Experiments on autonomous research benchmarks show that EEM improves research performance while reducing model interaction overhead, demonstrating the value of reusing accumulated experience and acquiring additional experience only when needed.
+- [esQueranto: Differentiable Structured Quantum Light for Automated Scientific Discovery](http://arxiv.org/abs/2610.00750v1)
+    - Marcello Armezzani, Tareq Jaouni, Pontus Lindgren, Sören Arlt, Mario Krenn, Xuemei Gu
+    - 📅 Date: September 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [automation], [framework], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Uncovering new phenomena in nature requires experiments. For centuries, their design has been exclusively a human endeavor. Today, a new paradigm is emerging in which artificial intelligence and computational methods can design experiments themselves. Realizing this form of automated scientific discovery requires simulators that are sufficiently expressive to represent the diverse physical processes and couplings from which new experiments can be constructed. In this direction, we introduce \textsc{esQueranto}, a differentiable software that brings photon-number quantum optics and structured-light propagation into a common description, allowing the spatial evolution of light to directly influence non-classical quantum states and their interference. \textsc{esQueranto} is implemented in JAX, providing automatic differentiation and hardware-accelerated evaluation for optimization and automated search. We demonstrate the framework across a broad range of quantum-optical applications that exercise complementary aspects of its physical description. By combining quantum and structured-light physics within a single differentiable simulator, \textsc{esQueranto} takes an important step towards the dream of a foundational simulator in physics.
 - [Can AI Scientists Change Their Minds? Prior-Evidence Conflict in Synthetic Universes](http://arxiv.org/abs/2609.36726v1)
     - Kargi Chauhan
     - 📅 Date: September 29, 2026

@@ -1,7 +1,14 @@
 # Discovery Papers
 
-Total: 83 papers
+Total: 84 papers
 
+- [esQueranto: Differentiable Structured Quantum Light for Automated Scientific Discovery](http://arxiv.org/abs/2610.00750v1)
+    - Marcello Armezzani, Tareq Jaouni, Pontus Lindgren, Sören Arlt, Mario Krenn, Xuemei Gu
+    - 📅 Date: September 30, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [automation], [framework], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Uncovering new phenomena in nature requires experiments. For centuries, their design has been exclusively a human endeavor. Today, a new paradigm is emerging in which artificial intelligence and computational methods can design experiments themselves. Realizing this form of automated scientific discovery requires simulators that are sufficiently expressive to represent the diverse physical processes and couplings from which new experiments can be constructed. In this direction, we introduce \textsc{esQueranto}, a differentiable software that brings photon-number quantum optics and structured-light propagation into a common description, allowing the spatial evolution of light to directly influence non-classical quantum states and their interference. \textsc{esQueranto} is implemented in JAX, providing automatic differentiation and hardware-accelerated evaluation for optimization and automated search. We demonstrate the framework across a broad range of quantum-optical applications that exercise complementary aspects of its physical description. By combining quantum and structured-light physics within a single differentiable simulator, \textsc{esQueranto} takes an important step towards the dream of a foundational simulator in physics.
 - [AIM: Agentic Idea Management for Automated Research](http://arxiv.org/abs/2609.38445v1)
     - Hyeong Kyu Choi, Bhavana Dalvi Mishra, Jiefeng Chen, Mihir Parmar, Rui Meng, Chun-Liang Li, et al.
     - 📅 Date: September 29, 2026

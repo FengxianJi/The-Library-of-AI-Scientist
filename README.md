@@ -26,21 +26,21 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
-- [Machine Learning](paper_by_topic/paper_machine_learning.md) (14 papers)
+- [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (37 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (116 papers)
-- [Automation](paper_by_key/paper_automation.md) (120 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (128 papers)
+- [Agent](paper_by_key/paper_agent.md) (117 papers)
+- [Automation](paper_by_key/paper_automation.md) (121 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (129 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (69 papers)
-- [Framework](paper_by_key/paper_framework.md) (160 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (59 papers)
-- [Llm](paper_by_key/paper_llm.md) (135 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (70 papers)
+- [Framework](paper_by_key/paper_framework.md) (161 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
+- [Llm](paper_by_key/paper_llm.md) (136 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (20 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (60 papers)
 - [Survey](paper_by_key/paper_survey.md) (41 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training](http://arxiv.org/abs/2610.05398v1)
+    - Yuxin Liu, Yuxuan Wang, Zhenxin Lei, Lingchen Meng, Yuchong Sun, Junming Lin, et al.
+    - 📅 Date: October 04, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Machine Learning]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment], [hypothesis]
+    - 📖 TLDR: Autonomous research seeks sustained model improvements through iterative experimentation and feedback. LLM agents show promise in automating machine learning and language-model post-training, but their ability to sustain multimodal improvement remains unclear. We introduce MMPostTrainBench, a benchmark spanning eight tasks in image, audio, video, and joint audio-video understanding and image-grounded software repair. Agents operate from a common base model within fixed budgets, using development feedback before independent evaluation of their submitted models. Evaluation covers target and non-target model outcomes, iterative model improvement and selection, and research integrity. Across all eight tasks, 52.1% of model--task means fall below the base, and evaluated submissions also exhibit non-target regressions. Model performance does not consistently improve across research iterations, and agents do not reliably select the best evaluated candidate for submission; final submissions trail that candidate by up to 5.38 percentage points. Extending autonomous research from text-only to multimodal tasks introduces additional sources of error in perception, cross-modal alignment, and temporal grounding. The observed regressions and selection gaps highlight the need to balance targeted improvements with non-target capability preservation and to retain gains across research iterations. These requirements motivate MMResearch, a multimodal research framework that connects media-grounded evidence to hypotheses and interventions, carries findings across rounds through hierarchical memory, and retains candidates using development evaluation. Added to existing code-agent runtimes, it improves submitted-model accuracy by up to 7.75 percentage points for Claude Opus 4.8 with Claude Code and 2.33 points for GPT-5.6-sol with Codex.
 - [Can AI Scientists Coordinate at Runtime?](http://arxiv.org/abs/2610.00980v1)
     - Zijian Liu, Yangzhixin Luo, Junyu Lu, Yi Li, Yu Chen, David Xu, et al.
     - 📅 Date: October 01, 2026

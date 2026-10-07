@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (37 papers)
+- [Misc](paper_by_topic/paper_misc.md) (38 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (117 papers)
-- [Automation](paper_by_key/paper_automation.md) (121 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (129 papers)
+- [Agent](paper_by_key/paper_agent.md) (118 papers)
+- [Automation](paper_by_key/paper_automation.md) (122 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (130 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (70 papers)
-- [Framework](paper_by_key/paper_framework.md) (161 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (71 papers)
+- [Framework](paper_by_key/paper_framework.md) (162 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (136 papers)
+- [Llm](paper_by_key/paper_llm.md) (137 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (20 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (60 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (61 papers)
 - [Survey](paper_by_key/paper_survey.md) (41 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Stateless Language Agents: Scaling Long-Horizon Automated Research](http://arxiv.org/abs/2610.07625v1)
+    - Qizheng Zhang, Changxiu Ji, Isaac Sun, Yuetai Li, Shubhangi Upasani, Sherry Ruan, et al.
+    - 📅 Date: October 06, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment], [reasoning]
+    - 📖 TLDR: Automated research systems increasingly run LLM agents over long horizons, but more inference does not by itself produce more progress: agents replay growing histories, duplicate one another's work, or stop experimenting while token consumption continues. Yet most evaluations use short budgets or benchmarks that saturate early, leaving these failure modes untested. We trace these failures to two choices: where research state lives and who decides what to try next. We introduce Stateless Language Agents (SLAs), built on the principle of stateful search with stateless agents: no agent carries its conversation across invocations; instead, the harness owns the research state (candidate solutions and measured outcomes) and reconstructs a fresh and role-specific context for every invocation. What each agent sees becomes an explicit design choice rather than a history that grows with the run. We implement this principle in the SLA framework, where a stateless Advisor reads harness-summarized evidence across search directions and assigns concrete experiments to parallel Workers. We evaluate SLA against three recent frameworks on software engineering, kernel optimization, and algorithm design at budgets of up to one billion tokens. SLA achieves the best final result on every task and reaches the strongest kernel baseline's final performance with over 84% fewer tokens. Ablations from shared checkpoints show that focused contexts and explicit assignments each contribute to SLA's progress, with effects that can compound over full runs, while the Advisor consumes less than 0.6% of tokens. These results argue for SLAs, which keep durable research state out of agent conversations, and show that short evaluation horizons can misjudge research systems and their components.
 - [MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training](http://arxiv.org/abs/2610.05398v1)
     - Yuxin Liu, Yuxuan Wang, Zhenxin Lei, Lingchen Meng, Yuchong Sun, Junming Lin, et al.
     - 📅 Date: October 04, 2026

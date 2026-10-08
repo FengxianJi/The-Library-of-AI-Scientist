@@ -28,22 +28,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (38 papers)
-- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (13 papers)
+- [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (118 papers)
-- [Automation](paper_by_key/paper_automation.md) (122 papers)
+- [Agent](paper_by_key/paper_agent.md) (119 papers)
+- [Automation](paper_by_key/paper_automation.md) (123 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (130 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (71 papers)
-- [Framework](paper_by_key/paper_framework.md) (162 papers)
+- [Framework](paper_by_key/paper_framework.md) (163 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (137 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (20 papers)
+- [Llm](paper_by_key/paper_llm.md) (138 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (61 papers)
-- [Survey](paper_by_key/paper_survey.md) (41 papers)
+- [Survey](paper_by_key/paper_survey.md) (42 papers)
 
 ###  By Top Authors
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](http://arxiv.org/abs/2610.10468v1)
+    - Ali Asaria, Deep Gandhi, Tony Salomone
+    - 📅 Date: October 07, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Multi-Agent]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [survey], [multi-agent]
+    - 📖 TLDR: Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a population will acquire an organization whether or not its designers provide one, so designers should provide it explicitly, and that the multi-agent systems community holds the tools to do so. We propose a society of agents, a population of persistent agents under explicit institutions, and develop it for science as a society of researchers built on six principles. Principal investigators compete for compute through requests for proposals, independent review, and grants; a human governor, the mayor, allocates resources and assigns no tasks. In a running society of ten thousand researchers, asked only to improve the pretraining of language models, one lab reported a way to reach the same quality with about 30% less compute, a result the labs that tested it do not yet agree on. We close with six open problems for the agents community.
 - [Stateless Language Agents: Scaling Long-Horizon Automated Research](http://arxiv.org/abs/2610.07625v1)
     - Qizheng Zhang, Changxiu Ji, Isaac Sun, Yuetai Li, Shubhangi Upasani, Sherry Ruan, et al.
     - 📅 Date: October 06, 2026

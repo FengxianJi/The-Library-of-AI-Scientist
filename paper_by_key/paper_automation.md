@@ -1,7 +1,14 @@
 # Automation Papers
 
-Total: 123 papers
+Total: 124 papers
 
+- [How Is Automated Research Evaluated? A Survey of Benchmarks and Evaluation Practices](http://arxiv.org/abs/2610.11877v1)
+    - Liulei Zhang, Dejing Zhou, Chuyue Huang, Guanhua Chen, Yutong Yao, Lidia S. Chao, et al.
+    - 📅 Date: October 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Automated research systems support literature synthesis, ideation, experiments, writing, and peer review, but their evaluation is dispersed across tasks, benchmarks, and studies that are difficult to compare directly. We review this literature from the perspective of evaluation design and evidence, covering six targets: literature synthesis, research ideation, executable workflows, scholarly writing and communication, automatic peer review, and end-to-end research. We compare task construction, evidence sources, evaluators, and scoring procedures to explain the capabilities assessed by different designs. Our synthesis highlights three recurring lessons: output checks, process checks, and human studies provide complementary information; evaluator calibration is specific to the property being assessed; and resource budgets and attempt selection are integral to interpreting performance comparisons. We identify diagnostic evaluation designs and documented gaps in supporting evidence, and translate these comparisons into reporting and audit recommendations for specific evaluation settings. The survey helps readers navigate existing evaluations, select appropriate benchmarks, and design subsequent studies.
 - [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](http://arxiv.org/abs/2610.10468v1)
     - Ali Asaria, Deep Gandhi, Tony Salomone
     - 📅 Date: October 07, 2026

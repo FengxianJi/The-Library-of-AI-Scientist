@@ -22,28 +22,28 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (43 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (44 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (38 papers)
+- [Misc](paper_by_topic/paper_misc.md) (40 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (119 papers)
-- [Automation](paper_by_key/paper_automation.md) (123 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (130 papers)
+- [Agent](paper_by_key/paper_agent.md) (121 papers)
+- [Automation](paper_by_key/paper_automation.md) (124 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (133 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (44 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (71 papers)
-- [Framework](paper_by_key/paper_framework.md) (163 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (74 papers)
+- [Framework](paper_by_key/paper_framework.md) (164 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (138 papers)
+- [Llm](paper_by_key/paper_llm.md) (139 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (61 papers)
-- [Survey](paper_by_key/paper_survey.md) (42 papers)
+- [Survey](paper_by_key/paper_survey.md) (43 papers)
 
 ###  By Top Authors
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
@@ -69,6 +69,27 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1)
+    - Yudi Zhang, Mingyu Cao, Lu Yin, Mykola Pechenizkiy, Shiwei Liu
+    - 📅 Date: October 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [benchmark], [experiment]
+    - 📖 TLDR: As claims about recursive self-improvement (RSI) and artificial general intelligence (AGI) proliferate, we ask a simple question: do frontier AI models have a sense of data, i.e., can they reliably select the right data for training? We introduce DataSense-Bench to study this capability through the fundamental problem of data selection and performance forecasting in machine learning. We ask AI agents to select and rank candidate training subsets that can be used to fine-tune a small LLM model. Agents are allowed to inspect the data, write and execute analysis code, and run model forward passes, but can not train the model or access the actual evaluation tasks. We then fine-tune the base model on each selected subset and evaluate its post-training performance under a standardized protocol. We instantiate the benchmark in terminal problem solving and tool use, selecting trajectories from OpenThoughts-Agent and EnvScaler and evaluating on TBLite and BFCL, respectively. We then evaluate the agents along two complementary dimensions: the post-training performance of the top-ranked subset, reflecting the ability to identify high-value training data, and ranking accuracy, reflecting the ability to predict the relative performance of the selected subsets. In our experiments, selection gains over random selection are limited; agents do not reliably rank their selected groups, and ranking ability does not hold consistently across tasks: Astra identifies the best group in all three tool-use runs but in only one of three terminal runs. Analysis of execution traces on both tasks shows that agents often use similar data signals while interpreting their training value differently.
+- [How Is Automated Research Evaluated? A Survey of Benchmarks and Evaluation Practices](http://arxiv.org/abs/2610.11877v1)
+    - Liulei Zhang, Dejing Zhou, Chuyue Huang, Guanhua Chen, Yutong Yao, Lidia S. Chao, et al.
+    - 📅 Date: October 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Automated research systems support literature synthesis, ideation, experiments, writing, and peer review, but their evaluation is dispersed across tasks, benchmarks, and studies that are difficult to compare directly. We review this literature from the perspective of evaluation design and evidence, covering six targets: literature synthesis, research ideation, executable workflows, scholarly writing and communication, automatic peer review, and end-to-end research. We compare task construction, evidence sources, evaluators, and scoring procedures to explain the capabilities assessed by different designs. Our synthesis highlights three recurring lessons: output checks, process checks, and human studies provide complementary information; evaluator calibration is specific to the property being assessed; and resource budgets and attempt selection are integral to interpreting performance comparisons. We identify diagnostic evaluation designs and documented gaps in supporting evidence, and translate these comparisons into reporting and audit recommendations for specific evaluation settings. The survey helps readers navigate existing evaluations, select appropriate benchmarks, and design subsequent studies.
+- [OneSearch-VL: Unified Multimodal Deep Research Agent for Image and Video](http://arxiv.org/abs/2610.12419v1)
+    - Hongyu Li, Manyuan Zhang, Kaituo Feng, Shu Chen, Dian Zheng, Hao Li, et al.
+    - 📅 Date: October 08, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [benchmark], [experiment]
+    - 📖 TLDR: Single-image, multi-image, and video deep research require different visual operations but share a workflow of visual grounding, external retrieval, and fact composition. A key challenge is to preserve the dependencies linking localized visual anchors, entity relations, source-supported facts, and answer-producing operations. We introduce OneSearch-VL, a unified agent centered on the Visually Grounded Evidence Graph (VGEG), which encodes these dependencies as a shared task-level reference for data construction, process supervision, and operation-level evaluation. Our VGEG-based data engine constructs and verifies multi-image and video questions and filters expert trajectories. Using these data, we assemble OneSearch-VL-SFT-110K and OneSearch-VL-RL-10K for SFT and RL, respectively. We further derive the Evidence-aware Visual-Grounded Rubric reward (EVGR) from VGEG annotations to supervise evidence traceability and visual grounding during RL. For fine-grained evaluation, we construct OneSearch-MI-Bench and OneSearch-Video-Bench, organizing questions by the research operations encoded in their VGEGs. Experiments show that OneSearch-VL-8B improves over Qwen3-VL-8B with tool access by 20.2 and 17.6 percentage points on the two new benchmarks, respectively, while also achieving substantial gains across 7 image benchmarks and VideoDR. Project repository: https://github.com/appletea233/OneSearch-VL
 - [A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents](http://arxiv.org/abs/2610.10468v1)
     - Ali Asaria, Deep Gandhi, Tony Salomone
     - 📅 Date: October 07, 2026

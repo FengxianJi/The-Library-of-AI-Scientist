@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (40 papers)
+- [Misc](paper_by_topic/paper_misc.md) (41 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (121 papers)
-- [Automation](paper_by_key/paper_automation.md) (124 papers)
+- [Agent](paper_by_key/paper_agent.md) (122 papers)
+- [Automation](paper_by_key/paper_automation.md) (125 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (133 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (44 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (45 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (74 papers)
-- [Framework](paper_by_key/paper_framework.md) (164 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (75 papers)
+- [Framework](paper_by_key/paper_framework.md) (165 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (139 papers)
+- [Llm](paper_by_key/paper_llm.md) (140 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (61 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (62 papers)
 - [Survey](paper_by_key/paper_survey.md) (43 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [JevGPT: Thinking Fast and Slow in Autonomous Research](http://arxiv.org/abs/2610.18272v1)
+    - Yasheng Sun, Yanning Dai, Yimeng Chen, Nanbo Li, Firas Laakom, Yifan Xu, et al.
+    - 📅 Date: October 13, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [dataset], [experiment], [reasoning]
+    - 📖 TLDR: Autonomous research agents must acquire and reason over evidence within a limited budget. Yet relevant sources can remain uninspected or unused, leaving a gap between retrieval coverage and the evidence that informs research. The challenge is to align fast local judgments with changing evidence needs and feed their findings back into research decisions. We introduce JevGPT, a dual-system architecture for autonomous research that couples fast evidence processing with deliberative research planning. System Two sets evidence objectives and integrates findings, while System One locates support, assesses relevance, and guides further inspection. Independent source judgments run in parallel; selected original passages inform the next research step. Experiments on fixed-corpus question answering and document ranking show that JevGPT achieves leading task performance, with faster completion and lower cost than comparably effective research agents. Evidence analysis shows broader source inspection and greater coverage of supporting documents in the research loop, highlighting efficient evidence processing as a route to more capable autonomous research.
 - [DataSense-Bench: The First Step Toward an AI Scientist](http://arxiv.org/abs/2610.12190v1)
     - Yudi Zhang, Mingyu Cao, Lu Yin, Mykola Pechenizkiy, Shiwei Liu
     - 📅 Date: October 08, 2026

@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (41 papers)
+- [Misc](paper_by_topic/paper_misc.md) (42 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (122 papers)
-- [Automation](paper_by_key/paper_automation.md) (125 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (133 papers)
+- [Automation](paper_by_key/paper_automation.md) (126 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (134 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (45 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (84 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (75 papers)
 - [Framework](paper_by_key/paper_framework.md) (165 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (140 papers)
+- [Llm](paper_by_key/paper_llm.md) (141 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (62 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (63 papers)
 - [Survey](paper_by_key/paper_survey.md) (43 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [ChemArgus: Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark](http://arxiv.org/abs/2610.20012v1)
+    - Hanyao Guo, Mo Cui, Zihan Tan, Leixin Sun, Yichun Wang, Yinan Shen, et al.
+    - 📅 Date: October 14, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [automation], [benchmark], [reasoning]
+    - 📖 TLDR: Chemistry evaluation has moved past multiple-choice probes toward open-ended expert problems, yet the benchmarks that define the current frontier still score answer endpoints alone. Such scoring conflates memorized facts with stepwise derivation, treats visual and textual inputs as interchangeable, and confounds long-horizon planning with stepwise execution. These blind spots prevent any diagnosis of where the reasoning chain breaks in a model. We present ChemArgus, a competition-level chemistry benchmark drawn from chemistry competition material, textbooks, and research papers, whose scoring replaces the answer endpoint with three measurement properties. Fine-grained scoring grades every subquestion point by point with partial credit, so a score lands at the level of the step rather than the outcome. Multimodal capability is priced on every problem containing a real image, paired with a controlled text description, so visual understanding is measured against text on identical tasks. Diagnostic attribution reads paired metrics that share one scoring unit and differ only in context construction, so a gap between two scores isolates a single cause, namely integration, propagation, or local reasoning. GPT-5.6-Sol scores 23.2% on unassisted whole-problem solving against 28.8% and 30.4% under the two sequential metrics, a gap measuring the integration burden. Through rubric partial credit and these cause-isolating score gaps, ChemArgus shows not only whether a model answers chemistry correctly but where its reasoning chain fails, so that every score it reports doubles as a diagnosis, a readout of the chain rather than a verdict, aiming to guide language models step by step on their path toward chemistry expertise, one corrected step at a time, each step priced by the rubric, point by point.
 - [JevGPT: Thinking Fast and Slow in Autonomous Research](http://arxiv.org/abs/2610.18272v1)
     - Yasheng Sun, Yanning Dai, Yimeng Chen, Nanbo Li, Firas Laakom, Yifan Xu, et al.
     - 📅 Date: October 13, 2026

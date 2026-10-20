@@ -1,7 +1,14 @@
 # Agent Papers
 
-Total: 122 papers
+Total: 123 papers
 
+- [MIRA: A Multimodal Illustrated Deep Research Agent for Controllable Reports](http://arxiv.org/abs/2610.25926v1)
+    - Hongrui Wu, Kaiwen Tuo, Congcong Wang, Gen Li, Shuai Dong, Xinlei Yu, et al.
+    - 📅 Date: October 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [framework], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: Deep research agents are increasingly capable of searching the open web and synthesizing evidence, yet they remain poorly suited to controllable report generation in multimodal deep research. This task requires agents to handle interleaved textual and visual inputs, gather multimodal evidence through multi-step web search, and deliver comprehensive illustrated reports under user-specified requirements. Existing systems face two limitations. During reasoning, they often underuse images discovered along the search trajectory; during generation, they tend to produce fixed-form answers with limited control over report granularity, multimodal composition, and evidence grounding. We introduce MIRA, a Multimodal Illustrated Deep Research Agent for controllable reports. MIRA integrates textual and visual evidence throughout research and writing. At its core, MIRA-Harness translates user requirements into generation contracts and connects four stages: evidence collection, report submission, feedback-driven revision, and final delivery. Building on this harness, MIRA-Data constructs high-quality multi-hop multimodal research trajectories, and we post-train foundation models to operate within the workflow. Using Qwen3.6-35B-A3B, MIRA achieves state-of-the-art performance among open agents on 7 representative, established multimodal-search and deep-research-agent benchmarks, while producing user-aligned illustrated reports with traceable textual and visual evidence.
 - [JevGPT: Thinking Fast and Slow in Autonomous Research](http://arxiv.org/abs/2610.18272v1)
     - Yasheng Sun, Yanning Dai, Yimeng Chen, Nanbo Li, Firas Laakom, Yifan Xu, et al.
     - 📅 Date: October 13, 2026

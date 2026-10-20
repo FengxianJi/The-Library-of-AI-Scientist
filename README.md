@@ -27,22 +27,22 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (42 papers)
+- [Misc](paper_by_topic/paper_misc.md) (43 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (122 papers)
+- [Agent](paper_by_key/paper_agent.md) (123 papers)
 - [Automation](paper_by_key/paper_automation.md) (126 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (134 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (135 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (45 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (84 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (85 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (75 papers)
-- [Framework](paper_by_key/paper_framework.md) (165 papers)
+- [Framework](paper_by_key/paper_framework.md) (166 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
 - [Llm](paper_by_key/paper_llm.md) (141 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (63 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (64 papers)
 - [Survey](paper_by_key/paper_survey.md) (43 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [MIRA: A Multimodal Illustrated Deep Research Agent for Controllable Reports](http://arxiv.org/abs/2610.25926v1)
+    - Hongrui Wu, Kaiwen Tuo, Congcong Wang, Gen Li, Shuai Dong, Xinlei Yu, et al.
+    - 📅 Date: October 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [framework], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: Deep research agents are increasingly capable of searching the open web and synthesizing evidence, yet they remain poorly suited to controllable report generation in multimodal deep research. This task requires agents to handle interleaved textual and visual inputs, gather multimodal evidence through multi-step web search, and deliver comprehensive illustrated reports under user-specified requirements. Existing systems face two limitations. During reasoning, they often underuse images discovered along the search trajectory; during generation, they tend to produce fixed-form answers with limited control over report granularity, multimodal composition, and evidence grounding. We introduce MIRA, a Multimodal Illustrated Deep Research Agent for controllable reports. MIRA integrates textual and visual evidence throughout research and writing. At its core, MIRA-Harness translates user requirements into generation contracts and connects four stages: evidence collection, report submission, feedback-driven revision, and final delivery. Building on this harness, MIRA-Data constructs high-quality multi-hop multimodal research trajectories, and we post-train foundation models to operate within the workflow. Using Qwen3.6-35B-A3B, MIRA achieves state-of-the-art performance among open agents on 7 representative, established multimodal-search and deep-research-agent benchmarks, while producing user-aligned illustrated reports with traceable textual and visual evidence.
 - [ChemArgus: Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark](http://arxiv.org/abs/2610.20012v1)
     - Hanyao Guo, Mo Cui, Zihan Tan, Leixin Sun, Yichun Wang, Yinan Shen, et al.
     - 📅 Date: October 14, 2026

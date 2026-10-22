@@ -29,20 +29,20 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (43 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (41 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (42 papers)
 
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (123 papers)
 - [Automation](paper_by_key/paper_automation.md) (126 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (135 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (136 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (45 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (85 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (86 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (75 papers)
-- [Framework](paper_by_key/paper_framework.md) (166 papers)
+- [Framework](paper_by_key/paper_framework.md) (167 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
-- [Llm](paper_by_key/paper_llm.md) (141 papers)
+- [Llm](paper_by_key/paper_llm.md) (142 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (64 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (65 papers)
 - [Survey](paper_by_key/paper_survey.md) (43 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery](http://arxiv.org/abs/2610.28706v1)
+    - Ha Minh Hieu, Tongyao Zhu, Do Xuan Long, Min-Yen Kan
+    - 📅 Date: October 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [framework], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models through continual consolidation of search evidence. Lightweight models power both parallel Speculators, which generate and refine candidate programs, and an Advisor, which distills accumulated successes, failures, and saturated directions into persistent guidance for subsequent exploration. At sparse checkpoints, a frontier-model Navigator inspects the evolving population and intervenes through synthesis, surgical refinement, or reframing according to search stagnation. This speculate-then-consolidate workflow delegates routine exploration and evidence consolidation to inexpensive models while reserving frontier reasoning for strategic interventions whose benefits extend across many subsequent low-cost evaluations. Across 176 tasks spanning four scientific and algorithmic discovery domains, SpecEvo matches or outperforms frontier-model baselines while reducing API cost by up to 80%, achieves up to 1.5x greater evaluation efficiency than cost-efficient baselines on equation discovery, and improves over the strongest CO-Bench baseline by 3.8%. These results support trajectory-conditioned model coordination as an effective approach to cost-efficient scientific discovery.
 - [MIRA: A Multimodal Illustrated Deep Research Agent for Controllable Reports](http://arxiv.org/abs/2610.25926v1)
     - Hongrui Wu, Kaiwen Tuo, Congcong Wang, Gen Li, Shuai Dong, Xinlei Yu, et al.
     - 📅 Date: October 19, 2026

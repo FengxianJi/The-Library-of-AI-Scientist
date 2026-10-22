@@ -1,7 +1,14 @@
 # Llm Papers
 
-Total: 141 papers
+Total: 142 papers
 
+- [SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery](http://arxiv.org/abs/2610.28706v1)
+    - Ha Minh Hieu, Tongyao Zhu, Do Xuan Long, Min-Yen Kan
+    - 📅 Date: October 20, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [framework], [benchmark], [discovery], [reasoning]
+    - 📖 TLDR: LLM-driven evolutionary search is a promising paradigm for scientific discovery, but existing methods remain costly and slow, often applying expensive reasoning uniformly while underusing evidence from failed, redundant, and saturated trials. We introduce Speculative Evolution (SpecEvo), a multi-LLM framework that coordinates lightweight and frontier models through continual consolidation of search evidence. Lightweight models power both parallel Speculators, which generate and refine candidate programs, and an Advisor, which distills accumulated successes, failures, and saturated directions into persistent guidance for subsequent exploration. At sparse checkpoints, a frontier-model Navigator inspects the evolving population and intervenes through synthesis, surgical refinement, or reframing according to search stagnation. This speculate-then-consolidate workflow delegates routine exploration and evidence consolidation to inexpensive models while reserving frontier reasoning for strategic interventions whose benefits extend across many subsequent low-cost evaluations. Across 176 tasks spanning four scientific and algorithmic discovery domains, SpecEvo matches or outperforms frontier-model baselines while reducing API cost by up to 80%, achieves up to 1.5x greater evaluation efficiency than cost-efficient baselines on equation discovery, and improves over the strongest CO-Bench baseline by 3.8%. These results support trajectory-conditioned model coordination as an effective approach to cost-efficient scientific discovery.
 - [ChemArgus: Automated Scientific Diagnostics for Lab-Grade Multimodal Chemistry Reasoning: A Frontier Benchmark](http://arxiv.org/abs/2610.20012v1)
     - Hanyao Guo, Mo Cui, Zihan Tan, Leixin Sun, Yichun Wang, Yinan Shen, et al.
     - 📅 Date: October 14, 2026

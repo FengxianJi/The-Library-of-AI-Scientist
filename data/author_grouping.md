@@ -3,6 +3,7 @@
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Junjie Wang](paper_by_author/paper_junjie_wang.md) (2 papers)
 - [Jiefeng Chen](paper_by_author/paper_jiefeng_chen.md) (2 papers)
 - [Mihir Parmar](paper_by_author/paper_mihir_parmar.md) (2 papers)
 - [Rui Meng](paper_by_author/paper_rui_meng.md) (2 papers)
@@ -17,4 +18,3 @@
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
 - [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
-- [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)

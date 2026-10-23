@@ -27,18 +27,18 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (43 papers)
+- [Misc](paper_by_topic/paper_misc.md) (44 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (42 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (123 papers)
-- [Automation](paper_by_key/paper_automation.md) (126 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (136 papers)
-- [Dataset](paper_by_key/paper_dataset.md) (45 papers)
+- [Agent](paper_by_key/paper_agent.md) (124 papers)
+- [Automation](paper_by_key/paper_automation.md) (127 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (137 papers)
+- [Dataset](paper_by_key/paper_dataset.md) (46 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (86 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (75 papers)
-- [Framework](paper_by_key/paper_framework.md) (167 papers)
+- [Framework](paper_by_key/paper_framework.md) (168 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
 - [Llm](paper_by_key/paper_llm.md) (142 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
@@ -51,6 +51,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Junjie Wang](paper_by_author/paper_junjie_wang.md) (2 papers)
 - [Jiefeng Chen](paper_by_author/paper_jiefeng_chen.md) (2 papers)
 - [Mihir Parmar](paper_by_author/paper_mihir_parmar.md) (2 papers)
 - [Rui Meng](paper_by_author/paper_rui_meng.md) (2 papers)
@@ -65,10 +66,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
 - [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
-- [Yu Jiang](paper_by_author/paper_yu_jiang.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1)
+    - Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang, Zijun Yao, Yunjia Qi, et al.
+    - 📅 Date: October 22, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [benchmark], [dataset]
+    - 📖 TLDR: Autonomous research agents are increasingly used to automate large portions of scientific research, yet they are prone to research integrity violations (RIVs): behaviors that compromise the validity, reproducibility, or faithfulness of the research process. We present RIDAR, a framework for automated RIV detection and runtime intervention. First, we introduce RIVT, a comprehensive taxonomy of 14 RIV types spanning the full research lifecycle. Building on RIVT, we present RIDAR-post-hoc, a framework to detect RIVs within agent trajectories. RIDAR-post-hoc achieves 85.2% F1 performance on RIV-Gold, a benchmark for RIV detection with 60 expert-annotated trajectories. Applying RIDAR-post-hoc to RIV-Wild, a dataset of 300 agent trajectories across 50 distinct research tasks, we detect 3,964 RIV instances in 99.7% of trajectories, revealing the prevalence of RIVs in current agents. Finally, we present RIDAR-runtime, a framework for dynamically detecting and correcting RIVs during agent runtime. RIDAR-runtime effectively reduces agent RIVs remaining at task completion by 36.8%. We will release our code and data to facilitate future research.
 - [SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery](http://arxiv.org/abs/2610.28706v1)
     - Ha Minh Hieu, Tongyao Zhu, Do Xuan Long, Min-Yen Kan
     - 📅 Date: October 20, 2026

@@ -5,4 +5,4 @@
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (44 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (42 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)

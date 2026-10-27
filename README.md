@@ -29,16 +29,16 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (44 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
-- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (42 papers)
+- [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (124 papers)
-- [Automation](paper_by_key/paper_automation.md) (127 papers)
+- [Agent](paper_by_key/paper_agent.md) (125 papers)
+- [Automation](paper_by_key/paper_automation.md) (128 papers)
 - [Benchmark](paper_by_key/paper_benchmark.md) (137 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (86 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (75 papers)
-- [Framework](paper_by_key/paper_framework.md) (168 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (87 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (76 papers)
+- [Framework](paper_by_key/paper_framework.md) (169 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
 - [Llm](paper_by_key/paper_llm.md) (142 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Software Engineering for AI-Driven Science](http://arxiv.org/abs/2610.34573v1)
+    - Lukas Twist, Xinjian Wu, Jingzhi Gong, Shuyin Ouyang, Ying Xiao, Benedetta Donato, et al.
+    - 📅 Date: October 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [agent], [automation], [framework], [discovery], [experiment]
+    - 📖 TLDR: AI has made significant contributions to scientific discovery. Autonomous agents can now independently analyse complex problems, design experiments, write and execute code, analyse findings, and derive scientific conclusions. Nevertheless, errors in AI-generated code, experimental procedures, or evidence interpretation can lead to invalid research conclusions, undermining the reliability and reproducibility of automated scientific discovery. In this vision paper, we propose Software Engineering for AI-Driven Science (SE4AI4Sci) as an emerging research area for addressing this challenge. As an organising framework, we introduce the Scientific Assurance Chain, connecting intent, experimental design, implementation, execution, evidence, and claim. Through six documented failures in recent AI-for-science systems, we show where this chain can break, where existing assurance mechanisms fall short, and what new research challenges follow. We also outline a research agenda for adapting and extending software engineering techniques across the chain.
 - [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1)
     - Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang, Zijun Yao, Yunjia Qi, et al.
     - 📅 Date: October 22, 2026

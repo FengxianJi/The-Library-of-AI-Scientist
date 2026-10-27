@@ -1,7 +1,14 @@
 # Automation Papers
 
-Total: 127 papers
+Total: 128 papers
 
+- [Software Engineering for AI-Driven Science](http://arxiv.org/abs/2610.34573v1)
+    - Lukas Twist, Xinjian Wu, Jingzhi Gong, Shuyin Ouyang, Ying Xiao, Benedetta Donato, et al.
+    - 📅 Date: October 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [agent], [automation], [framework], [discovery], [experiment]
+    - 📖 TLDR: AI has made significant contributions to scientific discovery. Autonomous agents can now independently analyse complex problems, design experiments, write and execute code, analyse findings, and derive scientific conclusions. Nevertheless, errors in AI-generated code, experimental procedures, or evidence interpretation can lead to invalid research conclusions, undermining the reliability and reproducibility of automated scientific discovery. In this vision paper, we propose Software Engineering for AI-Driven Science (SE4AI4Sci) as an emerging research area for addressing this challenge. As an organising framework, we introduce the Scientific Assurance Chain, connecting intent, experimental design, implementation, execution, evidence, and claim. Through six documented failures in recent AI-for-science systems, we show where this chain can break, where existing assurance mechanisms fall short, and what new research challenges follow. We also outline a research agenda for adapting and extending software engineering techniques across the chain.
 - [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1)
     - Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang, Zijun Yao, Yunjia Qi, et al.
     - 📅 Date: October 22, 2026

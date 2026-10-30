@@ -1,7 +1,14 @@
 # Misc Papers
 
-Total: 44 papers
+Total: 45 papers
 
+- [AI for Science in Space: Orbital Laboratories, Planetary Fieldwork, and Embodied Autonomy](http://arxiv.org/abs/2610.39689v1)
+    - Zizhe Wang, Jia Deng, Xin Lu, Zehao Jia, Yi Huang, Yao Zhu, et al.
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Artificial intelligence for science (AI4S) is extending from interpretation of existing data to the design and execution of experiments. Space offers distinctive scientific opportunities while restricting physical support. Microgravity and extraterrestrial environments expose phenomena that terrestrial experiments cannot fully reproduce; finite samples, constrained resources, and limited opportunities for intervention complicate sustained investigation. This critical review examines orbital laboratories and planetary in situ science across biology, materials, fluid and thermal physics, and adaptive exploration. We distinguish learning from space-derived data, selecting scientific actions, executing them, and preserving experimental validity. Terrestrial self-driving laboratories provide complementary evidence on optimization, dedicated automation, robotic manipulation, and the support needed for unattended operation. The synthesis connects scientific gains already demonstrated by bounded AI systems to gaps in observation, executable actions, and continuity of valid evidence. Space robots can expand the attainable scope of autonomous science when necessary interventions exceed validated instrument capabilities and timely human support is unavailable. Their value must be established against dedicated mechanisms, redundancy, and human-supported operation. We develop a framework connecting sample history, scientific decisions, physical execution, and claim-specific validity. A worked orbital design, a planetary extension, and matched evaluation schemes separate the contributions of sensing, decision policies, and physical actions. The resulting agenda measures autonomy through valid scientific return, task coverage, intervention costs, and evidence integrity across complete campaigns.
 - [RIDAR: Safeguarding Research Integrity in Autonomous Research Agents via Automated Detection and Runtime Intervention](http://arxiv.org/abs/2610.31372v1)
     - Jiening Siow, Amy Xin, Junjie Wang, Ziyu Tang, Zijun Yao, Yunjia Qi, et al.
     - 📅 Date: October 22, 2026

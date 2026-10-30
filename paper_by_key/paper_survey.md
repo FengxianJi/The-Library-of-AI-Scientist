@@ -1,7 +1,21 @@
 # Survey Papers
 
-Total: 43 papers
+Total: 45 papers
 
+- [Letting AI Formulate the Research Question: Autonomous Research Agents](http://arxiv.org/abs/2610.39620v1)
+    - Ko Fujimura
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [survey]
+    - 📖 TLDR: Systems such as The AI Scientist have shown that AI agents can carry out and write up research, but in those demonstrations humans chose the research area and selected the outputs to show. We study letting the AI formulate the research question itself, and we report every run. Our system gives an off-the-shelf coding agent an instruction document and two skills: one for formulating the question, in which the agent diverges from recent technologies into problems of other fields, screens its candidates for known failure modes and obtains a critique from a different model; and one for peer review, in which a reviewer from another model family reruns the study from its records before the agent revises the paper. Over 13 development runs, changes to the one or two sentences that set the research area coincided with large shifts in what the candidate questions and the chosen papers were about, which led us to the area of a new technology applied to a societal problem. We froze the system after a pilot run and report five consecutive runs: the pilot, counted by a disclosed amendment to the pre-registration, and four pre-registered runs. All five runs went from question formulation to a revised, re-computable paper, with local computation on a laptop and no research input from humans, and external AI reviewers reading only the papers judged them at or near workshop level. We release the system, the five papers and the records needed to reproduce them.
+- [AI for Science in Space: Orbital Laboratories, Planetary Fieldwork, and Embodied Autonomy](http://arxiv.org/abs/2610.39689v1)
+    - Zizhe Wang, Jia Deng, Xin Lu, Zehao Jia, Yi Huang, Yao Zhu, et al.
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Artificial intelligence for science (AI4S) is extending from interpretation of existing data to the design and execution of experiments. Space offers distinctive scientific opportunities while restricting physical support. Microgravity and extraterrestrial environments expose phenomena that terrestrial experiments cannot fully reproduce; finite samples, constrained resources, and limited opportunities for intervention complicate sustained investigation. This critical review examines orbital laboratories and planetary in situ science across biology, materials, fluid and thermal physics, and adaptive exploration. We distinguish learning from space-derived data, selecting scientific actions, executing them, and preserving experimental validity. Terrestrial self-driving laboratories provide complementary evidence on optimization, dedicated automation, robotic manipulation, and the support needed for unattended operation. The synthesis connects scientific gains already demonstrated by bounded AI systems to gaps in observation, executable actions, and continuity of valid evidence. Space robots can expand the attainable scope of autonomous science when necessary interventions exceed validated instrument capabilities and timely human support is unavailable. Their value must be established against dedicated mechanisms, redundancy, and human-supported operation. We develop a framework connecting sample history, scientific decisions, physical execution, and claim-specific validity. A worked orbital design, a planetary extension, and matched evaluation schemes separate the contributions of sensing, decision policies, and physical actions. The resulting agenda measures autonomy through valid scientific return, task coverage, intervention costs, and evidence integrity across complete campaigns.
 - [How Is Automated Research Evaluated? A Survey of Benchmarks and Evaluation Practices](http://arxiv.org/abs/2610.11877v1)
     - Liulei Zhang, Dejing Zhou, Chuyue Huang, Guanhua Chen, Yutong Yao, Lidia S. Chao, et al.
     - 📅 Date: October 08, 2026

@@ -1,7 +1,14 @@
 # Discovery Papers
 
-Total: 87 papers
+Total: 88 papers
 
+- [PAPERBENCHX: Can AI Reproduce Science Across Disciplines?](http://arxiv.org/abs/2610.39744v1)
+    - Ruoyu Wu, Zengji Tu, Aolong Sun, Tianyi Ma, Junren Li, Xinbo Xu, et al.
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Before AI can be trusted to discover new science, it should be able to reproduce what science already knows. Reproduction provides a rigorous checkpoint for an AI scientist: the target claim is known, yet recovering it still requires translating an incomplete scientific description into an executable experiment and producing evidence that can be independently verified. Existing research-reproduction benchmarks largely focus on AI and machine learning, where experiments share relatively homogeneous software stacks. Extending this capability across scientific disciplines introduces a different challenge: agents must operate domain-specific scientific software, make physical and numerical choices, diagnose long-running computations, and distinguish valid evidence from merely plausible outputs. We introduce PAPERBENCHX, a benchmark of 93 expert-constructed paper-reproduction tasks spanning 12 research areas across electromagnetics, photonics, chemistry, materials science, biology, and robotics. Each task provides the source paper, a public task specification, and a domain-native scientific environment involving specialized scientific software. Agents must reconstruct a key experiment, execute and diagnose it, and deliver a runnable workflow that supports the target scientific claim. To evaluate scientific validity rather than surface-level agreement, we replay every submission from scratch and score only regenerated evidence against expert-validated criteria. Across 10 frontier agent configurations, the best configuration fully reproduces only 14% tasks under the 90% threshold. Meanwhile, mean rubric scores range from 27.53% to 59.08%, indicating that substantial partial progress rarely translates into complete scientific reproduction. These results reveal a large gap between paper understanding and reliably producing reproducible scientific evidence.
 - [Software Engineering for AI-Driven Science](http://arxiv.org/abs/2610.34573v1)
     - Lukas Twist, Xinjian Wu, Jingzhi Gong, Shuyin Ouyang, Ying Xiao, Benedetta Donato, et al.
     - 📅 Date: October 25, 2026

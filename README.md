@@ -22,28 +22,28 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (44 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (46 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (44 papers)
+- [Misc](paper_by_topic/paper_misc.md) (45 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (125 papers)
-- [Automation](paper_by_key/paper_automation.md) (128 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (137 papers)
+- [Agent](paper_by_key/paper_agent.md) (127 papers)
+- [Automation](paper_by_key/paper_automation.md) (130 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (139 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (87 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (76 papers)
-- [Framework](paper_by_key/paper_framework.md) (169 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (88 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (78 papers)
+- [Framework](paper_by_key/paper_framework.md) (171 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (60 papers)
 - [Llm](paper_by_key/paper_llm.md) (142 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
 - [Reasoning](paper_by_key/paper_reasoning.md) (65 papers)
-- [Survey](paper_by_key/paper_survey.md) (43 papers)
+- [Survey](paper_by_key/paper_survey.md) (45 papers)
 
 ###  By Top Authors
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
@@ -69,6 +69,27 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Letting AI Formulate the Research Question: Autonomous Research Agents](http://arxiv.org/abs/2610.39620v1)
+    - Ko Fujimura
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [survey]
+    - 📖 TLDR: Systems such as The AI Scientist have shown that AI agents can carry out and write up research, but in those demonstrations humans chose the research area and selected the outputs to show. We study letting the AI formulate the research question itself, and we report every run. Our system gives an off-the-shelf coding agent an instruction document and two skills: one for formulating the question, in which the agent diverges from recent technologies into problems of other fields, screens its candidates for known failure modes and obtains a critique from a different model; and one for peer review, in which a reviewer from another model family reruns the study from its records before the agent revises the paper. Over 13 development runs, changes to the one or two sentences that set the research area coincided with large shifts in what the candidate questions and the chosen papers were about, which led us to the area of a new technology applied to a societal problem. We froze the system after a pilot run and report five consecutive runs: the pilot, counted by a disclosed amendment to the pre-registration, and four pre-registered runs. All five runs went from question formulation to a revised, re-computable paper, with local computation on a laptop and no research input from humans, and external AI reviewers reading only the papers judged them at or near workshop level. We release the system, the five papers and the records needed to reproduce them.
+- [PAPERBENCHX: Can AI Reproduce Science Across Disciplines?](http://arxiv.org/abs/2610.39744v1)
+    - Ruoyu Wu, Zengji Tu, Aolong Sun, Tianyi Ma, Junren Li, Xinbo Xu, et al.
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [benchmark], [discovery], [experiment]
+    - 📖 TLDR: Before AI can be trusted to discover new science, it should be able to reproduce what science already knows. Reproduction provides a rigorous checkpoint for an AI scientist: the target claim is known, yet recovering it still requires translating an incomplete scientific description into an executable experiment and producing evidence that can be independently verified. Existing research-reproduction benchmarks largely focus on AI and machine learning, where experiments share relatively homogeneous software stacks. Extending this capability across scientific disciplines introduces a different challenge: agents must operate domain-specific scientific software, make physical and numerical choices, diagnose long-running computations, and distinguish valid evidence from merely plausible outputs. We introduce PAPERBENCHX, a benchmark of 93 expert-constructed paper-reproduction tasks spanning 12 research areas across electromagnetics, photonics, chemistry, materials science, biology, and robotics. Each task provides the source paper, a public task specification, and a domain-native scientific environment involving specialized scientific software. Agents must reconstruct a key experiment, execute and diagnose it, and deliver a runnable workflow that supports the target scientific claim. To evaluate scientific validity rather than surface-level agreement, we replay every submission from scratch and score only regenerated evidence against expert-validated criteria. Across 10 frontier agent configurations, the best configuration fully reproduces only 14% tasks under the 90% threshold. Meanwhile, mean rubric scores range from 27.53% to 59.08%, indicating that substantial partial progress rarely translates into complete scientific reproduction. These results reveal a large gap between paper understanding and reliably producing reproducible scientific evidence.
+- [AI for Science in Space: Orbital Laboratories, Planetary Fieldwork, and Embodied Autonomy](http://arxiv.org/abs/2610.39689v1)
+    - Zizhe Wang, Jia Deng, Xin Lu, Zehao Jia, Yi Huang, Yao Zhu, et al.
+    - 📅 Date: October 29, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [automation], [framework], [benchmark], [experiment], [survey]
+    - 📖 TLDR: Artificial intelligence for science (AI4S) is extending from interpretation of existing data to the design and execution of experiments. Space offers distinctive scientific opportunities while restricting physical support. Microgravity and extraterrestrial environments expose phenomena that terrestrial experiments cannot fully reproduce; finite samples, constrained resources, and limited opportunities for intervention complicate sustained investigation. This critical review examines orbital laboratories and planetary in situ science across biology, materials, fluid and thermal physics, and adaptive exploration. We distinguish learning from space-derived data, selecting scientific actions, executing them, and preserving experimental validity. Terrestrial self-driving laboratories provide complementary evidence on optimization, dedicated automation, robotic manipulation, and the support needed for unattended operation. The synthesis connects scientific gains already demonstrated by bounded AI systems to gaps in observation, executable actions, and continuity of valid evidence. Space robots can expand the attainable scope of autonomous science when necessary interventions exceed validated instrument capabilities and timely human support is unavailable. Their value must be established against dedicated mechanisms, redundancy, and human-supported operation. We develop a framework connecting sample history, scientific decisions, physical execution, and claim-specific validity. A worked orbital design, a planetary extension, and matched evaluation schemes separate the contributions of sensing, decision policies, and physical actions. The resulting agenda measures autonomy through valid scientific return, task coverage, intervention costs, and evidence integrity across complete campaigns.
 - [Software Engineering for AI-Driven Science](http://arxiv.org/abs/2610.34573v1)
     - Lukas Twist, Xinjian Wu, Jingzhi Gong, Shuyin Ouyang, Ying Xiao, Benedetta Donato, et al.
     - 📅 Date: October 25, 2026

@@ -22,28 +22,28 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (47 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (48 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (46 papers)
+- [Misc](paper_by_topic/paper_misc.md) (47 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (129 papers)
-- [Automation](paper_by_key/paper_automation.md) (132 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (140 papers)
+- [Agent](paper_by_key/paper_agent.md) (130 papers)
+- [Automation](paper_by_key/paper_automation.md) (133 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (141 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (89 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (91 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (79 papers)
-- [Framework](paper_by_key/paper_framework.md) (173 papers)
+- [Framework](paper_by_key/paper_framework.md) (174 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (61 papers)
-- [Llm](paper_by_key/paper_llm.md) (143 papers)
+- [Llm](paper_by_key/paper_llm.md) (145 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (66 papers)
-- [Survey](paper_by_key/paper_survey.md) (45 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (67 papers)
+- [Survey](paper_by_key/paper_survey.md) (46 papers)
 
 ###  By Top Authors
 - [Bhavana Dalvi Mishra](paper_by_author/paper_bhavana_dalvi_mishra.md) (5 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition](http://arxiv.org/abs/2611.04420v1)
+    - Peter Chen, Ni Zhang, Siyuan Zhang
+    - 📅 Date: November 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [automation], [framework], [discovery]
+    - 📖 TLDR: Automated research pipelines pair an LLM proposer with a verifier on an implicit bet: discovery quality rises with verification strength. Under a pre-registered protocol we test this bet in two real-data domains -- job-shop scheduling and vehicular edge offloading on Beijing T-Drive trajectories -- across 100 matched LLM/random pairs per domain and three verifier tiers. The manipulation binds -- a 429-case mutation battery shows scores rising across tiers -- yet the paired LLM-over-random advantage does not scale with it (A, one-sided p=0.1115; D, p=0.9994), and in D shrinks under the strict tier (margin contrast -0.040, p=0.0013). The two lower gates promote identical candidates in 100/100 and 99/100 pairs, so the strict order is untestable when they coincide. Constructively, LLM proposals carry a real paired advantage over random controls, but a post-hoc union-pool analysis shows the fastest path to better discovery is widening the pool, not tightening the gate: mixing the two pools adds +1.52 holdout-value units in domain A (one-sided Wilcoxon, n=100, p=0.0002) -- evidence that pool composition, not verification strength, is the lever. Criteria, ledgers and scripts are archived on Zenodo (DOI: 10.5281/zenodo.23308866).
 - [Reimagining computational quantum research with AI scientists](http://arxiv.org/abs/2611.02833v1)
     - Yuxuan Du, Hanqing Zhao, Xinbiao Wang, Yiming Lu, Kaining Zhang, Dacheng Tao
     - 📅 Date: November 02, 2026
@@ -83,6 +90,13 @@ This repository tracks the latest research in this rapidly evolving field.
     - 💻 Topic: [Misc]
     - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [hypothesis], [reasoning]
     - 📖 TLDR: Protein-complex structure prediction with AlphaFold 3 depends on MSA content, depth, and cross-chain pairing. Current pipelines apply uniform recipes, typically maximizing depth and pairing by species, yet even whether cross-chain pairing helps AF3 remains contested. We show that the value of both depth and pairing is strongly target-dependent, so no single recipe is optimal across interfaces. We introduce an autonomous agent that treats a frozen AF3 as a black-box experimental instrument. For each target, the agent formulates biological hypotheses, analyzes and reorganizes the MSA, and iteratively refines sequence selection and pairing using predictor label-free signals alone. On 1{,}015 protein--protein interfaces from three benchmarks released after AF3's training cutoff, the agent improves overall interface DockQ over AF3's default pipeline and fixed MSA recipes on every benchmark, while using on average 60\% fewer MSA sequences than the default. Gains are largest for inter-species heteromers, where species-based pairing is unreliable: mean DockQ increases from 0.465 to 0.612 on FoldBench and from 0.482 to 0.562 on HD439. The improvements arise from both sequence construction and pairing policy, including deliberate non-pairing.These results recast MSA design as a target-specific problem and show that an autonomous agent can adapt it at test time through biological reasoning and self-directed, confidence-guided experimentation.
+- [El Agente Fármaco: A Scalable AI Scientist for Drug Discovery](http://arxiv.org/abs/2611.03832v1)
+    - Marcel Müller, Mohammad Ghazi Vakili, Yoshihiro Ogura, Ella Ashoori, Shimeng Wang, Alessandro S. Nascimento, et al.
+    - 📅 Date: November 02, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [benchmark], [discovery], [reasoning], [survey]
+    - 📖 TLDR: Computational drug discovery offers a growing range of tools for proposing and evaluating molecules, but combining them and deciding what to do next still requires substantial expert effort. Here, we introduce El Agente Fármaco, an AI scientist that uses modern large language model (LLM) technology to turn discovery goals expressed in everyday language into complex, scalable computational screening workflows. The agentic harness selects scientific tools, reviews their results, and adjusts subsequent steps to the target and the user's objectives. Our approach centers on a shared scientific memory: Fármaco Atlas, which stores molecules, structures, and results together with their provenance -- a record of how they were obtained. The agent uses targeted database queries to retrieve the evidence needed for each decision. A single request can launch calculations for an entire collection of molecules, without requiring a separate LLM decision for every compound. This design limits the information the model must process as screening collections grow, while keeping the underlying results available for inspection and further analysis. The integrated tools support molecule generation, prediction of binding and molecular properties, and searches for compounds available for purchase. In a retrospective comparison with an expert-led campaign, the agent proposed chemically distinct candidates with competitive docking scores and higher calculated drug-likeness under explicitly imposed selection criteria. In a 22-task benchmark against plain tool calls and Codex, the agent achieved the highest observed mean model-judged score, with lower median cumulative token use and peak context. Fármaco provides a foundation for flexible, scalable drug discovery workflows that connect scientific reasoning with an enduring, traceable record of computational work.
 - [Letting AI Formulate the Research Question: Autonomous Research Agents](http://arxiv.org/abs/2610.39620v1)
     - Ko Fujimura
     - 📅 Date: October 29, 2026

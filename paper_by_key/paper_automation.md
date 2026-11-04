@@ -1,7 +1,14 @@
 # Automation Papers
 
-Total: 132 papers
+Total: 133 papers
 
+- [Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition](http://arxiv.org/abs/2611.04420v1)
+    - Peter Chen, Ni Zhang, Siyuan Zhang
+    - 📅 Date: November 03, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [automation], [framework], [discovery]
+    - 📖 TLDR: Automated research pipelines pair an LLM proposer with a verifier on an implicit bet: discovery quality rises with verification strength. Under a pre-registered protocol we test this bet in two real-data domains -- job-shop scheduling and vehicular edge offloading on Beijing T-Drive trajectories -- across 100 matched LLM/random pairs per domain and three verifier tiers. The manipulation binds -- a 429-case mutation battery shows scores rising across tiers -- yet the paired LLM-over-random advantage does not scale with it (A, one-sided p=0.1115; D, p=0.9994), and in D shrinks under the strict tier (margin contrast -0.040, p=0.0013). The two lower gates promote identical candidates in 100/100 and 99/100 pairs, so the strict order is untestable when they coincide. Constructively, LLM proposals carry a real paired advantage over random controls, but a post-hoc union-pool analysis shows the fastest path to better discovery is widening the pool, not tightening the gate: mixing the two pools adds +1.52 holdout-value units in domain A (one-sided Wilcoxon, n=100, p=0.0002) -- evidence that pool composition, not verification strength, is the lever. Criteria, ledgers and scripts are archived on Zenodo (DOI: 10.5281/zenodo.23308866).
 - [Reimagining computational quantum research with AI scientists](http://arxiv.org/abs/2611.02833v1)
     - Yuxuan Du, Hanqing Zhao, Xinbiao Wang, Yiming Lu, Kaining Zhang, Dacheng Tao
     - 📅 Date: November 02, 2026

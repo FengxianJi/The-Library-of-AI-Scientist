@@ -22,7 +22,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (48 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (49 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
@@ -34,11 +34,11 @@ This repository tracks the latest research in this rapidly evolving field.
 ###  By Keywords
 - [Agent](paper_by_key/paper_agent.md) (130 papers)
 - [Automation](paper_by_key/paper_automation.md) (133 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (141 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (142 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (91 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (92 papers)
 - [Experiment](paper_by_key/paper_experiment.md) (79 papers)
-- [Framework](paper_by_key/paper_framework.md) (174 papers)
+- [Framework](paper_by_key/paper_framework.md) (175 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (61 papers)
 - [Llm](paper_by_key/paper_llm.md) (145 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](http://arxiv.org/abs/2611.12184v1)
+    - Guowei Xu, Jiaru Zou, Mete Erdogan, Haotian Ye, Pan Lu, James Zou
+    - 📅 Date: November 09, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [framework], [benchmark], [discovery]
+    - 📖 TLDR: Scientific discovery requires ideas that are original, useful, and non-obvious. Yet AI scientists are typically given as much task information as possible during idea generation, which can anchor generation toward familiar approaches. Inspired by the cognitive framework of Blind Variation and Selective Retention (BVSR), we propose a discovery framework that separates these two roles of information: it generates proposals under deliberately limited task information to broaden exploration, then learns from proposals previously verified on the same task and their outcomes to retain promising candidates for costly empirical evaluation. We evaluate BVSR across five proposer models and 12 scientific tasks. Limiting task information substantially increases proposal originality and non-obviousness, and produces a larger share of highly creative and high-utility proposals than existing state-of-the-art prompting-based baselines. Learning from prior proposal outcomes on the task further improves candidate selection, discarding half of the candidates while retaining most top-performing proposals. When incorporated into existing AI-scientist workflows, BVSR achieves stronger discoveries across gene expression analysis, drug response prediction, anomaly detection, scaling law discovery, and brain activity prediction. These results suggest that effective AI scientists should use information differently across stages of discovery: constrain task-specific information during exploration while exploiting accumulated empirical experience on the task.
 - [Verifier strength does not buy discovery quality: a pre-registered two-domain test of LLM-based automated research, with post-hoc evidence pointing to proposer-pool composition](http://arxiv.org/abs/2611.04420v1)
     - Peter Chen, Ni Zhang, Siyuan Zhang
     - 📅 Date: November 03, 2026

@@ -1,7 +1,14 @@
 # Framework Papers
 
-Total: 175 papers
+Total: 176 papers
 
+- [LongTails: Automated Research in Optimization](http://arxiv.org/abs/2611.13872v1)
+    - Alexander Tyurin, QuocViet Pham, Valentin Khrulkov, Ivan Oseledets
+    - 📅 Date: November 10, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [agent], [automation], [framework], [discovery]
+    - 📖 TLDR: We introduce LongTails, a framework for discovering and improving oracle-complexity bounds with formal verification in Lean 4. Using LongTails, we have already obtained more than 100 new results across a broad range of optimization problems, including generalized smoothness, heavy-tailed noise, finite-sum and composite optimization, and higher-order and zeroth-order methods. Our goal is to scale discovery and continually develop new methods with non-trivial and valuable theoretical guarantees using modern agentic systems. The framework is specialized for optimization, where we separate a Setup, specifying the problem class, assumptions, available information, and success criterion, from a Complexity, specifying a sufficient oracle-call budget. Once a Setup is fixed (e.g., $L$-smooth convex optimization with the goal of finding $x_{\mathrm{out}}$ such that $f(x_{\mathrm{out}}) - f(x^\star) \leq \varepsilon$), agents search for better Complexities (e.g., $O(\sqrt{L R^2 / \varepsilon})$, where $R \geq \|x_0 - x^\star\|$) by designing algorithms and proving their convergence. The framework then checks the proofs and guarantees that every accepted Complexity can indeed be attained under the given Setup. This turns the search for new methods into an ongoing effort to improve their theoretical guarantees. To the best of our knowledge, LongTails is the first framework to scale automated research in optimization across such a broad range of problems with formally verified theoretical guarantees.
 - [Blind Variation, Selective Retention: Improving Creative Idea Generation in AI Scientists](http://arxiv.org/abs/2611.12184v1)
     - Guowei Xu, Jiaru Zou, Mete Erdogan, Haotian Ye, Pan Lu, James Zou
     - 📅 Date: November 09, 2026

@@ -22,27 +22,27 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (49 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (50 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
 - [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (48 papers)
+- [Misc](paper_by_topic/paper_misc.md) (49 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (131 papers)
-- [Automation](paper_by_key/paper_automation.md) (134 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (142 papers)
+- [Agent](paper_by_key/paper_agent.md) (133 papers)
+- [Automation](paper_by_key/paper_automation.md) (136 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (143 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (93 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (79 papers)
-- [Framework](paper_by_key/paper_framework.md) (176 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (94 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (81 papers)
+- [Framework](paper_by_key/paper_framework.md) (178 papers)
 - [Hypothesis](paper_by_key/paper_hypothesis.md) (61 papers)
-- [Llm](paper_by_key/paper_llm.md) (145 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (21 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (67 papers)
+- [Llm](paper_by_key/paper_llm.md) (146 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (22 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (68 papers)
 - [Survey](paper_by_key/paper_survey.md) (46 papers)
 
 ###  By Top Authors
@@ -69,6 +69,20 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [The Between-Round Decision in Autonomous Research: An LLM Controller That Reads the Whole Trajectory](http://arxiv.org/abs/2611.22661v1)
+    - Caoxin Wang, Shengkai Gan, Xiang Hu, Lili Pan
+    - 📅 Date: November 17, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment]
+    - 📖 TLDR: Executing an idea often changes how promising it looks, so the next step in autonomous research should rest on results, not on proposals. After each round of experiments, the system must decide whether to refine the best solution or start a new direction, which solution to build from, and what goal to set. We call this the between-round decision. Existing systems wrap it in machinery such as rules, scores, search trees, and schedules; where an LLM makes it, what the LLM needs to read is left open. We ask whether an LLM can make this decision from accumulated evidence, without a search structure around it, and how much of that evidence it needs to read. We present BRED (Between-Round Evidence-based Decision), an LLM-based controller that maintains the best verified solution so far (the Champion) and a log of past rounds, and makes one decision per round. On three widely used research-agent benchmark tasks, BRED improves on the task baselines by 4.80% in MAE on ETTh1 (to 0.4172) and by 3.44 and 3.43 points of accuracy on SST-2 (to 95.07%) and CIFAR-100 (to 84.63%), ahead of the published results. When the controller does not read the accumulated evidence, the same loop gains less: with no history it reaches 0.4299 on ETTh1 and 83.71% on CIFAR-100, whereas the full controller's MAE is 2.95% lower and its accuracy 0.92 points higher. On a new task, speech-based depression detection under a leakage-free protocol, it reaches a macro-F1 of 0.6164 on seeds held out from selection, 5.5 points above its baseline and 4.0 above the strongest published system. Code is available at https://github.com/learninginvision/BRED.
+- [AI Scientist Discovered Robust Quantum Control](http://arxiv.org/abs/2611.21765v1)
+    - Jiahao Yan, Xuanying Lai, Xiaoshui Lin, Yizhou Wang, Changyu Yao, Guanghui He, et al.
+    - 📅 Date: November 16, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [agent], [automation], [framework], [discovery], [experiment], [reasoning], [multi-agent]
+    - 📖 TLDR: Protecting quantum coherence is a central theme of modern quantum technologies. Carefully designed control pulses can extend coherence by suppressing disorder and unwanted interactions. However, designing robust pulse sequences remains challenging in interacting multi-level systems, where multiple independent error channels must be controlled in the presence of experimental imperfections. Here we introduce QORA, a multi-agent artificial intelligence framework that integrates theoretical reasoning, automated experimental calibration and control for closed-loop discovery of quantum control sequences. Applied to a dense ensemble of spin-1 nitrogen-vacancy centers in diamond, QORA discovers AID-ROD, a series of AI-discovered sequences that nearly double the measured spin coherence time relative to the state-of-the-art human-designed sequence DROID-C3PO. Subsequence analysis by human researchers reveals a hierarchy of error suppression: 18-pulse blocks suppress linear and quadratic onsite disorder and common-mode drive-amplitude errors, while their arrangement over a longer cycle reduces dipolar interactions, providing a physical explanation for the observed improvement and robustness in AID-ROD. These results demonstrate AI-guided experimental discovery of robust quantum control and identify a design strategy for protecting coherence in interacting multi-level systems beyond qubits.
 - [LongTails: Automated Research in Optimization](http://arxiv.org/abs/2611.13872v1)
     - Alexander Tyurin, QuocViet Pham, Valentin Khrulkov, Ivan Oseledets
     - 📅 Date: November 10, 2026

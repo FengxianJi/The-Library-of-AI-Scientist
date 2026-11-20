@@ -1,7 +1,14 @@
 # Discovery Papers
 
-Total: 94 papers
+Total: 95 papers
 
+- [Steering Automated Scientific Discovery via Audited Epistemic Exploration](http://arxiv.org/abs/2611.25214v1)
+    - Fangxu Yu, Tao Feng, Xuying Ning, Haolin Yang, Jiaxuan You, Tianyi Zhou
+    - 📅 Date: November 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [agent], [automation], [benchmark], [discovery], [experiment], [hypothesis]
+    - 📖 TLDR: Scientific discovery requires revisiting the hypotheses in light of new evidence and identifying promising directions beyond those already explored. However, research agents often make claims that are not supported by their observations, explore a narrow hypothesis space, and retain beliefs despite recognizing conflicting evidence. These failures motivate the search for an explicit epistemic state that captures both beliefs about existing hypotheses and directions for further exploration. To this end, we propose Epistemic Compass (EpiCompass), a plug-and-play scaffold that maintains this state through an epistemic tree linking hypotheses, evidence, beliefs, and revisions. As an investigation progresses, EpiCompass reassesses the hypotheses explored against accumulated evidence and uses unresolved conflicts and unexplored directions to guide hypothesis generation. It selects candidates by anticipated epistemic gain, accounting for both refinement of existing hypotheses and expansion of the hypothesis space, and verifies the final conclusion against the accumulated evidence. Experimental results across three scientific discovery benchmarks and three LLM backbones demonstrate that EpiCompass consistently outperforms baselines, with further analyses showing reductions in errors of unsupported claims and failures to revise beliefs.
 - [AI Scientist Discovered Robust Quantum Control](http://arxiv.org/abs/2611.21765v1)
     - Jiahao Yan, Xuanying Lai, Xiaoshui Lin, Yizhou Wang, Changyu Yao, Guanghui He, et al.
     - 📅 Date: November 16, 2026

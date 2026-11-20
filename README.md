@@ -22,27 +22,27 @@ This repository tracks the latest research in this rapidly evolving field.
 ## Browse Papers by Category
 
 ###  By Research Topic
-- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (50 papers)
+- [AI Scientist](paper_by_topic/paper_ai_scientist.md) (51 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
-- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (37 papers)
+- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (38 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
-- [Misc](paper_by_topic/paper_misc.md) (49 papers)
+- [Misc](paper_by_topic/paper_misc.md) (50 papers)
 - [Multi-Agent](paper_by_topic/paper_multi_agent.md) (14 papers)
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (43 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (133 papers)
-- [Automation](paper_by_key/paper_automation.md) (136 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (143 papers)
+- [Agent](paper_by_key/paper_agent.md) (135 papers)
+- [Automation](paper_by_key/paper_automation.md) (137 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (146 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (46 papers)
-- [Discovery](paper_by_key/paper_discovery.md) (94 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (81 papers)
-- [Framework](paper_by_key/paper_framework.md) (178 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (61 papers)
-- [Llm](paper_by_key/paper_llm.md) (146 papers)
+- [Discovery](paper_by_key/paper_discovery.md) (95 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (83 papers)
+- [Framework](paper_by_key/paper_framework.md) (179 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (62 papers)
+- [Llm](paper_by_key/paper_llm.md) (149 papers)
 - [Multi-Agent](paper_by_key/paper_multi_agent.md) (22 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (68 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (69 papers)
 - [Survey](paper_by_key/paper_survey.md) (46 papers)
 
 ###  By Top Authors
@@ -51,6 +51,7 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Shuo Ren](paper_by_author/paper_shuo_ren.md) (3 papers)
 - [Jiajun Zhang](paper_by_author/paper_jiajun_zhang.md) (3 papers)
 - [Tianshi Zheng](paper_by_author/paper_tianshi_zheng.md) (3 papers)
+- [Xuying Ning](paper_by_author/paper_xuying_ning.md) (2 papers)
 - [Junjie Wang](paper_by_author/paper_junjie_wang.md) (2 papers)
 - [Jiefeng Chen](paper_by_author/paper_jiefeng_chen.md) (2 papers)
 - [Mihir Parmar](paper_by_author/paper_mihir_parmar.md) (2 papers)
@@ -65,10 +66,30 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Yixuan Weng](paper_by_author/paper_yixuan_weng.md) (2 papers)
 - [Qiyao Sun](paper_by_author/paper_qiyao_sun.md) (2 papers)
 - [Mario Fritz](paper_by_author/paper_mario_fritz.md) (2 papers)
-- [Zhe Zhao](paper_by_author/paper_zhe_zhao.md) (2 papers)
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs](http://arxiv.org/abs/2611.26248v1)
+    - Yang Wan, Linchao Zhu
+    - 📅 Date: November 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [benchmark], [experiment]
+    - 📖 TLDR: AI agents are increasingly expected to act as AI scientists, which requires three increasingly open abilities: carrying out a given computational workflow correctly, choosing the next measurements from a given design space, and designing their own experiments. Existing benchmarks mainly evaluate the first two abilities, in a terminal or in a closed loop that selects from predefined candidates. Evaluating the third ability requires reliably executing an experiment that an agent designs, with readings grounded in a real laboratory. We introduce TwinLab-Bench, which evaluates AI scientists on self-designed experiments in 52 tasks from laboratories in the physical sciences, the life sciences, and engineering. The benchmark supports more than 100 experimental action types, and the agent's report is scored by comparison with a hidden answer taken from real laboratory records. Each task has its own TwinLab agent, an agent that serves as the environment and executes the experiments that the tested agent designs, reading the raw materials of the laboratory and calling calculators that are built from its records. Compared with a language model that sees only the task description, the TwinLab agent almost eliminates readings that deviate from the real records and inconsistent answers to a repeated request, and closed-book probes control for answers recalled from memory. We find that these tasks remain hard for frontier models: the strongest, Claude Fable 5.2, averages a score of only 45.0, and we conduct an empirical study of where it fails.
+- [Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science](http://arxiv.org/abs/2611.25492v1)
+    - Almene De Meran Meguimtsop, Daniel E. Acuna
+    - 📅 Date: November 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Misc]
+    - 🔑 Key: [llm], [framework], [benchmark], [reasoning]
+    - 📖 TLDR: Large language models (LLMs) support scientific research, but some of that assistance can also undermine research integrity. Existing safety evaluations in science often measure whether models refuse misconduct requests, but rarely explain whether they even recognize the problem or why they comply. We investigate this gap across 8 LLMs using SciIntBench, an existing benchmark of 1,350 prompts about scientific research integrity. We examine the reasons behind compliance in four steps. First, when asked directly whether fulfilling a request would involve misconduct, models overwhelmingly identify such requests, even in the Most Covert cases (91%), while they refuse to carry out the request in only 34% of cases. Second, we examine which request characteristics are associated with refusal using features that capture how the request is framed, how much the assistant has been told about what it is helping to hide, and how the goal and the user's stake are stated, among others. Third, we estimate that the most significant effect was to rephrase requests as questions about permissibility rather than instructions, which increased refusal from 52% to 88%. Finally, we test two system-prompt fixes: asking models to assess the request before responding and reminding them of responsible conduct of research principles. These changes increase refusal rates on adversarial requests from 58% to 87% and 86%, respectively. Our findings show that models recognize wrongful requests but still help users violate integrity. Understanding why these failures occur and testing ways to reduce them offer promising paths toward more trustworthy AI for science.
+- [Steering Automated Scientific Discovery via Audited Epistemic Exploration](http://arxiv.org/abs/2611.25214v1)
+    - Fangxu Yu, Tao Feng, Xuying Ning, Haolin Yang, Jiaxuan You, Tianyi Zhou
+    - 📅 Date: November 18, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [agent], [automation], [benchmark], [discovery], [experiment], [hypothesis]
+    - 📖 TLDR: Scientific discovery requires revisiting the hypotheses in light of new evidence and identifying promising directions beyond those already explored. However, research agents often make claims that are not supported by their observations, explore a narrow hypothesis space, and retain beliefs despite recognizing conflicting evidence. These failures motivate the search for an explicit epistemic state that captures both beliefs about existing hypotheses and directions for further exploration. To this end, we propose Epistemic Compass (EpiCompass), a plug-and-play scaffold that maintains this state through an epistemic tree linking hypotheses, evidence, beliefs, and revisions. As an investigation progresses, EpiCompass reassesses the hypotheses explored against accumulated evidence and uses unresolved conflicts and unexplored directions to guide hypothesis generation. It selects candidates by anticipated epistemic gain, accounting for both refinement of existing hypotheses and expansion of the hypothesis space, and verifies the final conclusion against the accumulated evidence. Experimental results across three scientific discovery benchmarks and three LLM backbones demonstrate that EpiCompass consistently outperforms baselines, with further analyses showing reductions in errors of unsupported claims and failures to revise beliefs.
 - [The Between-Round Decision in Autonomous Research: An LLM Controller That Reads the Whole Trajectory](http://arxiv.org/abs/2611.22661v1)
     - Caoxin Wang, Shengkai Gan, Xiang Hu, Lili Pan
     - 📅 Date: November 17, 2026

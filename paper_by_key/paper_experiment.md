@@ -1,6 +1,6 @@
 # Experiment Papers
 
-Total: 83 papers
+Total: 85 papers
 
 - [TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs](http://arxiv.org/abs/2611.26248v1)
     - Yang Wan, Linchao Zhu
@@ -233,6 +233,14 @@ Total: 83 papers
     - 💻 Topic: [AI Scientist]
     - 🔑 Key: [agent], [automation], [framework], [benchmark], [experiment], [multi-agent]
     - 📖 TLDR: Cyber offense is moving to machine speed; cyber research itself is not. Existing AI scientist systems make end-to-end research automation increasingly plausible, but they target relatively stable scientific domains. We argue that AI-native cybersecurity is a different kind of scientific object. Its recurring units of study are security events and interaction traces, not static assets; its model and tool substrate is non-stationary, not steady-state; and credible evaluation depends on digital twins, cyber ranges, and auditable evidence rather than on a single benchmark score. We call this object the Cybersecurity AI Scientist. A practical realization is a modular, role-specialized multi-agent research system that coordinates problem framing, threat modeling, tool generation, controlled experimentation, evaluation, governance, and scientific reporting, and that anchors its concrete objectives in a four-zeros frame spanning risk, trust, incident, and energy dimensions. As a representative agenda we focus on AI-native defense, where steady-state perimeters give way to resilient agent legions and the classical category of terminal security is itself being deconstructed into agent security. This paper defines the object, separates it from any single organizational realization, and offers an architecture and an agenda on which later systems, benchmarks, and empirical programs can be built.
+- [Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/abs/2606.24177)
+    - Youran Sun, Xingyu Ren, Chugang Yi, Jiaxuan Guo, Kejia Zhang, Jianda Du, et al.
+    - 🏛️ Institutions: University of Maryland, The Chinese University of Hong Kong, Stanford University
+    - 📅 Date: June 23, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [AI Scientist]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [multi-agent], [experiment]
+    - 📖 TLDR: Large language models are making research production scalable, shifting the bottleneck from producing artifacts to judging claims. We present Agon, a research orchestrator that validates what can be checked inside the workflow and leaves the remaining judgments to human scientists. Agon is built on six design principles: Prompt Economy, Future-Facing, Minimal Prompts, OmniDisciplinary, Massive Parallelism, and Zero-Code. We ran Agon across domains for 444 iterations of Prompt Economy loops, using only small starting topics and no human-written experimental code. These deployments demonstrate scalability while exposing new classes of failure. We organize these failures into a taxonomy along severity, fixability, visibility, and capability locus. The taxonomy separates failures the loops can see and fix from those that require human judgment. Together, these results show that Agon is pushing research toward a new paradigm: machine scales, human steers.
 - [Agentic AutoResearch forSpace Autonomy: An Auditable, LLM-Driven Research Agent for Aerospace Control Problems](http://arxiv.org/abs/2606.20394v1)
     - Amit Jain, Richard Linares
     - 📅 Date: June 18, 2026
@@ -373,6 +381,14 @@ Total: 83 papers
     - 💻 Topic: [Scientific Discovery]
     - 🔑 Key: [llm], [automation], [framework], [discovery], [experiment], [hypothesis]
     - 📖 TLDR: Symbolic regression (SR) aims to automate scientific discovery, but often truncates the hypothetico–deductive cycle, focusing on hypothesis and experiment while lacking systematic analysis. We introduce RESTART, a framework that closes this loop by adding a principled analysis stage to diagnose and correct structural errors. RESTART features two core mechanisms: a short-term refinement process that uses boosting to identify unexplained signals and guide an LLM toward targeted corrections, and a long-term structure library that distills successful refinements into reusable code snippets for cumulative knowledge. On LLM-SRBench across Physics, Biology, and Materials Science, RESTART achieves lower error and higher accuracy than state-of-the-art baselines. It also generalizes robustly, recovering near-exact functional forms on out-of-distribution data, representing a significant advance toward fully automated scientific discovery.
+- [AutoNumerics: An Autonomous, PDE-Agnostic Multi-Agent Pipeline for Scientific Computing](https://arxiv.org/abs/2602.17607)
+    - Jianda Du, Youran Sun, Haizhao Yang
+    - 🏛️ Institutions: University of Maryland
+    - 📅 Date: February 19, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Scientific Discovery]
+    - 🔑 Key: [llm], [multi-agent], [automation], [framework], [experiment]
+    - 📖 TLDR: PDEs are central to scientific and engineering modeling, yet designing accurate numerical solvers typically requires substantial mathematical expertise and manual tuning. Recent neural network-based approaches improve flexibility but often demand high computational cost and suffer from limited interpretability. We introduce AutoNumerics, a multi-agent framework that autonomously designs, implements, debugs, and verifies numerical solvers for general PDEs directly from natural language descriptions. Unlike black-box neural solvers, our framework generates transparent solvers grounded in classical numerical analysis. We introduce a coarse-to-fine execution strategy and a residual-based self-verification mechanism. Experiments on 24 canonical and real-world PDE problems demonstrate that AutoNumerics achieves competitive or superior accuracy compared to existing neural and LLM-based baselines, and correctly selects numerical schemes based on PDE structural properties, suggesting its viability as an accessible paradigm for automated PDE solving.
 - [AutoSciDACT: Automated Scientific Discovery through Contrastive Embedding and Hypothesis Testing](http://arxiv.org/abs/2510.21935v2)
     - Samuel Bright-Thonney, Christina Reissel, Gaia Grosso, Nathaniel Woodward, Katya Govorkova, Andrzej Novak, et al.
     - 📅 Date: October 24, 2025

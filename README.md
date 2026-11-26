@@ -24,7 +24,7 @@ This repository tracks the latest research in this rapidly evolving field.
 ###  By Research Topic
 - [AI Scientist](paper_by_topic/paper_ai_scientist.md) (53 papers)
 - [Data Analysis](paper_by_topic/paper_data_analysis.md) (5 papers)
-- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (38 papers)
+- [Hypothesis Generation](paper_by_topic/paper_hypothesis_generation.md) (39 papers)
 - [Literature Review](paper_by_topic/paper_literature_review.md) (6 papers)
 - [Machine Learning](paper_by_topic/paper_machine_learning.md) (15 papers)
 - [Misc](paper_by_topic/paper_misc.md) (50 papers)
@@ -32,17 +32,17 @@ This repository tracks the latest research in this rapidly evolving field.
 - [Scientific Discovery](paper_by_topic/paper_scientific_discovery.md) (46 papers)
 
 ###  By Keywords
-- [Agent](paper_by_key/paper_agent.md) (139 papers)
-- [Automation](paper_by_key/paper_automation.md) (140 papers)
-- [Benchmark](paper_by_key/paper_benchmark.md) (147 papers)
+- [Agent](paper_by_key/paper_agent.md) (140 papers)
+- [Automation](paper_by_key/paper_automation.md) (141 papers)
+- [Benchmark](paper_by_key/paper_benchmark.md) (148 papers)
 - [Dataset](paper_by_key/paper_dataset.md) (47 papers)
 - [Discovery](paper_by_key/paper_discovery.md) (97 papers)
-- [Experiment](paper_by_key/paper_experiment.md) (85 papers)
-- [Framework](paper_by_key/paper_framework.md) (183 papers)
-- [Hypothesis](paper_by_key/paper_hypothesis.md) (62 papers)
-- [Llm](paper_by_key/paper_llm.md) (154 papers)
-- [Multi-Agent](paper_by_key/paper_multi_agent.md) (24 papers)
-- [Reasoning](paper_by_key/paper_reasoning.md) (71 papers)
+- [Experiment](paper_by_key/paper_experiment.md) (86 papers)
+- [Framework](paper_by_key/paper_framework.md) (184 papers)
+- [Hypothesis](paper_by_key/paper_hypothesis.md) (63 papers)
+- [Llm](paper_by_key/paper_llm.md) (155 papers)
+- [Multi-Agent](paper_by_key/paper_multi_agent.md) (25 papers)
+- [Reasoning](paper_by_key/paper_reasoning.md) (72 papers)
 - [Survey](paper_by_key/paper_survey.md) (46 papers)
 
 ###  By Top Authors
@@ -69,6 +69,13 @@ This repository tracks the latest research in this rapidly evolving field.
 
 ##  All Papers (Sorted by Date - Most Recent First)
 
+- [FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation](http://arxiv.org/abs/2611.33563v1)
+    - Siyuan Chen, Yuping Gao, Tai Huang, Yuling Zhou, Dongyu Su, Tongguan Wang
+    - 📅 Date: November 25, 2026
+    - 📑 Publisher: arXiv
+    - 💻 Topic: [Hypothesis Generation]
+    - 🔑 Key: [llm], [agent], [automation], [framework], [benchmark], [experiment], [hypothesis], [reasoning], [multi-agent]
+    - 📖 TLDR: Automated Scientific Hypothesis Generation (ASHG) leveraging large language models (LLMs) aims to harness their strengths in knowledge integration, logical reasoning, and text generation for efficiently producing innovative, verifiable scientific hypotheses. However, existing approaches face three critical limitations: (i) insufficient fine-grained knowledge representation, as unstructured context impairs LLM comprehension and reasoning; (ii) lack of knowledge evolution traceability, constraining the generation of innovative cross-domain conjectures; (iii) absence of human-inspired and role-specialized multi-agent collaboration, failing to leverage the efficient innovation mechanisms arising from cognitive diversity and division of labor among expert roles to complete the full ASHG-evaluation loop. To address these limitations, we propose the Fine-grained Inspiration Graph-empowered Multi-Agent Collaboration framework (FIG-MAC) including: (i) Fine-grained Inspiration Graph module (FIG), to obtain fine-grained structured knowledge representations, where nodes represent academic semantic units and edges encode heuristic relationships among them; (ii) ontology-guided hybrid reasoning module, which follows the FIG ontology to construct structured reasoning paths and uses vector search to enrich them with semantic evidence, to obtain the traceable scientific conjecture paths; (iii) role-specialized Multi-Agent framework, inspired by real scientific teamwork, enabling a closed-loop process of scientific conjecture generation, screening, and validation. Experimental results demonstrate that FIG-MAC significantly outperforms state-of-the-art methods on source diversity, provenance-adjusted novelty, and raw novelty.
 - [TwinLab-Bench: Evaluating AI Scientists in Agentic Twins of Real Labs](http://arxiv.org/abs/2611.26248v1)
     - Yang Wan, Linchao Zhu
     - 📅 Date: November 19, 2026
